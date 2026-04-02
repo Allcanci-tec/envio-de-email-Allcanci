@@ -13,6 +13,7 @@ import os
 import logging
 import requests
 import sys
+import time
 from pathlib import Path
 from typing import Dict, Tuple, Optional, List
 from datetime import datetime
@@ -32,9 +33,10 @@ WONCA_API_KEY = os.getenv('WONCA_API_KEY')
 WONCA_API_URL = os.getenv('WONCA_API_URL', 'https://api-labs.wonca.com.br')
 WONCA_SERVICE_PATH = os.getenv('WONCA_SERVICE_PATH', 'wonca.labs.v1.LabsService/Track')
 
-TIMEOUT_REQUISICAO = 10  # seconds
-MAX_RETRIES = 2
-RETRY_DELAY = 2
+TIMEOUT_REQUISICAO = 15  # seconds (aumentado)
+MAX_RETRIES = 3  # retries com backoff
+RETRY_DELAY = 3
+BACKOFF_FACTOR = 1.5  # Multiplicador para retry (3s, 4.5s, 6.75s)
 
 # ======================================================================
 # 📋 LOGGING
@@ -142,16 +144,23 @@ class RastreioService:
 
         for tentativa in range(1, MAX_RETRIES + 1):
             try:
-                # Preparar requisição
+                # Preparar requisição com headers anti-bloqueio
                 headers = {
                     'Authorization': f'Bearer {self.api_key}',
                     'Content-Type': 'application/json',
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+                    'Accept': 'application/json',
+                    'Accept-Language': 'pt-BR,pt;q=0.9',
+                    'Accept-Encoding': 'gzip, deflate',
+                    'Connection': 'keep-alive',
+                    'Cache-Control': 'no-cache',
                 }
 
                 payload = {
                     'code': codigo_rastreio.upper().strip()
                 }
 
+                tempo_espera = RETRY_DELAY * (BACKOFF_FACTOR ** (tentativa - 1))
                 logger.info(f"   Tentativa {tentativa}/{MAX_RETRIES}...")
 
                 # Fazer requisição
@@ -186,8 +195,8 @@ class RastreioService:
                 if response.status_code not in (200, 201):
                     logger.warning(f"⚠️ Status HTTP {response.status_code}: {response.text}")
                     if tentativa < MAX_RETRIES:
-                        import time
-                        time.sleep(RETRY_DELAY)
+                        logger.info(f"   ⏳ Aguardando {tempo_espera:.1f}s antes de retry...")
+                        time.sleep(tempo_espera)
                         continue
                     return {
                         'sucesso': False,
@@ -229,19 +238,26 @@ class RastreioService:
             except requests.exceptions.Timeout:
                 logger.warning(f"⏱️ Timeout na tentativa {tentativa}/{MAX_RETRIES}")
                 if tentativa < MAX_RETRIES:
-                    import time
-                    time.sleep(RETRY_DELAY)
+                    tempo_espera = RETRY_DELAY * (BACKOFF_FACTOR ** (tentativa - 1))
+                    logger.info(f"   ⏳ Aguardando {tempo_espera:.1f}s antes de retry...")
+                    time.sleep(tempo_espera)
                     continue
 
             except requests.exceptions.ConnectionError:
                 logger.warning(f"🌐 Erro de conexão na tentativa {tentativa}/{MAX_RETRIES}")
                 if tentativa < MAX_RETRIES:
-                    import time
-                    time.sleep(RETRY_DELAY)
+                    tempo_espera = RETRY_DELAY * (BACKOFF_FACTOR ** (tentativa - 1))
+                    logger.info(f"   ⏳ Aguardando {tempo_espera:.1f}s antes de retry...")
+                    time.sleep(tempo_espera)
                     continue
 
             except Exception as e:
                 logger.error(f"❌ Erro inesperado: {e}")
+                if tentativa < MAX_RETRIES:
+                    tempo_espera = RETRY_DELAY * (BACKOFF_FACTOR ** (tentativa - 1))
+                    logger.info(f"   ⏳ Aguardando {tempo_espera:.1f}s antes de retry...")
+                    time.sleep(tempo_espera)
+                    continue
                 import traceback
                 traceback.print_exc()
 
