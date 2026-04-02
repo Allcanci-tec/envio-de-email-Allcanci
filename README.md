@@ -107,18 +107,7 @@ CICLO (a cada 5 minutos):
 
 ---
 
-## 🔧 Configuração
-
-### Arquivo: `.env`
-```
-EMAIL_USUARIO=suporte1@allcanci.com.br
-EMAIL_SENHA=Allcanci@2026
-EMAIL_SMTP=smtp.hostinger.com
-EMAIL_PORTA=465
-ACCESS_TOKEN=seu_token_bling_aqui
-```
-
-### Arquivo: `config_producao.json`
+## Arquivo: `config_producao.json`
 ```json
 {
   "ciclo_minutos": 5,
