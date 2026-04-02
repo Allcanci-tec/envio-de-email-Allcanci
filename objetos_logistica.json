@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-04-01T09:59:05.048947",
+  "total_objetos": 6,
+  "objetos": [
+    {
+      "id_pedido": "N/A",
+      "id_nota": "N/A",
+      "etiqueta": "N/A",
+      "status": "N/A",
+      "origem": "N/A",
+      "destino": "N/A",
+      "ultima_alteracao": "N/A",
+      "data_saida": "N/A",
+      "prazo_entrega": "N/A",
+      "peso": "N/A",
+      "frete_previsto": "N/A",
+      "url_rastreamento": "N/A"
+    },
+    {
+      "id_pedido": "N/A",
+      "id_nota": "N/A",
+      "etiqueta": "N/A",
+      "status": "N/A",
+      "origem": "N/A",
+      "destino": "N/A",
+      "ultima_alteracao": "N/A",
+      "data_saida": "N/A",
+      "prazo_entrega": "N/A",
+      "peso": "N/A",
+      "frete_previsto": "N/A",
+      "url_rastreamento": "N/A"
+    },
+    {
+      "id_pedido": "N/A",
+      "id_nota": "N/A",
+      "etiqueta": "N/A",
+      "status": "N/A",
+      "origem": "N/A",
+      "destino": "N/A",
+      "ultima_alteracao": "N/A",
+      "data_saida": "N/A",
+      "prazo_entrega": "N/A",
+      "peso": "N/A",
+      "frete_previsto": "N/A",
+      "url_rastreamento": "N/A"
+    },
+    {
+      "id_pedido": "N/A",
+      "id_nota": "N/A",
+      "etiqueta": "N/A",
+      "status": "N/A",
+      "origem": "N/A",
+      "destino": "N/A",
+      "ultima_alteracao": "N/A",
+      "data_saida": "N/A",
+      "prazo_entrega": "N/A",
+      "peso": "N/A",
+      "frete_previsto": "N/A",
+      "url_rastreamento": "N/A"
+    },
+    {
+      "id_pedido": "N/A",
+      "id_nota": "N/A",
+      "etiqueta": "N/A",
+      "status": "N/A",
+      "origem": "N/A",
+      "destino": "N/A",
+      "ultima_alteracao": "N/A",
+      "data_saida": "N/A",
+      "prazo_entrega": "N/A",
+      "peso": "N/A",
+      "frete_previsto": "N/A",
+      "url_rastreamento": "N/A"
+    },
+    {
+      "id_pedido": "N/A",
+      "id_nota": "N/A",
+      "etiqueta": "N/A",
+      "status": "N/A",
+      "origem": "N/A",
+      "destino": "N/A",
+      "ultima_alteracao": "N/A",
+      "data_saida": "N/A",
+      "prazo_entrega": "N/A",
+      "peso": "N/A",
+      "frete_previsto": "N/A",
+      "url_rastreamento": "N/A"
+    }
+  ]
+}

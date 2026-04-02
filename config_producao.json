@@ -1,0 +1,29 @@
+{
+  "sistema": "Automático de Rastreamento v2.0",
+  "versao": "2.0-production-senior",
+  "ciclo_minutos": 5,
+  "mapeamento_volume_ids": {
+    "2363": 16014294940,
+    "2362": 16015318881,
+    "2361": null,
+    "2360": null,
+    "2357": 16015318882,
+    "2356": null,
+    "2355": null,
+    "2354": null,
+    "2353": null,
+    "2352": 16015318883,
+    "2351": null,
+    "2339": null,
+    "2338": null,
+    "2333": null
+  },
+  "situacoes_ignorar": [
+    "Entregue ao destinatário",
+    "Devolvido",
+    "Objeto perdido",
+    "Entrega pendente"
+  ],
+  "log_arquivo": "rastreamento.log",
+  "historico_arquivo": "historico_producao.json"
+}

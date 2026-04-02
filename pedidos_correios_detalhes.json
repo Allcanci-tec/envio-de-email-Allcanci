@@ -1,0 +1,1008 @@
+{
+  "timestamp": "2026-04-01T10:14:51.447361",
+  "transportadora": "Correios",
+  "logistica_id": 151483,
+  "total_pedidos": 100,
+  "pedidos": [
+    {
+      "numero": 2369,
+      "remessa": 25450435695,
+      "cliente": "EE Teste Desktop Nova",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 17584,
+      "situacao": 6,
+      "id_pedido_completo": 25450435695
+    },
+    {
+      "numero": 2368,
+      "remessa": 25450155540,
+      "cliente": "Maurilio Ferreira Lopes",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0,
+      "situacao": 6,
+      "id_pedido_completo": 25450155540
+    },
+    {
+      "numero": 2367,
+      "remessa": 25449248362,
+      "cliente": "CAIXA ESCOLAR D JOAO BOSCO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 2.25,
+      "situacao": 15,
+      "id_pedido_completo": 25449248362
+    },
+    {
+      "numero": 2366,
+      "remessa": 25449182048,
+      "cliente": "CAIXA ESCOLAR D JOAO BOSCO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 9890.1,
+      "situacao": 455201,
+      "id_pedido_completo": 25449182048
+    },
+    {
+      "numero": 2365,
+      "remessa": 25448957419,
+      "cliente": "CAIXA ESCOLAR CORONEL JOSÉ FALEIROS DE AGUIAR",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 1.73,
+      "situacao": 15,
+      "id_pedido_completo": 25448957419
+    },
+    {
+      "numero": 2364,
+      "remessa": 25448892618,
+      "cliente": "CAIXA ESCOLAR CORONEL JOSÉ FALEIROS DE AGUIAR",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 7641.5,
+      "situacao": 455201,
+      "id_pedido_completo": 25448892618
+    },
+    {
+      "numero": 2363,
+      "remessa": 25448824828,
+      "cliente": "CAIXA ESCOLAR PADRE AFONSO DE LEMOS",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 3.3,
+      "situacao": 9,
+      "id_pedido_completo": 25448824828
+    },
+    {
+      "numero": 2362,
+      "remessa": 25448650367,
+      "cliente": "CAIXA ESCOLAR PROFESSOR TEODORO COELHO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.14,
+      "situacao": 9,
+      "id_pedido_completo": 25448650367
+    },
+    {
+      "numero": 2361,
+      "remessa": 25448135796,
+      "cliente": "CAIXA ESCOLAR IRMÃ HILDA PEREIRA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.07,
+      "situacao": 9,
+      "id_pedido_completo": 25448135796
+    },
+    {
+      "numero": 2360,
+      "remessa": 25448096636,
+      "cliente": "CAIXA ESCOLAR ESCOLA ESTADUAL ENSINO FUNDAMENTAL BARREIRO DO RIO VERDE",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.05,
+      "situacao": 9,
+      "id_pedido_completo": 25448096636
+    },
+    {
+      "numero": 2359,
+      "remessa": 25447574725,
+      "cliente": "Caixa Escolar Albertina Benicio Dosa Santos",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 2.53,
+      "situacao": 15,
+      "id_pedido_completo": 25447574725
+    },
+    {
+      "numero": 2358,
+      "remessa": 25447562674,
+      "cliente": "Caixa Escolar Albertina Benicio Dosa Santos",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 8181.81,
+      "situacao": 455201,
+      "id_pedido_completo": 25447562674
+    },
+    {
+      "numero": 2357,
+      "remessa": 25447225189,
+      "cliente": "CAIXA ESCOLAR ANANIAS ALVES",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.07,
+      "situacao": 9,
+      "id_pedido_completo": 25447225189
+    },
+    {
+      "numero": 2356,
+      "remessa": 25447209313,
+      "cliente": "CAIXA ESCOLAR BOLIVAR PEREIRA LIMA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.05,
+      "situacao": 9,
+      "id_pedido_completo": 25447209313
+    },
+    {
+      "numero": 2355,
+      "remessa": 25447191077,
+      "cliente": "CAIXA ESCOLAR DA ESCOLA ESTADUAL ALINE DIAS NEVES",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.04,
+      "situacao": 9,
+      "id_pedido_completo": 25447191077
+    },
+    {
+      "numero": 2354,
+      "remessa": 25447140172,
+      "cliente": "CAIXA ESCOLAR SIMEÃO FERES",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.06,
+      "situacao": 9,
+      "id_pedido_completo": 25447140172
+    },
+    {
+      "numero": 2353,
+      "remessa": 25447114101,
+      "cliente": "CAIXA ESCOLAR PROFESSORA GENOVEVA KHEDE",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.05,
+      "situacao": 9,
+      "id_pedido_completo": 25447114101
+    },
+    {
+      "numero": 2352,
+      "remessa": 25439649573,
+      "cliente": "CAIXA ESCOLAR DOM PEDRO II",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 4.55,
+      "situacao": 9,
+      "id_pedido_completo": 25439649573
+    },
+    {
+      "numero": 2351,
+      "remessa": 25439645441,
+      "cliente": "CAIXA ESCOLA MIGUEL COUTO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 3.13,
+      "situacao": 9,
+      "id_pedido_completo": 25439645441
+    },
+    {
+      "numero": 2350,
+      "remessa": 25439597687,
+      "cliente": "CAIXA ESCOLAR DOM PEDRO II",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 3996,
+      "situacao": 455201,
+      "id_pedido_completo": 25439597687
+    },
+    {
+      "numero": 2345,
+      "remessa": 25438241977,
+      "cliente": "COLEGIO CRISTAO ALFA LTDA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 350.61,
+      "situacao": 455055,
+      "id_pedido_completo": 25438241977
+    },
+    {
+      "numero": 2344,
+      "remessa": 25437882689,
+      "cliente": "Caixa Escolar Olga Maciel Garcia Chamon",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 320.95,
+      "situacao": 15,
+      "id_pedido_completo": 25437882689
+    },
+    {
+      "numero": 2343,
+      "remessa": 25437838365,
+      "cliente": "Caixa Escolar Olga Maciel Garcia Chamon",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 27963,
+      "situacao": 455201,
+      "id_pedido_completo": 25437838365
+    },
+    {
+      "numero": 2339,
+      "remessa": 25437311683,
+      "cliente": "CAIXA ESCOLAR PADRE BENEVENUTO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 3.13,
+      "situacao": 9,
+      "id_pedido_completo": 25437311683
+    },
+    {
+      "numero": 2338,
+      "remessa": 25436781110,
+      "cliente": "CAIXA ESCOLAR MONSENHOR HORTA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 5.58,
+      "situacao": 9,
+      "id_pedido_completo": 25436781110
+    },
+    {
+      "numero": 2337,
+      "remessa": 25436242919,
+      "cliente": "CAIXA ESCOLAR MONSENHOR HORTA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 6594,
+      "situacao": 455201,
+      "id_pedido_completo": 25436242919
+    },
+    {
+      "numero": 2335,
+      "remessa": 25435701206,
+      "cliente": "COLEGIO CRISTAO ALFA LTDA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 488.65,
+      "situacao": 9,
+      "id_pedido_completo": 25435701206
+    },
+    {
+      "numero": 2334,
+      "remessa": 25434747464,
+      "cliente": "CAIXA ESCOLAR BAIRRO JARDIM GUANABARA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 1648.5,
+      "situacao": 455055,
+      "id_pedido_completo": 25434747464
+    },
+    {
+      "numero": 2333,
+      "remessa": 25434603009,
+      "cliente": "CAIXA ESCOLAR ANTÔNIO DA COSTA PEREIRA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.45,
+      "situacao": 9,
+      "id_pedido_completo": 25434603009
+    },
+    {
+      "numero": 2332,
+      "remessa": 25421897233,
+      "cliente": "CAIXA ESCOLAR MARIA DA CONCEIÇÃO APARECIDA DE OLIVEIRA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 5.09,
+      "situacao": 9,
+      "id_pedido_completo": 25421897233
+    },
+    {
+      "numero": 2331,
+      "remessa": 25421885841,
+      "cliente": "CAIXA ESCOLAR MARIA DA CONCEIÇÃO APARECIDA DE OLIVEIRA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 6293,
+      "situacao": 455201,
+      "id_pedido_completo": 25421885841
+    },
+    {
+      "numero": 2330,
+      "remessa": 25421336099,
+      "cliente": "CAIXA ESCOLAR PADRE TEOFILO VIEIRA DE ANDRADE",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 1.73,
+      "situacao": 9,
+      "id_pedido_completo": 25421336099
+    },
+    {
+      "numero": 2329,
+      "remessa": 25421172770,
+      "cliente": "CAIXA ESCOLAR UMBERTO PALMIERI",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.1,
+      "situacao": 9,
+      "id_pedido_completo": 25421172770
+    },
+    {
+      "numero": 2328,
+      "remessa": 25421128384,
+      "cliente": "CAIXA ESCOLAR ONESIO PEREIRA NUNES",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 3.13,
+      "situacao": 9,
+      "id_pedido_completo": 25421128384
+    },
+    {
+      "numero": 2327,
+      "remessa": 25419282993,
+      "cliente": "CAIXA ESCOLAR SÃO GERALDO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 7.02,
+      "situacao": 9,
+      "id_pedido_completo": 25419282993
+    },
+    {
+      "numero": 2326,
+      "remessa": 25419268475,
+      "cliente": "CAIXA ESCOLAR SÃO GERALDO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 10990,
+      "situacao": 455201,
+      "id_pedido_completo": 25419268475
+    },
+    {
+      "numero": 2324,
+      "remessa": 25419092203,
+      "cliente": "Caixa Escolar Luiz Prisco de Braga",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 8.53,
+      "situacao": 9,
+      "id_pedido_completo": 25419092203
+    },
+    {
+      "numero": 2323,
+      "remessa": 25419070639,
+      "cliente": "Caixa Escolar Luiz Prisco de Braga",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 16183.8,
+      "situacao": 455201,
+      "id_pedido_completo": 25419070639
+    },
+    {
+      "numero": 2322,
+      "remessa": 25418911258,
+      "cliente": "Caixa Escolar Tenente Roberto Soares de Souza Lima",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 92.8,
+      "situacao": 455059,
+      "id_pedido_completo": 25418911258
+    },
+    {
+      "numero": 2271,
+      "remessa": 25413760779,
+      "cliente": "CAIXA ESCOLAR JOÃO AUGUSTO DE CARVALHO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 88.98,
+      "situacao": 9,
+      "id_pedido_completo": 25413760779
+    },
+    {
+      "numero": 2268,
+      "remessa": 25413710897,
+      "cliente": "CAIXA ESCOLAR EPAMINONDAS RAMOS",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 4.33,
+      "situacao": 9,
+      "id_pedido_completo": 25413710897
+    },
+    {
+      "numero": 2267,
+      "remessa": 25413709766,
+      "cliente": "CAIXA ESCOLAR JOÃO AUGUSTO DE CARVALHO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 9169.8,
+      "situacao": 455201,
+      "id_pedido_completo": 25413709766
+    },
+    {
+      "numero": 2265,
+      "remessa": 25413667358,
+      "cliente": "CAIXA ESCOLAR EPAMINONDAS RAMOS",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 4135.4,
+      "situacao": 455055,
+      "id_pedido_completo": 25413667358
+    },
+    {
+      "numero": 2252,
+      "remessa": 25412643443,
+      "cliente": "CAIXA ESCOLAR GUSTAVO CAPANEMA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 4.7,
+      "situacao": 9,
+      "id_pedido_completo": 25412643443
+    },
+    {
+      "numero": 2251,
+      "remessa": 25412609374,
+      "cliente": "Caixa Escolar Tomaz Aquino de Araujo",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 39.3,
+      "situacao": 9,
+      "id_pedido_completo": 25412609374
+    },
+    {
+      "numero": 2250,
+      "remessa": 25412589856,
+      "cliente": "Caixa Escolar Tomaz Aquino de Araujo",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 4582.5,
+      "situacao": 455201,
+      "id_pedido_completo": 25412589856
+    },
+    {
+      "numero": 2246,
+      "remessa": 25412514364,
+      "cliente": "Caixa Escolar Antônio Augusto Ribeiro",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 10550.4,
+      "situacao": 455201,
+      "id_pedido_completo": 25412514364
+    },
+    {
+      "numero": 2245,
+      "remessa": 25412474276,
+      "cliente": "Caixa Escolar Antônio Augusto Ribeiro",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 89.7,
+      "situacao": 9,
+      "id_pedido_completo": 25412474276
+    },
+    {
+      "numero": 2239,
+      "remessa": 25412041031,
+      "cliente": "CAIXA ESCOLAR MARIA DA CONCEICAO BRITO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 1253.34,
+      "situacao": 455055,
+      "id_pedido_completo": 25412041031
+    },
+    {
+      "numero": 2238,
+      "remessa": 25411602202,
+      "cliente": "CAIXA ESCOLAR DE MARISTELA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 4.85,
+      "situacao": 9,
+      "id_pedido_completo": 25411602202
+    },
+    {
+      "numero": 2237,
+      "remessa": 25411587866,
+      "cliente": "CAIXA ESCOLAR DE MARISTELA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 4995,
+      "situacao": 455201,
+      "id_pedido_completo": 25411587866
+    },
+    {
+      "numero": 2235,
+      "remessa": 25411552340,
+      "cliente": "CAIXA ESCOLAR FELIZBURGO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 75.53,
+      "situacao": 9,
+      "id_pedido_completo": 25411552340
+    },
+    {
+      "numero": 2232,
+      "remessa": 25411534655,
+      "cliente": "CAIXA ESCOLAR FELIZBURGO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 8242.5,
+      "situacao": 455201,
+      "id_pedido_completo": 25411534655
+    },
+    {
+      "numero": 2220,
+      "remessa": 25411219769,
+      "cliente": "CAIXA ESCOLAR PROFESSOR RAFAEL JOSÉ DE SOUZA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 6.3,
+      "situacao": 455059,
+      "id_pedido_completo": 25411219769
+    },
+    {
+      "numero": 2219,
+      "remessa": 25411209042,
+      "cliente": "CAIXA ESCOLAR PROFESSOR RAFAEL JOSÉ DE SOUZA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 8792,
+      "situacao": 455201,
+      "id_pedido_completo": 25411209042
+    },
+    {
+      "numero": 2174,
+      "remessa": 25408378376,
+      "cliente": "CAIXA ESCOLAR PADRE MATIAS",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 24617.6,
+      "situacao": 455201,
+      "id_pedido_completo": 25408378376
+    },
+    {
+      "numero": 2173,
+      "remessa": 25408362396,
+      "cliente": "CAIXA ESCOLAR PADRE MATIAS",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 207.55,
+      "situacao": 9,
+      "id_pedido_completo": 25408362396
+    },
+    {
+      "numero": 2171,
+      "remessa": 25408262472,
+      "cliente": "CAIXA ESCOLAR GOVERNADOR CLÓVIS SALGADO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 12308.8,
+      "situacao": 455201,
+      "id_pedido_completo": 25408262472
+    },
+    {
+      "numero": 2170,
+      "remessa": 25408253339,
+      "cliente": "CAIXA ESCOLAR GOVERNADOR CLÓVIS SALGADO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 103.71,
+      "situacao": 9,
+      "id_pedido_completo": 25408253339
+    },
+    {
+      "numero": 2140,
+      "remessa": 25404801233,
+      "cliente": "CAIXA ESCOLAR HOMERO BRAZ DE ALMEIDA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 6594,
+      "situacao": 9,
+      "id_pedido_completo": 25404801233
+    },
+    {
+      "numero": 2137,
+      "remessa": 25404695442,
+      "cliente": "CAIXA ESCOLAR PROFESSOR LOPES",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 5.53,
+      "situacao": 9,
+      "id_pedido_completo": 25404695442
+    },
+    {
+      "numero": 2136,
+      "remessa": 25404668049,
+      "cliente": "CAIXA ESCOLAR PROFESSOR LOPES",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 12987,
+      "situacao": 455055,
+      "id_pedido_completo": 25404668049
+    },
+    {
+      "numero": 2131,
+      "remessa": 25404267185,
+      "cliente": "CAIXA ESCOLAR ANTÔNIO DE MIRANDA SETTE DA ESCOLA ESTADUAL SANTO APOLINÁRIO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 8792,
+      "situacao": 455201,
+      "id_pedido_completo": 25404267185
+    },
+    {
+      "numero": 2130,
+      "remessa": 25404251627,
+      "cliente": "CAIXA ESCOLAR ANTÔNIO DE MIRANDA SETTE DA ESCOLA ESTADUAL SANTO APOLINÁRIO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 77.83,
+      "situacao": 9,
+      "id_pedido_completo": 25404251627
+    },
+    {
+      "numero": 2114,
+      "remessa": 25403657408,
+      "cliente": "CAIXA ESCOLAR CORONEL PRAXEDES",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 1.8,
+      "situacao": 9,
+      "id_pedido_completo": 25403657408
+    },
+    {
+      "numero": 2113,
+      "remessa": 25403552010,
+      "cliente": "CAIXA ESCOLAR DA E E DE RESPLENDOR",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.23,
+      "situacao": 9,
+      "id_pedido_completo": 25403552010
+    },
+    {
+      "numero": 2112,
+      "remessa": 25403509757,
+      "cliente": "CAIXA ESCOLAR MAGNES NEVES MARTINS",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.3,
+      "situacao": 9,
+      "id_pedido_completo": 25403509757
+    },
+    {
+      "numero": 2110,
+      "remessa": 25403462763,
+      "cliente": "CAIXA ESCOLAR CHIQUINHA SOARES",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.02,
+      "situacao": 9,
+      "id_pedido_completo": 25403462763
+    },
+    {
+      "numero": 2102,
+      "remessa": 25402470208,
+      "cliente": "CAIXA ESCOLAR FREI HENRIQUE DE COIMBRA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 5.57,
+      "situacao": 9,
+      "id_pedido_completo": 25402470208
+    },
+    {
+      "numero": 2099,
+      "remessa": 25402079801,
+      "cliente": "CAIXA ESCOLAR DE CURRAL DE DENTRO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 4,
+      "situacao": 9,
+      "id_pedido_completo": 25402079801
+    },
+    {
+      "numero": 2095,
+      "remessa": 25402060266,
+      "cliente": "CAIXA ESCOLAR DE CURRAL DE DENTRO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 7862.13,
+      "situacao": 455201,
+      "id_pedido_completo": 25402060266
+    },
+    {
+      "numero": 2084,
+      "remessa": 25401890460,
+      "cliente": "CAIXA ESCOLAR CASSIANO MENDES",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 2822.4,
+      "situacao": 455201,
+      "id_pedido_completo": 25401890460
+    },
+    {
+      "numero": 2083,
+      "remessa": 25401873003,
+      "cliente": "CAIXA ESCOLAR CASSIANO MENDES",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 2822.4,
+      "situacao": 12,
+      "id_pedido_completo": 25401873003
+    },
+    {
+      "numero": 2082,
+      "remessa": 25401798005,
+      "cliente": "CAIXA ESCOLAR CASSIANO MENDES",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0,
+      "situacao": 9,
+      "id_pedido_completo": 25401798005
+    },
+    {
+      "numero": 2081,
+      "remessa": 25401607574,
+      "cliente": "CAIXA ESCOLAR ANTÔNIO DA COSTA PEREIRA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.03,
+      "situacao": 9,
+      "id_pedido_completo": 25401607574
+    },
+    {
+      "numero": 2080,
+      "remessa": 25401594696,
+      "cliente": "CAIXA ESCOLAR ANTÔNIO DA COSTA PEREIRA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 1998,
+      "situacao": 455055,
+      "id_pedido_completo": 25401594696
+    },
+    {
+      "numero": 2072,
+      "remessa": 25396203876,
+      "cliente": "CAIXA ESCOLAR DO POVOADO DE ÁGUAS ALTAS",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 5275.2,
+      "situacao": 455201,
+      "id_pedido_completo": 25396203876
+    },
+    {
+      "numero": 2069,
+      "remessa": 25396151853,
+      "cliente": "CAIXA ESCOLAR DO POVOADO DE ÁGUAS ALTAS",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 44.88,
+      "situacao": 9,
+      "id_pedido_completo": 25396151853
+    },
+    {
+      "numero": 2064,
+      "remessa": 25395412567,
+      "cliente": "CAIXA ESCOLAR PROFESSORA CARMEM DE ARAUJO CORREA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 8.13,
+      "situacao": 455059,
+      "id_pedido_completo": 25395412567
+    },
+    {
+      "numero": 2063,
+      "remessa": 25395397926,
+      "cliente": "CAIXA ESCOLAR PROFESSORA CARMEM DE ARAUJO CORREA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 17102.88,
+      "situacao": 455055,
+      "id_pedido_completo": 25395397926
+    },
+    {
+      "numero": 2062,
+      "remessa": 25394439637,
+      "cliente": "CAIXA ESCOLAR SÃO BENEDITO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.03,
+      "situacao": 9,
+      "id_pedido_completo": 25394439637
+    },
+    {
+      "numero": 2061,
+      "remessa": 25394420273,
+      "cliente": "Caixa escolar Renato Gusman",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.07,
+      "situacao": 9,
+      "id_pedido_completo": 25394420273
+    },
+    {
+      "numero": 2060,
+      "remessa": 25394340753,
+      "cliente": "CAIXA ESCOLAR VIRGILIA PASCHOAL",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.1,
+      "situacao": 9,
+      "id_pedido_completo": 25394340753
+    },
+    {
+      "numero": 2059,
+      "remessa": 25392962353,
+      "cliente": "CAIXA ESCOLAR MONSENHOR JOÃO BATISTA MARIA RIGOTTI",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.09,
+      "situacao": 9,
+      "id_pedido_completo": 25392962353
+    },
+    {
+      "numero": 2058,
+      "remessa": 25392937091,
+      "cliente": "CAIXA ESCOLAR CORONEL PACÍFICO FARIA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.05,
+      "situacao": 9,
+      "id_pedido_completo": 25392937091
+    },
+    {
+      "numero": 2057,
+      "remessa": 25392919490,
+      "cliente": "CAIXA ESCOLAR DA ESCOLA ESTADUAL FELIZARDA RUSSANO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.07,
+      "situacao": 9,
+      "id_pedido_completo": 25392919490
+    },
+    {
+      "numero": 2056,
+      "remessa": 25392598548,
+      "cliente": "CAIXA ESCOLAR ESCOLA ESTADUAL DE TRÊS CORAÇÕES",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 6.53,
+      "situacao": 9,
+      "id_pedido_completo": 25392598548
+    },
+    {
+      "numero": 2055,
+      "remessa": 25392526671,
+      "cliente": "CAIXA ESCOLAR LUIZ DE PAULA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.08,
+      "situacao": 9,
+      "id_pedido_completo": 25392526671
+    },
+    {
+      "numero": 2054,
+      "remessa": 25392477878,
+      "cliente": "CAIXA ESCOLAR DE CURRAL DE DENTRO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 3.13,
+      "situacao": 9,
+      "id_pedido_completo": 25392477878
+    },
+    {
+      "numero": 2053,
+      "remessa": 25392429831,
+      "cliente": "CAIXA ESCOLAR DOUTOR NAPOLEÃO SALLES",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.12,
+      "situacao": 9,
+      "id_pedido_completo": 25392429831
+    },
+    {
+      "numero": 2052,
+      "remessa": 25392235229,
+      "cliente": "CAIXA ESCOLAR VIRGINIO PERILO",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.15,
+      "situacao": 9,
+      "id_pedido_completo": 25392235229
+    },
+    {
+      "numero": 2051,
+      "remessa": 25392143188,
+      "cliente": "CAIXA ESCOLAR PROFESSOR WILSON DE MELO GUIMARÃES",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 2.48,
+      "situacao": 455059,
+      "id_pedido_completo": 25392143188
+    },
+    {
+      "numero": 2050,
+      "remessa": 25392111345,
+      "cliente": "CAIXA ESCOLAR PROFESSOR WILSON DE MELO GUIMARÃES",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 7122.87,
+      "situacao": 455055,
+      "id_pedido_completo": 25392111345
+    },
+    {
+      "numero": 2049,
+      "remessa": 25391611441,
+      "cliente": "CAIXA ESCOLAR EURIPEDES LOPES",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.07,
+      "situacao": 9,
+      "id_pedido_completo": 25391611441
+    },
+    {
+      "numero": 2048,
+      "remessa": 25391593353,
+      "cliente": "CAIXA ESCOLAR JOÃO XAVIER DA COSTA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.07,
+      "situacao": 9,
+      "id_pedido_completo": 25391593353
+    },
+    {
+      "numero": 2047,
+      "remessa": 25391570531,
+      "cliente": "CAIXA ESCOLAR PADRE JOSÉ DE ANCHIETA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 0.07,
+      "situacao": 9,
+      "id_pedido_completo": 25391570531
+    },
+    {
+      "numero": 2046,
+      "remessa": 25391174280,
+      "cliente": "CAIXA ESCOLAR LEONARDO AUGUSTO TOMAZ",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 10743.05,
+      "situacao": 455201,
+      "id_pedido_completo": 25391174280
+    },
+    {
+      "numero": 2034,
+      "remessa": 25386475508,
+      "cliente": "CAIXA ESCOLAR JOHN KENNEDY",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 2.68,
+      "situacao": 9,
+      "id_pedido_completo": 25386475508
+    },
+    {
+      "numero": 2033,
+      "remessa": 25386459243,
+      "cliente": "CAIXA ESCOLAR JOHN KENNEDY",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 7806,
+      "situacao": 455201,
+      "id_pedido_completo": 25386459243
+    },
+    {
+      "numero": 2028,
+      "remessa": 25386067745,
+      "cliente": "CAIXA ESCOLAR CORONEL JOÃO DA CUNHA",
+      "servico": "SEDEX CONTRATO AG",
+      "etiqueta": "N/A",
+      "valor_declarado": 1.41,
+      "situacao": 9,
+      "id_pedido_completo": 25386067745
+    }
+  ]
+}

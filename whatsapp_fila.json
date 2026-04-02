@@ -1,0 +1,74 @@
+[
+  {
+    "numero": "31900000001",
+    "mensagem": "Fila teste 1",
+    "prioridade": 10,
+    "criado_em": "2026-04-02T09:24:41.226283",
+    "tentativas": 0,
+    "status": "pendente"
+  },
+  {
+    "numero": "31900000001",
+    "mensagem": "Fila teste 1",
+    "prioridade": 10,
+    "criado_em": "2026-04-02T09:24:43.385693",
+    "tentativas": 0,
+    "status": "pendente"
+  },
+  {
+    "numero": "5531984163357",
+    "mensagem": "🧪 Teste automático Allcanci\n✓ Sistema anti-spam ativo",
+    "prioridade": 0,
+    "criado_em": "2026-04-02T09:21:57.053365",
+    "tentativas": 0,
+    "status": "pendente"
+  },
+  {
+    "numero": "31900000002",
+    "mensagem": "Fila teste 2",
+    "prioridade": 0,
+    "criado_em": "2026-04-02T09:24:41.227509",
+    "tentativas": 0,
+    "status": "pendente"
+  },
+  {
+    "numero": "31900000002",
+    "mensagem": "Fila teste 2",
+    "prioridade": 0,
+    "criado_em": "2026-04-02T09:24:43.387308",
+    "tentativas": 0,
+    "status": "pendente"
+  },
+  {
+    "numero": "5531984163357",
+    "mensagem": "🧪 Teste automático Allcanci\n✓ Sistema anti-spam ativo",
+    "prioridade": 0,
+    "criado_em": "2026-04-02T09:24:50.962167",
+    "tentativas": 0,
+    "status": "pendente"
+  },
+  {
+    "numero": "5531984163357",
+    "mensagem": "📦 *ATUALIZAÇÃO DE RASTREAMENTO*\n\nOlá *CAIXA ESCOLAR PADRE AFONSO DE LEMOS*,\n\nSeu pedido teve uma atualização importante:\n\n✅ *SAIU PARA ENTREGA AO DESTINATÁRIO*\n\n*Detalhes:*\n🔹 Pedido: 2363\n🔹 Rastreamento: AD287897978BR\n🔹 Atualizado em: 02/04/2026 11:08\n\n🔗 Acompanhe: https://www.correios.com.br\n\n_Allcanci Rastreamento_",
+    "prioridade": 0,
+    "criado_em": "2026-04-02T11:08:14.245966",
+    "tentativas": 0,
+    "status": "pendente"
+  },
+  {
+    "numero": "31900000003",
+    "mensagem": "Fila teste 3",
+    "prioridade": -10,
+    "criado_em": "2026-04-02T09:24:41.228465",
+    "tentativas": 0,
+    "status": "pendente"
+  },
+  {
+    "numero": "31900000003",
+    "mensagem": "Fila teste 3",
+    "prioridade": -10,
+    "criado_em": "2026-04-02T09:24:43.388834",
+    "tentativas": 0,
+    "status": "pendente"
+  }
+]

@@ -1,0 +1,425 @@
+{
+  "data": {
+    "id": 25450435695,
+    "numero": 2369,
+    "numeroLoja": "",
+    "data": "2026-03-31",
+    "dataSaida": "2026-03-31",
+    "dataPrevista": "2026-04-30",
+    "totalProdutos": 17584,
+    "total": 17584,
+    "contato": {
+      "id": 18049189748,
+      "nome": "EE Teste Desktop Nova",
+      "tipoPessoa": "J",
+      "numeroDocumento": ""
+    },
+    "situacao": {
+      "id": 6,
+      "valor": 0
+    },
+    "loja": {
+      "id": 0,
+      "unidadeNegocio": {
+        "id": 0
+      }
+    },
+    "numeroPedidoCompra": "",
+    "outrasDespesas": 0,
+    "observacoes": "Deal #84978 - EE Teste Desktop Nova - Allcanci [TEST: 2026-03-31T16:56:06.317550]",
+    "observacoesInternas": "",
+    "desconto": {
+      "valor": 0,
+      "unidade": "REAL"
+    },
+    "categoria": {
+      "id": 12966630410
+    },
+    "notaFiscal": {
+      "id": 0
+    },
+    "tributacao": {
+      "totalICMS": 0,
+      "totalIPI": 0
+    },
+    "itens": [
+      {
+        "id": 19318116246,
+        "codigo": "RF05RF",
+        "unidade": "UN",
+        "quantidade": 1600,
+        "desconto": 0,
+        "valor": 10.99,
+        "aliquotaIPI": 0,
+        "descricao": "Recarga de pincel para quadro branco",
+        "descricaoDetalhada": "",
+        "produto": {
+          "id": 16154064522
+        },
+        "comissao": {
+          "base": 17584,
+          "aliquota": 5,
+          "valor": 879.2
+        },
+        "naturezaOperacao": {
+          "id": 0
+        }
+      },
+      {
+        "id": 19318116248,
+        "codigo": "PAV0016",
+        "unidade": "UN",
+        "quantidade": 50,
+        "desconto": 0,
+        "valor": 0,
+        "aliquotaIPI": 0,
+        "descricao": "PONTEIRA",
+        "descricaoDetalhada": "",
+        "produto": {
+          "id": 16095379777
+        },
+        "comissao": {
+          "base": 0,
+          "aliquota": 5,
+          "valor": 0
+        },
+        "naturezaOperacao": {
+          "id": 0
+        }
+      },
+      {
+        "id": 19318116249,
+        "codigo": "PAV0500",
+        "unidade": "UN",
+        "quantidade": 1,
+        "desconto": 0,
+        "valor": 0,
+        "aliquotaIPI": 0,
+        "descricao": "MÁQUINA FILL INK INJECTOR - 4G",
+        "descricaoDetalhada": "",
+        "produto": {
+          "id": 16478765120
+        },
+        "comissao": {
+          "base": 0,
+          "aliquota": 5,
+          "valor": 0
+        },
+        "naturezaOperacao": {
+          "id": 0
+        }
+      },
+      {
+        "id": 19318116251,
+        "codigo": "PAV1001",
+        "unidade": "UN",
+        "quantidade": 300,
+        "desconto": 0,
+        "valor": 0,
+        "aliquotaIPI": 0,
+        "descricao": "PINCÉIS FILL ECO MARKER",
+        "descricaoDetalhada": "",
+        "produto": {
+          "id": 16576659945
+        },
+        "comissao": {
+          "base": 0,
+          "aliquota": 5,
+          "valor": 0
+        },
+        "naturezaOperacao": {
+          "id": 0
+        }
+      },
+      {
+        "id": 19318116253,
+        "codigo": "PAV0010",
+        "unidade": "UN",
+        "quantidade": 50,
+        "desconto": 0,
+        "valor": 0,
+        "aliquotaIPI": 0,
+        "descricao": "PINCEL FILL CHEIO - AZUL",
+        "descricaoDetalhada": "",
+        "produto": {
+          "id": 16427322196
+        },
+        "comissao": {
+          "base": 0,
+          "aliquota": 5,
+          "valor": 0
+        },
+        "naturezaOperacao": {
+          "id": 0
+        }
+      },
+      {
+        "id": 19318116255,
+        "codigo": "PAV0009",
+        "unidade": "UN",
+        "quantidade": 50,
+        "desconto": 0,
+        "valor": 0,
+        "aliquotaIPI": 0,
+        "descricao": "PINCEL FILL CHEIO - PRETO",
+        "descricaoDetalhada": "",
+        "produto": {
+          "id": 16427321343
+        },
+        "comissao": {
+          "base": 0,
+          "aliquota": 5,
+          "valor": 0
+        },
+        "naturezaOperacao": {
+          "id": 0
+        }
+      },
+      {
+        "id": 19318116256,
+        "codigo": "PAV0008",
+        "unidade": "UN",
+        "quantidade": 50,
+        "desconto": 0,
+        "valor": 0,
+        "aliquotaIPI": 0,
+        "descricao": "PINCEL FILL CHEIO - VERMELHO",
+        "descricaoDetalhada": "",
+        "produto": {
+          "id": 16427320480
+        },
+        "comissao": {
+          "base": 0,
+          "aliquota": 5,
+          "valor": 0
+        },
+        "naturezaOperacao": {
+          "id": 0
+        }
+      },
+      {
+        "id": 19318116260,
+        "codigo": "PAV0004",
+        "unidade": "UN",
+        "quantidade": 50,
+        "desconto": 0,
+        "valor": 0,
+        "aliquotaIPI": 0,
+        "descricao": "PINCEL FILL VAZIO - AZUL",
+        "descricaoDetalhada": "",
+        "produto": {
+          "id": 16427270314
+        },
+        "comissao": {
+          "base": 0,
+          "aliquota": 5,
+          "valor": 0
+        },
+        "naturezaOperacao": {
+          "id": 0
+        }
+      },
+      {
+        "id": 19318116264,
+        "codigo": "PAV0002",
+        "unidade": "UN",
+        "quantidade": 50,
+        "desconto": 0,
+        "valor": 0,
+        "aliquotaIPI": 0,
+        "descricao": "PINCEL FILL VAZIO - PRETO",
+        "descricaoDetalhada": "",
+        "produto": {
+          "id": 16427257904
+        },
+        "comissao": {
+          "base": 0,
+          "aliquota": 5,
+          "valor": 0
+        },
+        "naturezaOperacao": {
+          "id": 0
+        }
+      },
+      {
+        "id": 19318116266,
+        "codigo": "PAV0003",
+        "unidade": "UN",
+        "quantidade": 50,
+        "desconto": 0,
+        "valor": 0,
+        "aliquotaIPI": 0,
+        "descricao": "PINCEL FILL VAZIO - VERMELHO",
+        "descricaoDetalhada": "",
+        "produto": {
+          "id": 16427263236
+        },
+        "comissao": {
+          "base": 0,
+          "aliquota": 5,
+          "valor": 0
+        },
+        "naturezaOperacao": {
+          "id": 0
+        }
+      },
+      {
+        "id": 19318116267,
+        "codigo": "PAV0007",
+        "unidade": "UN",
+        "quantidade": 7,
+        "desconto": 0,
+        "valor": 0,
+        "aliquotaIPI": 0,
+        "descricao": "TINTA FILL 500ML - AZUL",
+        "descricaoDetalhada": "",
+        "produto": {
+          "id": 16427313046
+        },
+        "comissao": {
+          "base": 0,
+          "aliquota": 5,
+          "valor": 0
+        },
+        "naturezaOperacao": {
+          "id": 0
+        }
+      },
+      {
+        "id": 19318116269,
+        "codigo": "PAV0005",
+        "unidade": "UN",
+        "quantidade": 7,
+        "desconto": 0,
+        "valor": 0,
+        "aliquotaIPI": 0,
+        "descricao": "TINTA FILL 500ML - PRETA",
+        "descricaoDetalhada": "",
+        "produto": {
+          "id": 16427311777
+        },
+        "comissao": {
+          "base": 0,
+          "aliquota": 5,
+          "valor": 0
+        },
+        "naturezaOperacao": {
+          "id": 0
+        }
+      },
+      {
+        "id": 19318116270,
+        "codigo": "PAV0006",
+        "unidade": "UN",
+        "quantidade": 4,
+        "desconto": 0,
+        "valor": 0,
+        "aliquotaIPI": 0,
+        "descricao": "TINTA FILL 500ML - VERMELHA",
+        "descricaoDetalhada": "",
+        "produto": {
+          "id": 16427312904
+        },
+        "comissao": {
+          "base": 0,
+          "aliquota": 5,
+          "valor": 0
+        },
+        "naturezaOperacao": {
+          "id": 0
+        }
+      },
+      {
+        "id": 19318116274,
+        "codigo": "PAV1003",
+        "unidade": "UN",
+        "quantidade": 50,
+        "desconto": 0,
+        "valor": 0,
+        "aliquotaIPI": 0,
+        "descricao": "KIT APAGADOR: Estojo Apagador Fill Master Clean 3P; Capa Protetora Fill; Feltro para estojo apagador 3un.",
+        "descricaoDetalhada": "",
+        "produto": {
+          "id": 16591409254
+        },
+        "comissao": {
+          "base": 0,
+          "aliquota": 5,
+          "valor": 0
+        },
+        "naturezaOperacao": {
+          "id": 0
+        }
+      },
+      {
+        "id": 19318116275,
+        "codigo": "PAV0014",
+        "unidade": "UN",
+        "quantidade": 1,
+        "desconto": 0,
+        "valor": 0,
+        "aliquotaIPI": 0,
+        "descricao": "FONTE 1A 12V",
+        "descricaoDetalhada": "",
+        "produto": {
+          "id": 16295770578
+        },
+        "comissao": {
+          "base": 0,
+          "aliquota": 5,
+          "valor": 0
+        },
+        "naturezaOperacao": {
+          "id": 0
+        }
+      }
+    ],
+    "parcelas": [
+      {
+        "id": 19035934655,
+        "dataVencimento": "2026-04-30",
+        "valor": 17584,
+        "observacoes": "",
+        "caut": "",
+        "formaPagamento": {
+          "id": 1673471
+        }
+      }
+    ],
+    "transporte": {
+      "fretePorConta": 9,
+      "frete": 0,
+      "quantidadeVolumes": 0,
+      "pesoBruto": 0,
+      "prazoEntrega": 0,
+      "contato": {
+        "id": 0,
+        "nome": ""
+      },
+      "etiqueta": {
+        "nome": "",
+        "endereco": "",
+        "numero": "",
+        "complemento": "",
+        "municipio": "",
+        "uf": "",
+        "cep": "",
+        "bairro": "",
+        "nomePais": ""
+      },
+      "volumes": []
+    },
+    "vendedor": {
+      "id": 15596468785
+    },
+    "intermediador": {
+      "cnpj": "",
+      "nomeUsuario": ""
+    },
+    "taxas": {
+      "taxaComissao": 0,
+      "custoFrete": 0,
+      "valorBase": 0
+    }
+  }
+}

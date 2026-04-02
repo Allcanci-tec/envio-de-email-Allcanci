@@ -1,0 +1,23 @@
+[
+  {
+    "numero": 2363,
+    "cliente": "CAIXA ESCOLAR PADRE AFONSO DE LEMOS",
+    "email": "professorrennifer10@gmail.com",
+    "etiqueta": "AD287897978BR",
+    "rastreamento": {
+      "codigo": "AD287897978BR",
+      "descricao": "Saiu para entrega ao destinatário",
+      "situacao": 1,
+      "origem": "Unidade de Distribuição",
+      "destino": "",
+      "ultimaAlteracao": "2026-04-01 11:07:55",
+      "url": "https://www2.correios.com.br/sistemas/rastreamento?objetos=AD287897978BR",
+      "peso": 0,
+      "dataSaida": "2026-03-31",
+      "prazoEntregaPrevisto": 2
+    },
+    "volume_id": 16014294940,
+    "deve_enviar_email": true,
+    "data_processamento": "2026-04-01T12:16:14.594116"
+  }
+]

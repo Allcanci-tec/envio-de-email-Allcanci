@@ -1,0 +1,26 @@
+{
+  "id": 25457174379,
+  "numero": 2372,
+  "numeroLoja": "",
+  "data": "2026-04-01",
+  "dataSaida": "2026-04-01",
+  "dataPrevista": "0000-00-00",
+  "totalProdutos": 0.03,
+  "total": 0.03,
+  "contato": {
+    "id": 17914179882,
+    "nome": "CAIXA ESCOLAR JULIÃO FELIPE SIMÃO",
+    "tipoPessoa": "J",
+    "numeroDocumento": "19.677.111/0001-65"
+  },
+  "situacao": {
+    "id": 6,
+    "valor": 0
+  },
+  "loja": {
+    "id": 0,
+    "unidadeNegocio": {
+      "id": 0
+    }
+  }
+}
