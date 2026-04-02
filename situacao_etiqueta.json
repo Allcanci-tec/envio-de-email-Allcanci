@@ -1,0 +1,18 @@
+{
+  "numero_pedido": 2363,
+  "cliente": "CAIXA ESCOLAR PADRE AFONSO DE LEMOS",
+  "email": "professorrennifer10@gmail.com",
+  "telefone": "(31) 98416-3357",
+  "etiqueta": "AD287897978BR",
+  "servico": "SEDEX CONTRATO AG",
+  "volume_id": 16014294940,
+  "data_consulta": "2026-04-01T11:54:07.944589",
+  "status_bling": "Ativo",
+  "url_rastreamento": "https://www.correios.com.br/rastreamento?numero=AD287897978BR",
+  "operadora": "Correios (AD)",
+  "pedido": {
+    "data": "2026-03-31",
+    "valor_total": 3.3,
+    "situacao": 1
+  }
+}

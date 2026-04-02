@@ -1,0 +1,908 @@
+{
+  "timestamp": "2026-04-01T10:02:42.100422",
+  "transportadora": "Correios",
+  "logistica_id": 151483,
+  "total_pedidos": 100,
+  "pedidos": [
+    {
+      "numero_pedido": 2369,
+      "id_pedido": 25450435695,
+      "cliente": "EE Teste Desktop Nova",
+      "data_pedido": "2026-03-31",
+      "data_saida": "2026-03-31",
+      "situacao_id": 6,
+      "total": 17584
+    },
+    {
+      "numero_pedido": 2368,
+      "id_pedido": 25450155540,
+      "cliente": "Maurilio Ferreira Lopes",
+      "data_pedido": "2026-03-31",
+      "data_saida": "2026-03-31",
+      "situacao_id": 6,
+      "total": 0
+    },
+    {
+      "numero_pedido": 2367,
+      "id_pedido": 25449248362,
+      "cliente": "CAIXA ESCOLAR D JOAO BOSCO",
+      "data_pedido": "2026-03-31",
+      "data_saida": "2026-03-31",
+      "situacao_id": 15,
+      "total": 2.25
+    },
+    {
+      "numero_pedido": 2366,
+      "id_pedido": 25449182048,
+      "cliente": "CAIXA ESCOLAR D JOAO BOSCO",
+      "data_pedido": "2026-03-31",
+      "data_saida": "2026-03-31",
+      "situacao_id": 455201,
+      "total": 9890.1
+    },
+    {
+      "numero_pedido": 2365,
+      "id_pedido": 25448957419,
+      "cliente": "CAIXA ESCOLAR CORONEL JOSÉ FALEIROS DE AGUIAR",
+      "data_pedido": "2026-03-31",
+      "data_saida": "2026-03-31",
+      "situacao_id": 15,
+      "total": 1.73
+    },
+    {
+      "numero_pedido": 2364,
+      "id_pedido": 25448892618,
+      "cliente": "CAIXA ESCOLAR CORONEL JOSÉ FALEIROS DE AGUIAR",
+      "data_pedido": "2026-03-31",
+      "data_saida": "2026-03-31",
+      "situacao_id": 455201,
+      "total": 7641.5
+    },
+    {
+      "numero_pedido": 2363,
+      "id_pedido": 25448824828,
+      "cliente": "CAIXA ESCOLAR PADRE AFONSO DE LEMOS",
+      "data_pedido": "2026-03-31",
+      "data_saida": "2026-03-31",
+      "situacao_id": 9,
+      "total": 3.3
+    },
+    {
+      "numero_pedido": 2362,
+      "id_pedido": 25448650367,
+      "cliente": "CAIXA ESCOLAR PROFESSOR TEODORO COELHO",
+      "data_pedido": "2026-03-31",
+      "data_saida": "2026-03-31",
+      "situacao_id": 9,
+      "total": 0.14
+    },
+    {
+      "numero_pedido": 2361,
+      "id_pedido": 25448135796,
+      "cliente": "CAIXA ESCOLAR IRMÃ HILDA PEREIRA",
+      "data_pedido": "2026-03-31",
+      "data_saida": "2026-03-31",
+      "situacao_id": 9,
+      "total": 0.07
+    },
+    {
+      "numero_pedido": 2360,
+      "id_pedido": 25448096636,
+      "cliente": "CAIXA ESCOLAR ESCOLA ESTADUAL ENSINO FUNDAMENTAL BARREIRO DO RIO VERDE",
+      "data_pedido": "2026-03-31",
+      "data_saida": "2026-03-31",
+      "situacao_id": 9,
+      "total": 0.05
+    },
+    {
+      "numero_pedido": 2359,
+      "id_pedido": 25447574725,
+      "cliente": "Caixa Escolar Albertina Benicio Dosa Santos",
+      "data_pedido": "2026-03-31",
+      "data_saida": "2026-03-31",
+      "situacao_id": 15,
+      "total": 2.53
+    },
+    {
+      "numero_pedido": 2358,
+      "id_pedido": 25447562674,
+      "cliente": "Caixa Escolar Albertina Benicio Dosa Santos",
+      "data_pedido": "2026-03-31",
+      "data_saida": "2026-03-31",
+      "situacao_id": 455201,
+      "total": 8181.81
+    },
+    {
+      "numero_pedido": 2357,
+      "id_pedido": 25447225189,
+      "cliente": "CAIXA ESCOLAR ANANIAS ALVES",
+      "data_pedido": "2026-03-31",
+      "data_saida": "2026-03-31",
+      "situacao_id": 9,
+      "total": 0.07
+    },
+    {
+      "numero_pedido": 2356,
+      "id_pedido": 25447209313,
+      "cliente": "CAIXA ESCOLAR BOLIVAR PEREIRA LIMA",
+      "data_pedido": "2026-03-31",
+      "data_saida": "2026-03-31",
+      "situacao_id": 9,
+      "total": 0.05
+    },
+    {
+      "numero_pedido": 2355,
+      "id_pedido": 25447191077,
+      "cliente": "CAIXA ESCOLAR DA ESCOLA ESTADUAL ALINE DIAS NEVES",
+      "data_pedido": "2026-03-31",
+      "data_saida": "2026-03-31",
+      "situacao_id": 9,
+      "total": 0.04
+    },
+    {
+      "numero_pedido": 2354,
+      "id_pedido": 25447140172,
+      "cliente": "CAIXA ESCOLAR SIMEÃO FERES",
+      "data_pedido": "2026-03-31",
+      "data_saida": "2026-03-31",
+      "situacao_id": 9,
+      "total": 0.06
+    },
+    {
+      "numero_pedido": 2353,
+      "id_pedido": 25447114101,
+      "cliente": "CAIXA ESCOLAR PROFESSORA GENOVEVA KHEDE",
+      "data_pedido": "2026-03-31",
+      "data_saida": "2026-03-31",
+      "situacao_id": 9,
+      "total": 0.05
+    },
+    {
+      "numero_pedido": 2352,
+      "id_pedido": 25439649573,
+      "cliente": "CAIXA ESCOLAR DOM PEDRO II",
+      "data_pedido": "2026-03-30",
+      "data_saida": "2026-03-30",
+      "situacao_id": 9,
+      "total": 4.55
+    },
+    {
+      "numero_pedido": 2351,
+      "id_pedido": 25439645441,
+      "cliente": "CAIXA ESCOLA MIGUEL COUTO",
+      "data_pedido": "2026-03-30",
+      "data_saida": "2026-03-30",
+      "situacao_id": 9,
+      "total": 3.13
+    },
+    {
+      "numero_pedido": 2350,
+      "id_pedido": 25439597687,
+      "cliente": "CAIXA ESCOLAR DOM PEDRO II",
+      "data_pedido": "2026-03-30",
+      "data_saida": "2026-03-30",
+      "situacao_id": 455201,
+      "total": 3996
+    },
+    {
+      "numero_pedido": 2345,
+      "id_pedido": 25438241977,
+      "cliente": "COLEGIO CRISTAO ALFA LTDA",
+      "data_pedido": "2026-03-30",
+      "data_saida": "2026-03-30",
+      "situacao_id": 455055,
+      "total": 350.61
+    },
+    {
+      "numero_pedido": 2344,
+      "id_pedido": 25437882689,
+      "cliente": "Caixa Escolar Olga Maciel Garcia Chamon",
+      "data_pedido": "2026-03-30",
+      "data_saida": "2026-03-30",
+      "situacao_id": 15,
+      "total": 320.95
+    },
+    {
+      "numero_pedido": 2343,
+      "id_pedido": 25437838365,
+      "cliente": "Caixa Escolar Olga Maciel Garcia Chamon",
+      "data_pedido": "2026-03-30",
+      "data_saida": "2026-03-30",
+      "situacao_id": 455201,
+      "total": 27963
+    },
+    {
+      "numero_pedido": 2339,
+      "id_pedido": 25437311683,
+      "cliente": "CAIXA ESCOLAR PADRE BENEVENUTO",
+      "data_pedido": "2026-03-30",
+      "data_saida": "2026-03-30",
+      "situacao_id": 9,
+      "total": 3.13
+    },
+    {
+      "numero_pedido": 2338,
+      "id_pedido": 25436781110,
+      "cliente": "CAIXA ESCOLAR MONSENHOR HORTA",
+      "data_pedido": "2026-03-30",
+      "data_saida": "2026-03-30",
+      "situacao_id": 9,
+      "total": 5.58
+    },
+    {
+      "numero_pedido": 2337,
+      "id_pedido": 25436242919,
+      "cliente": "CAIXA ESCOLAR MONSENHOR HORTA",
+      "data_pedido": "2026-03-30",
+      "data_saida": "2026-03-30",
+      "situacao_id": 455201,
+      "total": 6594
+    },
+    {
+      "numero_pedido": 2335,
+      "id_pedido": 25435701206,
+      "cliente": "COLEGIO CRISTAO ALFA LTDA",
+      "data_pedido": "2026-03-30",
+      "data_saida": "2026-03-30",
+      "situacao_id": 9,
+      "total": 488.65
+    },
+    {
+      "numero_pedido": 2334,
+      "id_pedido": 25434747464,
+      "cliente": "CAIXA ESCOLAR BAIRRO JARDIM GUANABARA",
+      "data_pedido": "2026-03-30",
+      "data_saida": "2026-03-30",
+      "situacao_id": 455055,
+      "total": 1648.5
+    },
+    {
+      "numero_pedido": 2333,
+      "id_pedido": 25434603009,
+      "cliente": "CAIXA ESCOLAR ANTÔNIO DA COSTA PEREIRA",
+      "data_pedido": "2026-03-30",
+      "data_saida": "2026-03-30",
+      "situacao_id": 9,
+      "total": 0.45
+    },
+    {
+      "numero_pedido": 2332,
+      "id_pedido": 25421897233,
+      "cliente": "CAIXA ESCOLAR MARIA DA CONCEIÇÃO APARECIDA DE OLIVEIRA",
+      "data_pedido": "2026-03-27",
+      "data_saida": "2026-03-27",
+      "situacao_id": 9,
+      "total": 5.09
+    },
+    {
+      "numero_pedido": 2331,
+      "id_pedido": 25421885841,
+      "cliente": "CAIXA ESCOLAR MARIA DA CONCEIÇÃO APARECIDA DE OLIVEIRA",
+      "data_pedido": "2026-03-27",
+      "data_saida": "2026-03-27",
+      "situacao_id": 455201,
+      "total": 6293
+    },
+    {
+      "numero_pedido": 2330,
+      "id_pedido": 25421336099,
+      "cliente": "CAIXA ESCOLAR PADRE TEOFILO VIEIRA DE ANDRADE",
+      "data_pedido": "2026-03-27",
+      "data_saida": "2026-03-27",
+      "situacao_id": 9,
+      "total": 1.73
+    },
+    {
+      "numero_pedido": 2329,
+      "id_pedido": 25421172770,
+      "cliente": "CAIXA ESCOLAR UMBERTO PALMIERI",
+      "data_pedido": "2026-03-27",
+      "data_saida": "2026-03-27",
+      "situacao_id": 9,
+      "total": 0.1
+    },
+    {
+      "numero_pedido": 2328,
+      "id_pedido": 25421128384,
+      "cliente": "CAIXA ESCOLAR ONESIO PEREIRA NUNES",
+      "data_pedido": "2026-03-27",
+      "data_saida": "2026-03-27",
+      "situacao_id": 9,
+      "total": 3.13
+    },
+    {
+      "numero_pedido": 2327,
+      "id_pedido": 25419282993,
+      "cliente": "CAIXA ESCOLAR SÃO GERALDO",
+      "data_pedido": "2026-03-27",
+      "data_saida": "2026-03-27",
+      "situacao_id": 9,
+      "total": 7.02
+    },
+    {
+      "numero_pedido": 2326,
+      "id_pedido": 25419268475,
+      "cliente": "CAIXA ESCOLAR SÃO GERALDO",
+      "data_pedido": "2026-03-27",
+      "data_saida": "2026-03-27",
+      "situacao_id": 455201,
+      "total": 10990
+    },
+    {
+      "numero_pedido": 2324,
+      "id_pedido": 25419092203,
+      "cliente": "Caixa Escolar Luiz Prisco de Braga",
+      "data_pedido": "2026-03-27",
+      "data_saida": "2026-03-27",
+      "situacao_id": 9,
+      "total": 8.53
+    },
+    {
+      "numero_pedido": 2323,
+      "id_pedido": 25419070639,
+      "cliente": "Caixa Escolar Luiz Prisco de Braga",
+      "data_pedido": "2026-03-27",
+      "data_saida": "2026-03-27",
+      "situacao_id": 455201,
+      "total": 16183.8
+    },
+    {
+      "numero_pedido": 2322,
+      "id_pedido": 25418911258,
+      "cliente": "Caixa Escolar Tenente Roberto Soares de Souza Lima",
+      "data_pedido": "2026-03-27",
+      "data_saida": "2026-03-27",
+      "situacao_id": 455059,
+      "total": 92.8
+    },
+    {
+      "numero_pedido": 2271,
+      "id_pedido": 25413760779,
+      "cliente": "CAIXA ESCOLAR JOÃO AUGUSTO DE CARVALHO",
+      "data_pedido": "2026-03-26",
+      "data_saida": "2026-03-26",
+      "situacao_id": 9,
+      "total": 88.98
+    },
+    {
+      "numero_pedido": 2268,
+      "id_pedido": 25413710897,
+      "cliente": "CAIXA ESCOLAR EPAMINONDAS RAMOS",
+      "data_pedido": "2026-03-26",
+      "data_saida": "2026-03-26",
+      "situacao_id": 9,
+      "total": 4.33
+    },
+    {
+      "numero_pedido": 2267,
+      "id_pedido": 25413709766,
+      "cliente": "CAIXA ESCOLAR JOÃO AUGUSTO DE CARVALHO",
+      "data_pedido": "2026-03-26",
+      "data_saida": "2026-03-26",
+      "situacao_id": 455201,
+      "total": 9169.8
+    },
+    {
+      "numero_pedido": 2265,
+      "id_pedido": 25413667358,
+      "cliente": "CAIXA ESCOLAR EPAMINONDAS RAMOS",
+      "data_pedido": "2026-03-26",
+      "data_saida": "2026-03-26",
+      "situacao_id": 455055,
+      "total": 4135.4
+    },
+    {
+      "numero_pedido": 2252,
+      "id_pedido": 25412643443,
+      "cliente": "CAIXA ESCOLAR GUSTAVO CAPANEMA",
+      "data_pedido": "2026-03-26",
+      "data_saida": "2026-03-26",
+      "situacao_id": 9,
+      "total": 4.7
+    },
+    {
+      "numero_pedido": 2251,
+      "id_pedido": 25412609374,
+      "cliente": "Caixa Escolar Tomaz Aquino de Araujo",
+      "data_pedido": "2026-03-26",
+      "data_saida": "2026-03-26",
+      "situacao_id": 9,
+      "total": 39.3
+    },
+    {
+      "numero_pedido": 2250,
+      "id_pedido": 25412589856,
+      "cliente": "Caixa Escolar Tomaz Aquino de Araujo",
+      "data_pedido": "2026-03-26",
+      "data_saida": "2026-03-26",
+      "situacao_id": 455201,
+      "total": 4582.5
+    },
+    {
+      "numero_pedido": 2246,
+      "id_pedido": 25412514364,
+      "cliente": "Caixa Escolar Antônio Augusto Ribeiro",
+      "data_pedido": "2026-03-26",
+      "data_saida": "2026-03-26",
+      "situacao_id": 455201,
+      "total": 10550.4
+    },
+    {
+      "numero_pedido": 2245,
+      "id_pedido": 25412474276,
+      "cliente": "Caixa Escolar Antônio Augusto Ribeiro",
+      "data_pedido": "2026-03-26",
+      "data_saida": "2026-03-26",
+      "situacao_id": 9,
+      "total": 89.7
+    },
+    {
+      "numero_pedido": 2239,
+      "id_pedido": 25412041031,
+      "cliente": "CAIXA ESCOLAR MARIA DA CONCEICAO BRITO",
+      "data_pedido": "2026-03-26",
+      "data_saida": "2026-03-26",
+      "situacao_id": 455055,
+      "total": 1253.34
+    },
+    {
+      "numero_pedido": 2238,
+      "id_pedido": 25411602202,
+      "cliente": "CAIXA ESCOLAR DE MARISTELA",
+      "data_pedido": "2026-03-26",
+      "data_saida": "2026-03-26",
+      "situacao_id": 9,
+      "total": 4.85
+    },
+    {
+      "numero_pedido": 2237,
+      "id_pedido": 25411587866,
+      "cliente": "CAIXA ESCOLAR DE MARISTELA",
+      "data_pedido": "2026-03-26",
+      "data_saida": "2026-03-26",
+      "situacao_id": 455201,
+      "total": 4995
+    },
+    {
+      "numero_pedido": 2235,
+      "id_pedido": 25411552340,
+      "cliente": "CAIXA ESCOLAR FELIZBURGO",
+      "data_pedido": "2026-03-26",
+      "data_saida": "2026-03-26",
+      "situacao_id": 9,
+      "total": 75.53
+    },
+    {
+      "numero_pedido": 2232,
+      "id_pedido": 25411534655,
+      "cliente": "CAIXA ESCOLAR FELIZBURGO",
+      "data_pedido": "2026-03-26",
+      "data_saida": "2026-03-26",
+      "situacao_id": 455201,
+      "total": 8242.5
+    },
+    {
+      "numero_pedido": 2220,
+      "id_pedido": 25411219769,
+      "cliente": "CAIXA ESCOLAR PROFESSOR RAFAEL JOSÉ DE SOUZA",
+      "data_pedido": "2026-03-26",
+      "data_saida": "2026-03-26",
+      "situacao_id": 455059,
+      "total": 6.3
+    },
+    {
+      "numero_pedido": 2219,
+      "id_pedido": 25411209042,
+      "cliente": "CAIXA ESCOLAR PROFESSOR RAFAEL JOSÉ DE SOUZA",
+      "data_pedido": "2026-03-26",
+      "data_saida": "2026-03-26",
+      "situacao_id": 455201,
+      "total": 8792
+    },
+    {
+      "numero_pedido": 2174,
+      "id_pedido": 25408378376,
+      "cliente": "CAIXA ESCOLAR PADRE MATIAS",
+      "data_pedido": "2026-03-26",
+      "data_saida": "2026-03-26",
+      "situacao_id": 455201,
+      "total": 24617.6
+    },
+    {
+      "numero_pedido": 2173,
+      "id_pedido": 25408362396,
+      "cliente": "CAIXA ESCOLAR PADRE MATIAS",
+      "data_pedido": "2026-03-26",
+      "data_saida": "2026-03-26",
+      "situacao_id": 9,
+      "total": 207.55
+    },
+    {
+      "numero_pedido": 2171,
+      "id_pedido": 25408262472,
+      "cliente": "CAIXA ESCOLAR GOVERNADOR CLÓVIS SALGADO",
+      "data_pedido": "2026-03-26",
+      "data_saida": "2026-03-26",
+      "situacao_id": 455201,
+      "total": 12308.8
+    },
+    {
+      "numero_pedido": 2170,
+      "id_pedido": 25408253339,
+      "cliente": "CAIXA ESCOLAR GOVERNADOR CLÓVIS SALGADO",
+      "data_pedido": "2026-03-26",
+      "data_saida": "2026-03-26",
+      "situacao_id": 9,
+      "total": 103.71
+    },
+    {
+      "numero_pedido": 2140,
+      "id_pedido": 25404801233,
+      "cliente": "CAIXA ESCOLAR HOMERO BRAZ DE ALMEIDA",
+      "data_pedido": "2026-03-25",
+      "data_saida": "2026-03-25",
+      "situacao_id": 9,
+      "total": 6594
+    },
+    {
+      "numero_pedido": 2137,
+      "id_pedido": 25404695442,
+      "cliente": "CAIXA ESCOLAR PROFESSOR LOPES",
+      "data_pedido": "2026-03-25",
+      "data_saida": "2026-03-25",
+      "situacao_id": 9,
+      "total": 5.53
+    },
+    {
+      "numero_pedido": 2136,
+      "id_pedido": 25404668049,
+      "cliente": "CAIXA ESCOLAR PROFESSOR LOPES",
+      "data_pedido": "2026-03-25",
+      "data_saida": "2026-03-25",
+      "situacao_id": 455055,
+      "total": 12987
+    },
+    {
+      "numero_pedido": 2131,
+      "id_pedido": 25404267185,
+      "cliente": "CAIXA ESCOLAR ANTÔNIO DE MIRANDA SETTE DA ESCOLA ESTADUAL SANTO APOLINÁRIO",
+      "data_pedido": "2026-03-25",
+      "data_saida": "2026-03-25",
+      "situacao_id": 455201,
+      "total": 8792
+    },
+    {
+      "numero_pedido": 2130,
+      "id_pedido": 25404251627,
+      "cliente": "CAIXA ESCOLAR ANTÔNIO DE MIRANDA SETTE DA ESCOLA ESTADUAL SANTO APOLINÁRIO",
+      "data_pedido": "2026-03-25",
+      "data_saida": "2026-03-25",
+      "situacao_id": 9,
+      "total": 77.83
+    },
+    {
+      "numero_pedido": 2114,
+      "id_pedido": 25403657408,
+      "cliente": "CAIXA ESCOLAR CORONEL PRAXEDES",
+      "data_pedido": "2026-03-25",
+      "data_saida": "2026-03-25",
+      "situacao_id": 9,
+      "total": 1.8
+    },
+    {
+      "numero_pedido": 2113,
+      "id_pedido": 25403552010,
+      "cliente": "CAIXA ESCOLAR DA E E DE RESPLENDOR",
+      "data_pedido": "2026-03-25",
+      "data_saida": "2026-03-25",
+      "situacao_id": 9,
+      "total": 0.23
+    },
+    {
+      "numero_pedido": 2112,
+      "id_pedido": 25403509757,
+      "cliente": "CAIXA ESCOLAR MAGNES NEVES MARTINS",
+      "data_pedido": "2026-03-25",
+      "data_saida": "2026-03-25",
+      "situacao_id": 9,
+      "total": 0.3
+    },
+    {
+      "numero_pedido": 2110,
+      "id_pedido": 25403462763,
+      "cliente": "CAIXA ESCOLAR CHIQUINHA SOARES",
+      "data_pedido": "2026-03-25",
+      "data_saida": "2026-03-25",
+      "situacao_id": 9,
+      "total": 0.02
+    },
+    {
+      "numero_pedido": 2102,
+      "id_pedido": 25402470208,
+      "cliente": "CAIXA ESCOLAR FREI HENRIQUE DE COIMBRA",
+      "data_pedido": "2026-03-25",
+      "data_saida": "2026-03-25",
+      "situacao_id": 9,
+      "total": 5.57
+    },
+    {
+      "numero_pedido": 2099,
+      "id_pedido": 25402079801,
+      "cliente": "CAIXA ESCOLAR DE CURRAL DE DENTRO",
+      "data_pedido": "2026-03-25",
+      "data_saida": "2026-03-25",
+      "situacao_id": 9,
+      "total": 4
+    },
+    {
+      "numero_pedido": 2095,
+      "id_pedido": 25402060266,
+      "cliente": "CAIXA ESCOLAR DE CURRAL DE DENTRO",
+      "data_pedido": "2026-03-25",
+      "data_saida": "2026-03-25",
+      "situacao_id": 455201,
+      "total": 7862.13
+    },
+    {
+      "numero_pedido": 2084,
+      "id_pedido": 25401890460,
+      "cliente": "CAIXA ESCOLAR CASSIANO MENDES",
+      "data_pedido": "2026-03-25",
+      "data_saida": "2026-03-25",
+      "situacao_id": 455201,
+      "total": 2822.4
+    },
+    {
+      "numero_pedido": 2083,
+      "id_pedido": 25401873003,
+      "cliente": "CAIXA ESCOLAR CASSIANO MENDES",
+      "data_pedido": "2026-03-25",
+      "data_saida": "2026-03-25",
+      "situacao_id": 12,
+      "total": 2822.4
+    },
+    {
+      "numero_pedido": 2082,
+      "id_pedido": 25401798005,
+      "cliente": "CAIXA ESCOLAR CASSIANO MENDES",
+      "data_pedido": "2026-03-25",
+      "data_saida": "2026-03-25",
+      "situacao_id": 9,
+      "total": 0
+    },
+    {
+      "numero_pedido": 2081,
+      "id_pedido": 25401607574,
+      "cliente": "CAIXA ESCOLAR ANTÔNIO DA COSTA PEREIRA",
+      "data_pedido": "2026-03-25",
+      "data_saida": "2026-03-25",
+      "situacao_id": 9,
+      "total": 0.03
+    },
+    {
+      "numero_pedido": 2080,
+      "id_pedido": 25401594696,
+      "cliente": "CAIXA ESCOLAR ANTÔNIO DA COSTA PEREIRA",
+      "data_pedido": "2026-03-25",
+      "data_saida": "2026-03-25",
+      "situacao_id": 455055,
+      "total": 1998
+    },
+    {
+      "numero_pedido": 2072,
+      "id_pedido": 25396203876,
+      "cliente": "CAIXA ESCOLAR DO POVOADO DE ÁGUAS ALTAS",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-24",
+      "situacao_id": 455201,
+      "total": 5275.2
+    },
+    {
+      "numero_pedido": 2069,
+      "id_pedido": 25396151853,
+      "cliente": "CAIXA ESCOLAR DO POVOADO DE ÁGUAS ALTAS",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-24",
+      "situacao_id": 9,
+      "total": 44.88
+    },
+    {
+      "numero_pedido": 2064,
+      "id_pedido": 25395412567,
+      "cliente": "CAIXA ESCOLAR PROFESSORA CARMEM DE ARAUJO CORREA",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-24",
+      "situacao_id": 455059,
+      "total": 8.13
+    },
+    {
+      "numero_pedido": 2063,
+      "id_pedido": 25395397926,
+      "cliente": "CAIXA ESCOLAR PROFESSORA CARMEM DE ARAUJO CORREA",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-24",
+      "situacao_id": 455055,
+      "total": 17102.88
+    },
+    {
+      "numero_pedido": 2062,
+      "id_pedido": 25394439637,
+      "cliente": "CAIXA ESCOLAR SÃO BENEDITO",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-24",
+      "situacao_id": 9,
+      "total": 0.03
+    },
+    {
+      "numero_pedido": 2061,
+      "id_pedido": 25394420273,
+      "cliente": "Caixa escolar Renato Gusman",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-24",
+      "situacao_id": 9,
+      "total": 0.07
+    },
+    {
+      "numero_pedido": 2060,
+      "id_pedido": 25394340753,
+      "cliente": "CAIXA ESCOLAR VIRGILIA PASCHOAL",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-24",
+      "situacao_id": 9,
+      "total": 0.1
+    },
+    {
+      "numero_pedido": 2059,
+      "id_pedido": 25392962353,
+      "cliente": "CAIXA ESCOLAR MONSENHOR JOÃO BATISTA MARIA RIGOTTI",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-24",
+      "situacao_id": 9,
+      "total": 0.09
+    },
+    {
+      "numero_pedido": 2058,
+      "id_pedido": 25392937091,
+      "cliente": "CAIXA ESCOLAR CORONEL PACÍFICO FARIA",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-24",
+      "situacao_id": 9,
+      "total": 0.05
+    },
+    {
+      "numero_pedido": 2057,
+      "id_pedido": 25392919490,
+      "cliente": "CAIXA ESCOLAR DA ESCOLA ESTADUAL FELIZARDA RUSSANO",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-24",
+      "situacao_id": 9,
+      "total": 0.07
+    },
+    {
+      "numero_pedido": 2056,
+      "id_pedido": 25392598548,
+      "cliente": "CAIXA ESCOLAR ESCOLA ESTADUAL DE TRÊS CORAÇÕES",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-24",
+      "situacao_id": 9,
+      "total": 6.53
+    },
+    {
+      "numero_pedido": 2055,
+      "id_pedido": 25392526671,
+      "cliente": "CAIXA ESCOLAR LUIZ DE PAULA",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-24",
+      "situacao_id": 9,
+      "total": 0.08
+    },
+    {
+      "numero_pedido": 2054,
+      "id_pedido": 25392477878,
+      "cliente": "CAIXA ESCOLAR DE CURRAL DE DENTRO",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-24",
+      "situacao_id": 9,
+      "total": 3.13
+    },
+    {
+      "numero_pedido": 2053,
+      "id_pedido": 25392429831,
+      "cliente": "CAIXA ESCOLAR DOUTOR NAPOLEÃO SALLES",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-24",
+      "situacao_id": 9,
+      "total": 0.12
+    },
+    {
+      "numero_pedido": 2052,
+      "id_pedido": 25392235229,
+      "cliente": "CAIXA ESCOLAR VIRGINIO PERILO",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-24",
+      "situacao_id": 9,
+      "total": 0.15
+    },
+    {
+      "numero_pedido": 2051,
+      "id_pedido": 25392143188,
+      "cliente": "CAIXA ESCOLAR PROFESSOR WILSON DE MELO GUIMARÃES",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-24",
+      "situacao_id": 455059,
+      "total": 2.48
+    },
+    {
+      "numero_pedido": 2050,
+      "id_pedido": 25392111345,
+      "cliente": "CAIXA ESCOLAR PROFESSOR WILSON DE MELO GUIMARÃES",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-01",
+      "situacao_id": 455055,
+      "total": 7122.87
+    },
+    {
+      "numero_pedido": 2049,
+      "id_pedido": 25391611441,
+      "cliente": "CAIXA ESCOLAR EURIPEDES LOPES",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-24",
+      "situacao_id": 9,
+      "total": 0.07
+    },
+    {
+      "numero_pedido": 2048,
+      "id_pedido": 25391593353,
+      "cliente": "CAIXA ESCOLAR JOÃO XAVIER DA COSTA",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-24",
+      "situacao_id": 9,
+      "total": 0.07
+    },
+    {
+      "numero_pedido": 2047,
+      "id_pedido": 25391570531,
+      "cliente": "CAIXA ESCOLAR PADRE JOSÉ DE ANCHIETA",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-24",
+      "situacao_id": 9,
+      "total": 0.07
+    },
+    {
+      "numero_pedido": 2046,
+      "id_pedido": 25391174280,
+      "cliente": "CAIXA ESCOLAR LEONARDO AUGUSTO TOMAZ",
+      "data_pedido": "2026-03-24",
+      "data_saida": "2026-03-24",
+      "situacao_id": 455201,
+      "total": 10743.05
+    },
+    {
+      "numero_pedido": 2034,
+      "id_pedido": 25386475508,
+      "cliente": "CAIXA ESCOLAR JOHN KENNEDY",
+      "data_pedido": "2026-03-23",
+      "data_saida": "2026-03-23",
+      "situacao_id": 9,
+      "total": 2.68
+    },
+    {
+      "numero_pedido": 2033,
+      "id_pedido": 25386459243,
+      "cliente": "CAIXA ESCOLAR JOHN KENNEDY",
+      "data_pedido": "2026-03-23",
+      "data_saida": "2026-03-23",
+      "situacao_id": 455201,
+      "total": 7806
+    },
+    {
+      "numero_pedido": 2028,
+      "id_pedido": 25386067745,
+      "cliente": "CAIXA ESCOLAR CORONEL JOÃO DA CUNHA",
+      "data_pedido": "2026-03-23",
+      "data_saida": "2026-03-23",
+      "situacao_id": 9,
+      "total": 1.41
+    }
+  ]
+}

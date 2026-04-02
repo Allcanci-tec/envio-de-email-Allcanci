@@ -1,0 +1,2517 @@
+[
+  {
+    "numero": 2363,
+    "cliente": "CAIXA ESCOLAR PADRE AFONSO DE LEMOS",
+    "email": "professorrennifer10@gmail.com",
+    "telefone_celular": "(31) 98416-3357",
+    "etiqueta": "AD287897978BR",
+    "volume_id": 16014294940,
+    "ultima_situacao": "Saiu para entrega ao destinatário",
+    "emails_enviados": [
+      {
+        "situacao": "Saiu para entrega ao destinatário",
+        "data": "01/04/2026 16:02"
+      }
+    ]
+  },
+  {
+    "numero": 2362,
+    "cliente": "CAIXA ESCOLAR PROFESSOR TEODORO COELHO",
+    "email": "escola.68845@educacao.mg.gov.br",
+    "telefone_celular": "(32) 3213-4086",
+    "etiqueta": "AD287866088BR",
+    "volume_id": 16014275700,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": [
+      {
+        "situacao": "Objeto encaminhado",
+        "data": "01/04/2026 16:02"
+      }
+    ]
+  },
+  {
+    "numero": 2361,
+    "cliente": "CAIXA ESCOLAR IRMÃ HILDA PEREIRA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD287473191BR",
+    "volume_id": 16014223297,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2360,
+    "cliente": "CAIXA ESCOLAR ESCOLA ESTADUAL ENSINO FUNDAMENTAL BARREIRO DO RIO VERDE",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD287454918BR",
+    "volume_id": 16014219420,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2357,
+    "cliente": "CAIXA ESCOLAR ANANIAS ALVES",
+    "email": "escola.82121@educacao.mg.gov.br",
+    "telefone_celular": "(38) 3831-7195",
+    "etiqueta": "AD286952845BR",
+    "volume_id": 16014115193,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": [
+      {
+        "situacao": "Objeto encaminhado",
+        "data": "01/04/2026 16:03"
+      }
+    ]
+  },
+  {
+    "numero": 2356,
+    "cliente": "CAIXA ESCOLAR BOLIVAR PEREIRA LIMA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD286944901BR",
+    "volume_id": 16014113428,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2355,
+    "cliente": "CAIXA ESCOLAR DA ESCOLA ESTADUAL ALINE DIAS NEVES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD286934277BR",
+    "volume_id": 16014111464,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2354,
+    "cliente": "CAIXA ESCOLAR SIMEÃO FERES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD286902756BR",
+    "volume_id": 16014106124,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2353,
+    "cliente": "CAIXA ESCOLAR PROFESSORA GENOVEVA KHEDE",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD286886792BR",
+    "volume_id": 16014103360,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2352,
+    "cliente": "CAIXA ESCOLAR DOM PEDRO II",
+    "email": "escola.23272@educacao.mg.gov.br",
+    "telefone_celular": "3335161106",
+    "etiqueta": "AD286855605BR",
+    "volume_id": 16013199790,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": [
+      {
+        "situacao": "Objeto encaminhado",
+        "data": "01/04/2026 16:03"
+      }
+    ]
+  },
+  {
+    "numero": 2351,
+    "cliente": "CAIXA ESCOLA MIGUEL COUTO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD283428546BR",
+    "volume_id": 16013199326,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2339,
+    "cliente": "CAIXA ESCOLAR PADRE BENEVENUTO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD281862255BR",
+    "volume_id": 16012953988,
+    "ultima_situacao": "Saiu para entrega ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2338,
+    "cliente": "CAIXA ESCOLAR MONSENHOR HORTA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD283549473BR",
+    "volume_id": 16012901092,
+    "ultima_situacao": "Saiu para entrega ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2333,
+    "cliente": "CAIXA ESCOLAR ANTÔNIO DA COSTA PEREIRA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD281700258BR",
+    "volume_id": 16012722667,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2381,
+    "cliente": "CAIXA ESCOLAR JULIA MACIEL DE OLIVEIRA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD292743033BR",
+    "volume_id": 16015427960,
+    "ultima_situacao": "",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2380,
+    "cliente": "CAIXA ESCOLAR SÃO MIGUEL",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD292726707BR",
+    "volume_id": 16015425303,
+    "ultima_situacao": "",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2379,
+    "cliente": "CAIXA ESCOLAR CORONEL RAMOS",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD292709862BR",
+    "volume_id": 16015421894,
+    "ultima_situacao": "",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2378,
+    "cliente": "CAIXA ESCOLAR SEBASTIÃO RAMOS",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD292694916BR",
+    "volume_id": 16015419519,
+    "ultima_situacao": "",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2377,
+    "cliente": "CAIXA ESCOLAR PADRE AUGUSTO HORTA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD292672867BR",
+    "volume_id": 16015410154,
+    "ultima_situacao": "",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2376,
+    "cliente": "Caixa Escolar Rui Barbosa",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD292629055BR",
+    "volume_id": 16015407527,
+    "ultima_situacao": "",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2375,
+    "cliente": "CAIXA ESCOLAR DOUTOR OVÍDIO DE ANDRADE",
+    "email": "escola.191035@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD292113973BR",
+    "volume_id": 16015301390,
+    "ultima_situacao": "",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2374,
+    "cliente": "CAIXA ESCOLAR DE JOAÍMA",
+    "email": "escola.185019@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD292100904BR",
+    "volume_id": 16015298916,
+    "ultima_situacao": "",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2373,
+    "cliente": "CAIXA ESCOLAR ROSA ARTIMINIA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD292063375BR",
+    "volume_id": 16015293247,
+    "ultima_situacao": "",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2372,
+    "cliente": "CAIXA ESCOLAR JULIÃO FELIPE SIMÃO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD292045598BR",
+    "volume_id": 16015289930,
+    "ultima_situacao": "",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2371,
+    "cliente": "Caixa Escolar Doutor José Lemos",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD292804143BR",
+    "volume_id": 16015201278,
+    "ultima_situacao": "",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2367,
+    "cliente": "CAIXA ESCOLAR D JOAO BOSCO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD292129695BR",
+    "volume_id": 16014339889,
+    "ultima_situacao": "",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2365,
+    "cliente": "CAIXA ESCOLAR CORONEL JOSÉ FALEIROS DE AGUIAR",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD292139905BR",
+    "volume_id": 16014310159,
+    "ultima_situacao": "",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2359,
+    "cliente": "Caixa Escolar Albertina Benicio Dosa Santos",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD292146906BR",
+    "volume_id": 16014159569,
+    "ultima_situacao": "",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2332,
+    "cliente": "CAIXA ESCOLAR MARIA DA CONCEIÇÃO APARECIDA DE OLIVEIRA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD281592394BR",
+    "volume_id": 16010669794,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2330,
+    "cliente": "CAIXA ESCOLAR PADRE TEOFILO VIEIRA DE ANDRADE",
+    "email": "escola.24821@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD276332269BR",
+    "volume_id": 16010609786,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2329,
+    "cliente": "CAIXA ESCOLAR UMBERTO PALMIERI",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD276213624BR",
+    "volume_id": 16010592655,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2328,
+    "cliente": "CAIXA ESCOLAR ONESIO PEREIRA NUNES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD276180603BR",
+    "volume_id": 16010588465,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2327,
+    "cliente": "CAIXA ESCOLAR SÃO GERALDO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD281647795BR",
+    "volume_id": 16010377024,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2324,
+    "cliente": "Caixa Escolar Luiz Prisco de Braga",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD281683308BR",
+    "volume_id": 16010355195,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2322,
+    "cliente": "Caixa Escolar Tenente Roberto Soares de Souza Lima",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD275372037BR",
+    "volume_id": 16010338109,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2271,
+    "cliente": "CAIXA ESCOLAR JOÃO AUGUSTO DE CARVALHO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD274784924BR",
+    "volume_id": 16009668571,
+    "ultima_situacao": "Objeto aguardando retirada no endereço indicado",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2268,
+    "cliente": "CAIXA ESCOLAR EPAMINONDAS RAMOS",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD281469809BR",
+    "volume_id": 16009663584,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2252,
+    "cliente": "CAIXA ESCOLAR GUSTAVO CAPANEMA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD271335665BR",
+    "volume_id": 16009553898,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2251,
+    "cliente": "Caixa Escolar Tomaz Aquino de Araujo",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD275966512BR",
+    "volume_id": 16009549911,
+    "ultima_situacao": "Objeto aguardando retirada no endereço indicado",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2245,
+    "cliente": "Caixa Escolar Antônio Augusto Ribeiro",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD274590384BR",
+    "volume_id": 16009535634,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2238,
+    "cliente": "CAIXA ESCOLAR DE MARISTELA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD275880175BR",
+    "volume_id": 16009435730,
+    "ultima_situacao": "Objeto aguardando retirada no endereço indicado",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2235,
+    "cliente": "CAIXA ESCOLAR FELIZBURGO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD274765412BR",
+    "volume_id": 16009429493,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2220,
+    "cliente": "CAIXA ESCOLAR PROFESSOR RAFAEL JOSÉ DE SOUZA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD274982893BR",
+    "volume_id": 16009391061,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2173,
+    "cliente": "CAIXA ESCOLAR PADRE MATIAS",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD271293166BR",
+    "volume_id": 16009130398,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2170,
+    "cliente": "CAIXA ESCOLAR GOVERNADOR CLÓVIS SALGADO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD270038842BR",
+    "volume_id": 16009119818,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2137,
+    "cliente": "CAIXA ESCOLAR PROFESSOR LOPES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD268440933BR",
+    "volume_id": 16008569008,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2130,
+    "cliente": "CAIXA ESCOLAR ANTÔNIO DE MIRANDA SETTE DA ESCOLA ESTADUAL SANTO APOLINÁRIO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD270059079BR",
+    "volume_id": 16008523728,
+    "ultima_situacao": "Objeto aguardando retirada no endereço indicado",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2114,
+    "cliente": "CAIXA ESCOLAR CORONEL PRAXEDES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD265601384BR",
+    "volume_id": 16008456211,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2113,
+    "cliente": "CAIXA ESCOLAR DA E E DE RESPLENDOR",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD265524722BR",
+    "volume_id": 16008444610,
+    "ultima_situacao": "Objeto aguardando retirada no endereço indicado",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2112,
+    "cliente": "CAIXA ESCOLAR MAGNES NEVES MARTINS",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD265491088BR",
+    "volume_id": 16008440083,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2110,
+    "cliente": "CAIXA ESCOLAR CHIQUINHA SOARES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD265465145BR",
+    "volume_id": 16008435194,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2102,
+    "cliente": "CAIXA ESCOLAR FREI HENRIQUE DE COIMBRA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD275393638BR",
+    "volume_id": 16008311001,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2099,
+    "cliente": "CAIXA ESCOLAR DE CURRAL DE DENTRO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD268465688BR",
+    "volume_id": 16008265745,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2082,
+    "cliente": "CAIXA ESCOLAR CASSIANO MENDES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD268417807BR",
+    "volume_id": 16008235556,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2081,
+    "cliente": "CAIXA ESCOLAR ANTÔNIO DA COSTA PEREIRA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD268403900BR",
+    "volume_id": 16008215693,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2069,
+    "cliente": "CAIXA ESCOLAR DO POVOADO DE ÁGUAS ALTAS",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD265551802BR",
+    "volume_id": 16007501557,
+    "ultima_situacao": "Objeto aguardando retirada no endereço indicado",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2064,
+    "cliente": "CAIXA ESCOLAR PROFESSORA CARMEM DE ARAUJO CORREA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD264311244BR",
+    "volume_id": 16007425846,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2062,
+    "cliente": "CAIXA ESCOLAR SÃO BENEDITO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD254120934BR",
+    "volume_id": 16007323512,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2061,
+    "cliente": "Caixa escolar Renato Gusman",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD254106946BR",
+    "volume_id": 16007321448,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2060,
+    "cliente": "CAIXA ESCOLAR VIRGILIA PASCHOAL",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD254056224BR",
+    "volume_id": 16007312461,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2059,
+    "cliente": "CAIXA ESCOLAR MONSENHOR JOÃO BATISTA MARIA RIGOTTI",
+    "email": "escola.55620@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD252895132BR",
+    "volume_id": 16007156939,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2058,
+    "cliente": "CAIXA ESCOLAR CORONEL PACÍFICO FARIA",
+    "email": "escola.185221@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD252868389BR",
+    "volume_id": 16007154458,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2057,
+    "cliente": "CAIXA ESCOLAR DA ESCOLA ESTADUAL FELIZARDA RUSSANO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD252859223BR",
+    "volume_id": 16007152766,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2056,
+    "cliente": "CAIXA ESCOLAR ESCOLA ESTADUAL DE TRÊS CORAÇÕES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD252616575BR",
+    "volume_id": 16007121107,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2055,
+    "cliente": "CAIXA ESCOLAR LUIZ DE PAULA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD252563603BR",
+    "volume_id": 16007114392,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2054,
+    "cliente": "CAIXA ESCOLAR DE CURRAL DE DENTRO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD252516753BR",
+    "volume_id": 16007109756,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2053,
+    "cliente": "CAIXA ESCOLAR DOUTOR NAPOLEÃO SALLES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD252485282BR",
+    "volume_id": 16007105039,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2052,
+    "cliente": "CAIXA ESCOLAR VIRGINIO PERILO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD252332471BR",
+    "volume_id": 16007086899,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2051,
+    "cliente": "CAIXA ESCOLAR PROFESSOR WILSON DE MELO GUIMARÃES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD264860382BR",
+    "volume_id": 16007078845,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2049,
+    "cliente": "CAIXA ESCOLAR EURIPEDES LOPES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD251836478BR",
+    "volume_id": 16007029276,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2048,
+    "cliente": "CAIXA ESCOLAR JOÃO XAVIER DA COSTA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD251819744BR",
+    "volume_id": 16007027504,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2047,
+    "cliente": "CAIXA ESCOLAR PADRE JOSÉ DE ANCHIETA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD251808106BR",
+    "volume_id": 16007025241,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2034,
+    "cliente": "CAIXA ESCOLAR JOHN KENNEDY",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD251781045BR",
+    "volume_id": 16006358982,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2028,
+    "cliente": "CAIXA ESCOLAR CORONEL JOÃO DA CUNHA",
+    "email": "escola.184977@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD254018257BR",
+    "volume_id": 16006318269,
+    "ultima_situacao": "Objeto aguardando retirada no endereço indicado",
+    "emails_enviados": [
+      {
+        "situacao": "Objeto aguardando retirada no endereço indicado",
+        "data": "01/04/2026 16:03"
+      }
+    ]
+  },
+  {
+    "numero": 2002,
+    "cliente": "Caixa Escolar Paulina Rigotti de Castro",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD247918207BR",
+    "volume_id": 16006193018,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2001,
+    "cliente": "CAIXA ESCOLAR CARLOS NOGUEIRA DA GAMA DA ESCOLA ESTADUAL",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD247891190BR",
+    "volume_id": 16006187202,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 2000,
+    "cliente": "CAIXA ESCOLAR CONEGO JOAQUIM MONTEIRO",
+    "email": "escola.69353@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD247862009BR",
+    "volume_id": 16006182613,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1999,
+    "cliente": "CAIXA ESCOLAR PROFESSORA GABRIELA NEVES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD247819527BR",
+    "volume_id": 16006178410,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1998,
+    "cliente": "CAIXA ESCOLAR CORONEL TONICO FRANCO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD251696926BR",
+    "volume_id": 16006139610,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1996,
+    "cliente": "CAIXA ESCOLAR SÃO LUIS",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD245041822BR",
+    "volume_id": 16005799982,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1990,
+    "cliente": "CAIXA ESCOLAR DA ESCOLA ESTADUAL VIRIATO MELGAÇO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD245777427BR",
+    "volume_id": 16003569309,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1934,
+    "cliente": "CAIXA ESCOLAR TEODOMIRO CALDEIRA LEAO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD240863398BR",
+    "volume_id": 16002738863,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1931,
+    "cliente": "CAIXA ESCOLAR MANOEL DIAS CORREA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD236386621BR",
+    "volume_id": 16002583517,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1930,
+    "cliente": "CAIXA ESCOLAR CLOVIS SALGADO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD236372874BR",
+    "volume_id": 16002580846,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1929,
+    "cliente": "CAIXA ESCOLAR MONSENHOR JOÃO BATISTA DA SILVEIRA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD236349283BR",
+    "volume_id": 16002576475,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1928,
+    "cliente": "CAIXA ESCOLAR SENADOR BUENO DE PAIVA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD236326340BR",
+    "volume_id": 16002572319,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1927,
+    "cliente": "CAIXA ESCOLAR JOAQUIM BARTHOLOMEU PEDROSA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD240598021BR",
+    "volume_id": 16002570078,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1925,
+    "cliente": "Caixa Escolar Da Escola Municipal Joao Marques Machado",
+    "email": "emjmm@educacao.itatiaiucu.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD236278715BR",
+    "volume_id": 16002567293,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1924,
+    "cliente": "CAIXA ESCOLAR MARIA DE MAGALHÃES PINTO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD236254991BR",
+    "volume_id": 16002564282,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1923,
+    "cliente": "CAIXA ESCOLAR INES FERREIRA SA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD236203898BR",
+    "volume_id": 16002556615,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1922,
+    "cliente": "CAIXA ESCOLAR PROFESSORA MARIA TEREZA LOPES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD236171268BR",
+    "volume_id": 16002551544,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1921,
+    "cliente": "CAIXA ESCOLAR MARIA DAS DORES FERNANDES BARBOSA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD240673235BR",
+    "volume_id": 16002451407,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1919,
+    "cliente": "CAIXA ESCOLAR VIVER EDUCAR",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD240882834BR",
+    "volume_id": 16002441096,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1914,
+    "cliente": "Caixa Escolar Tenente Roberto Soares de Souza Lima",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD245036283BR",
+    "volume_id": 16002379263,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1912,
+    "cliente": "CAIXA ESCOLAR CAPITÃO ULISSES PACHECO LIMA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD245025966BR",
+    "volume_id": 16002339625,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1895,
+    "cliente": "CAIXA ESCOLAR ANTÔNIO XAVIER",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD235981573BR",
+    "volume_id": 16001627943,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1884,
+    "cliente": "CAIXA ESCOLAR SARA KUBITSCHEK",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD236094929BR",
+    "volume_id": 16001539252,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1877,
+    "cliente": "CAIXA ESCOLAR SÃO JOSÉ",
+    "email": "escola.98302@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD231454537BR",
+    "volume_id": 16001461835,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1876,
+    "cliente": "CAIXA ESCOLAR JULIÃO FELIPE SIMÃO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD231429807BR",
+    "volume_id": 16001457500,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1874,
+    "cliente": "CAIXA ESCOLAR PRESIDENTE JUSCELINO KUBITSCHEK",
+    "email": "escola.55093@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD231402937BR",
+    "volume_id": 16001452986,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1871,
+    "cliente": "CAIXA ESCOLAR SÃO PIO X",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD236012227BR",
+    "volume_id": 16001400527,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1857,
+    "cliente": "Caixa Escolar Joaquim Manoel Cirino",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD236131913BR",
+    "volume_id": 16001223059,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1853,
+    "cliente": "CAIXA ESCOLAR CORDOVIL PINTO COELHO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD231799952BR",
+    "volume_id": 16001135952,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1842,
+    "cliente": "CAIXA ESCOLAR VERA CRUZ",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD226116655BR",
+    "volume_id": 16000297349,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1838,
+    "cliente": "CAIXA ESCOLAR DE CURRAL DE DENTRO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD225699500BR",
+    "volume_id": 16000214477,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1819,
+    "cliente": "CAIXA ESCOLAR MAGNES NEVES MARTINS",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD226164687BR",
+    "volume_id": 15999990985,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1817,
+    "cliente": "CAIXA ESCOLAR INES FERREIRA SA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD225451885BR",
+    "volume_id": 15999925047,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1815,
+    "cliente": "CAIXA ESCOLAR DA ESCOLA ESTADUAL PADRE AMERICO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD231363120BR",
+    "volume_id": 15999315724,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1812,
+    "cliente": "CAIXA ESCOLAR PADRE JULIO MARIA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD231336495BR",
+    "volume_id": 15999249126,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1806,
+    "cliente": "CAIXA ESCOLAR PROF COLUMBA TEIXEIRA E SILVA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD219946564BR",
+    "volume_id": 15998986772,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1805,
+    "cliente": "CAIXA ESCOLAR WALDOMIRO MENDES DE ALMEIDA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD219932171BR",
+    "volume_id": 15998984438,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1804,
+    "cliente": "CAIXA ESCOLAR DA ESCOLA ESTADUAL DE NOVA SERRANA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD219913305BR",
+    "volume_id": 15998981791,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1803,
+    "cliente": "CAIXA ESCOLAR CRISTIANO MACHADO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD221520642BR",
+    "volume_id": 15998792468,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1801,
+    "cliente": "CAIXA ESCOLAR CORONEL FONTE BOA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD219896205BR",
+    "volume_id": 15995958987,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1799,
+    "cliente": "CAIXA ESCOLAR DA ESCOLA ESTADUAL FERNANDO OTÁVIO",
+    "email": "escola.35131@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD221496784BR",
+    "volume_id": 15995921342,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1797,
+    "cliente": "CAIXA ESCOLAR JOÃO PINHEIRO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD219852178BR",
+    "volume_id": 15995785333,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1792,
+    "cliente": "CAIXA ESCOLAR NOSSA SENHORA APARECIDA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD208608044BR",
+    "volume_id": 15994554412,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1767,
+    "cliente": "CAIXA ESCOLAR ABGAR RENAULT",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD203679790BR",
+    "volume_id": 15993426246,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1766,
+    "cliente": "CAIXA ESCOLAR FRANCISCO BERNARDINO",
+    "email": "escola.68373@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD206927646BR",
+    "volume_id": 15993331089,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1764,
+    "cliente": "CAIXA ESCOLAR LAURINDO SILVA",
+    "email": "escola.184632.financeiro@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD206896802BR",
+    "volume_id": 15993323978,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1762,
+    "cliente": "CAIXA ESCOLAR MANOEL FERREIRA LIMA",
+    "email": "escola.96784.financeiro@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD202565354BR",
+    "volume_id": 15993215431,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1760,
+    "cliente": "CAIXA ESCOLAR VIRGINIO PERILO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD201265910BR",
+    "volume_id": 15992964720,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1759,
+    "cliente": "CAIXA ESCOLAR PAULA CARVALHO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD201216278BR",
+    "volume_id": 15992961522,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1758,
+    "cliente": "CAIXA ESCOLAR PROFESSOR MANOEL DO NORTE",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD198177909BR",
+    "volume_id": 15991918973,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1756,
+    "cliente": "CAIXA ESCOLAR DE CANAFISTULA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD196776051BR",
+    "volume_id": 15991849311,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1755,
+    "cliente": "CAIXA ESCOLAR ANTÔNIO ESTEVES DOS ANJOS",
+    "email": "escola.63428@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD196739969BR",
+    "volume_id": 15991841201,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1754,
+    "cliente": "CAIXA ESCOLAR CORONEL JOÃO DA CUNHA",
+    "email": "escola.184977@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD194008604BR",
+    "volume_id": 15990994320,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1753,
+    "cliente": "CAIXA ESCOLAR ANTÔNIO ESTEVES DOS ANJOS",
+    "email": "escola.63428@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD192865520BR",
+    "volume_id": 15990804858,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1752,
+    "cliente": "CAIXA ESCOLAR CORONEL AMÉRICO VESPÚCIO DE CARVALHO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD192833575BR",
+    "volume_id": 15990799182,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1751,
+    "cliente": "CAIXA ESCOLAR RAUL SOARES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD193371389BR",
+    "volume_id": 15990740696,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1749,
+    "cliente": "CAIXA ESCOLAR IRMÃ RAIMUNDA MARQUES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD190656245BR",
+    "volume_id": 15990463852,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1748,
+    "cliente": "CAIXA ESCOLAR DA ESCOLA ESTADUAL FELIZARDA RUSSANO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD183852474BR",
+    "volume_id": 15987398808,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1745,
+    "cliente": "CAIXA ESCOLAR PROFESSORA MARIA TEREZA LOPES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD185208430BR",
+    "volume_id": 15987365320,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1743,
+    "cliente": "CAIXA ESCOLAR MONSENHOR JOÃO BATISTA MARIA RIGOTTI",
+    "email": "escola.55620@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD180215853BR",
+    "volume_id": 15986509410,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1742,
+    "cliente": "EM MONTEIRO LOBATO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD181344267BR",
+    "volume_id": 15986468850,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1741,
+    "cliente": "MUNICIPIO DE JOÃO MONLEVADE",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD183180552BR",
+    "volume_id": 15986465784,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1740,
+    "cliente": "MUNICIPIO DE JOÃO MONLEVADE",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD183170475BR",
+    "volume_id": 15986462236,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1738,
+    "cliente": "Secretaria Municipal de Educação de João Monlevade",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD180426778BR",
+    "volume_id": 15986208839,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1737,
+    "cliente": "Caixa Escolar Efigênio Mota",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD181387214BR",
+    "volume_id": 15986193350,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1736,
+    "cliente": "Caixa Escolar da Escola Municipal Promorar",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD180143895BR",
+    "volume_id": 15986188794,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1735,
+    "cliente": "Caixa Escolar da Escola Municipal Professora Cicinha Moura Simon",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD180166769BR",
+    "volume_id": 15986184132,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1734,
+    "cliente": "Caixa Escolar Germin Loureiro",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD180179691BR",
+    "volume_id": 15986172975,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1733,
+    "cliente": "Caixa Escolar da Escola Municipal Israel Pinheiro",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD180195853BR",
+    "volume_id": 15986164221,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1732,
+    "cliente": "Caixa Escolar do Centro Educacional de João Monlevade",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD180133329BR",
+    "volume_id": 15986145078,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1731,
+    "cliente": "CAIXA ESCOLAR VERA CRUZ",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD174440577BR",
+    "volume_id": 15985159125,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1730,
+    "cliente": "CAIXA ESCOLAR MONSENHOR JOAO RABELLO DE MESQUITA",
+    "email": "escola.174831@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD174474213BR",
+    "volume_id": 15984232792,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1728,
+    "cliente": "CAIXA ESCOLAR INTENDENTE CÂMARA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD174454995BR",
+    "volume_id": 15984148232,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1726,
+    "cliente": "CAIXA ESCOLAR VIRGINIO PERILO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD171070634BR",
+    "volume_id": 15984105280,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1725,
+    "cliente": "CAIXA ESCOLAR TERTULIANO SILVA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD170865117BR",
+    "volume_id": 15984069372,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1724,
+    "cliente": "Caixa Escolar João Pereira dos Santos",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD170239475BR",
+    "volume_id": 15983684783,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1722,
+    "cliente": "CAIXA ESCOLAR PROFESSOR SULTÃ JÁBER",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD170220916BR",
+    "volume_id": 15983646585,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1720,
+    "cliente": "Caixa Escolar Francisco Gonçalves Teixeira",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD168928476BR",
+    "volume_id": 15982847739,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1714,
+    "cliente": "CAIXA ESCOLAR INIMÁ ANDRADE",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD165371666BR",
+    "volume_id": 15982556167,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1712,
+    "cliente": "CAIXA ESCOLAR PROFESSORA JOVITA AVELINA XAVIER",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD163642406BR",
+    "volume_id": 15982341014,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1710,
+    "cliente": "CAIXA ESCOLAR UNIÃO BENEFICENTE OPERÁRIA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD164142503BR",
+    "volume_id": 15982276303,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1708,
+    "cliente": "CAIXA ESCOLAR CASSIANO MENDES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD163675395BR",
+    "volume_id": 15982265629,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1706,
+    "cliente": "CAIXA ESCOLAR CRISTIANO MACHADO",
+    "email": "escola.124460@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD165075751BR",
+    "volume_id": 15982250812,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1704,
+    "cliente": "CAIXA ESCOLAR PEDRO FERREIRA DE SOUZA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD154625020BR",
+    "volume_id": 15978786896,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1703,
+    "cliente": "CAIXA ESCOLAR CLEMENTE SILVA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD152677789BR",
+    "volume_id": 15978527073,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1702,
+    "cliente": "Caixa Escolar Rui Barbosa",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD152612139BR",
+    "volume_id": 15977824559,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1700,
+    "cliente": "CAIXA ESCOLAR NOSSA SENHORA AUXILIADORA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD149587575BR",
+    "volume_id": 15977717653,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1699,
+    "cliente": "CAIXA ESCOLAR SEBASTIÃO RAMOS",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD153293405BR",
+    "volume_id": 15977231917,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1697,
+    "cliente": "CAIXA ESCOLAR JOSÉ BATISTA DOS REIS",
+    "email": "escola.75485@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD149384391BR",
+    "volume_id": 15976630101,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1695,
+    "cliente": "CAIXA ESCOLAR JOSÉ GOMES DE VASCONCELOS",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD144655937BR",
+    "volume_id": 15976618308,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1694,
+    "cliente": "CAIXA ESCOLAR MONSENHOR JOÃO BATISTA MARIA RIGOTTI",
+    "email": "escola.55620@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD149003186BR",
+    "volume_id": 15976613458,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1692,
+    "cliente": "CAIXA ESCOLAR VIRGILIA PASCHOAL",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD149370843BR",
+    "volume_id": 15977682646,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1689,
+    "cliente": "ESCOLA CEFET",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD149339018BR",
+    "volume_id": 15976454571,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1688,
+    "cliente": "CAIXA ESCOLAR DO CENTRO MUNICIPAL DE EDUCACAO INFANTIL - ANEIDES DA SILVA BORGES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD149319910BR",
+    "volume_id": 15976439624,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1687,
+    "cliente": "CEMEI MARINHA MARTINS DE SIQUEIRA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD149272877BR",
+    "volume_id": 15976432692,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1686,
+    "cliente": "CAIXA ESCOLAR DA ESCOLA MUNICIPAL DONA BALBINA ANTUNES PENIDO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD149254975BR",
+    "volume_id": 15976428157,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1685,
+    "cliente": "CAIXA ESCOLAR DA ESCOLA MUNICIPAL JOAO GOMES FERREIRA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD149182085BR",
+    "volume_id": 15976423333,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1684,
+    "cliente": "CAIXA ESCOLAR DA ESCOLA MUNICIPAL ARMINDA EVANGELISTA FERREIRA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD149195852BR",
+    "volume_id": 15976415124,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1683,
+    "cliente": "CEMEI CARMITA CARMO DE MELO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD144127334BR",
+    "volume_id": 15976401194,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1682,
+    "cliente": "CAIXA ESCOLAR DA ESCOLA MUNICIPAL RAIMUNDO BENEDITO DE FARIA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD149167587BR",
+    "volume_id": 15976395379,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1681,
+    "cliente": "CAIXA ESCOLAR MANOEL DIAS CORREA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD149147888BR",
+    "volume_id": 15976385751,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1680,
+    "cliente": "CAIXA ESCOLAR DA ESCOLA MUNICIPAL JOSE ANTONIO FERREIRA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD149100599BR",
+    "volume_id": 15976371575,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1679,
+    "cliente": "CEMEI MARGARIDA ARCANJA DE OLIVEIRA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD148962155BR",
+    "volume_id": 15976365434,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1678,
+    "cliente": "Caixa Escolar Da Escola Municipal Joao Marques Machado",
+    "email": "emjmm@educacao.itatiaiucu.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD149051310BR",
+    "volume_id": 15976358520,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1677,
+    "cliente": "CAIXA ESCOLAR PADRE AUGUSTO HORTA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD144059373BR",
+    "volume_id": 15976215482,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1675,
+    "cliente": "CAIXA ESCOLAR PROFESSORA GABRIELA NEVES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD143927174BR",
+    "volume_id": 15976205382,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1673,
+    "cliente": "CAIXA ESCOLAR MARIA DE MAGALHÃES PINTO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD139873466BR",
+    "volume_id": 15975582152,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1671,
+    "cliente": "CAIXA ESCOLAR PADRE ANTÔNIO CORREA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD138992419BR",
+    "volume_id": 15975456906,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1670,
+    "cliente": "CAIXA ESCOLAR CÔNEGO ROCHA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD138913067BR",
+    "volume_id": 15975445122,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1669,
+    "cliente": "CAIXA ESCOLAR ANA RIBEIRO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD138260453BR",
+    "volume_id": 15975344368,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1668,
+    "cliente": "CAIXA ESCOLAR DOUTOR OVÍDIO DE ANDRADE",
+    "email": "escola.191035@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD139097745BR",
+    "volume_id": 15975249802,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1664,
+    "cliente": "CAIXA ESCOLAR CONEGO JOAQUIM MONTEIRO",
+    "email": "escola.69353@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD137782612BR",
+    "volume_id": 15972899108,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1662,
+    "cliente": "CAIXA ESCOLAR IRMÃ HILDA PEREIRA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD138144965BR",
+    "volume_id": 15972737631,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1658,
+    "cliente": "Caixa Escolar Paulina Rigotti de Castro",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD138072115BR",
+    "volume_id": 15972620829,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1656,
+    "cliente": "CAIXA ESCOLAR MONSENHOR JOÃO BATISTA DA SILVEIRA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD136527763BR",
+    "volume_id": 15972602644,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1654,
+    "cliente": "CAIXA ESCOLAR SÃO LUIS",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD136551201BR",
+    "volume_id": 15972529218,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1652,
+    "cliente": "CAIXA ESCOLAR CARLOS NOGUEIRA DA GAMA DA ESCOLA ESTADUAL",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD127260951BR",
+    "volume_id": 15971825590,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1649,
+    "cliente": "CAIXA ESCOLAR MARIA APARECIDA DA SILVA",
+    "email": "escola.54755@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD126789084BR",
+    "volume_id": 15971789050,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1648,
+    "cliente": "CAIXA ESCOLAR SENHORA DE FÁTIMA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD126750295BR",
+    "volume_id": 15971783516,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1647,
+    "cliente": "Caixa Escolar Coronel Robertinho",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD125147407BR",
+    "volume_id": 15971548345,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1646,
+    "cliente": "CAIXA ESCOLAR CORONEL RAMOS",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD125140528BR",
+    "volume_id": 15971547568,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1644,
+    "cliente": "CAIXA ESCOLAR DA ESCOLA ESTADUAL PROFESSOR PATRICIO PAES DE",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD125083397BR",
+    "volume_id": 15971542645,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1643,
+    "cliente": "CAIXA ESCOLAR FLORA BASTOS COSTA",
+    "email": "escola.124737.financeiro@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD121129907BR",
+    "volume_id": 15970707625,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1642,
+    "cliente": "CAIXA ESCOLAR FREI ANSELMO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD121095593BR",
+    "volume_id": 15970701081,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1641,
+    "cliente": "CAIXA ESCOLAR RUFINO VICENTE FERREIRA PATAXÓ",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD120563989BR",
+    "volume_id": 15970624375,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1640,
+    "cliente": "CAIXA ESCOLAR JOÃO PINHEIRO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD120540603BR",
+    "volume_id": 15970620529,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1639,
+    "cliente": "Caixa escolar Renato Gusman",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD120449581BR",
+    "volume_id": 15966746572,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1635,
+    "cliente": "CAIXA ESCOLAR DE JOAÍMA",
+    "email": "escola.185019@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD120474100BR",
+    "volume_id": 15966729241,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1633,
+    "cliente": "CAIXA ESCOLAR JULIA ARCANJO DE MAGALHÃES",
+    "email": "escola.322857@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD112175611BR",
+    "volume_id": 15966656307,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1632,
+    "cliente": "CAIXA ESCOLAR DR GOMES FREIRE",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD112014132BR",
+    "volume_id": 15966632443,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1631,
+    "cliente": "CAIXA ESCOLAR DO CARIRI",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD120394004BR",
+    "volume_id": 15966432244,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1627,
+    "cliente": "CAIXA ESCOLAR CLOVIS SALGADO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD112156192BR",
+    "volume_id": 15965591978,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1622,
+    "cliente": "CAIXA ESCOLAR JULIA MACIEL DE OLIVEIRA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD110807001BR",
+    "volume_id": 15965431305,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1620,
+    "cliente": "CAIXA ESCOLAR CHIQUINHA SOARES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD110922571BR",
+    "volume_id": 15965289312,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1619,
+    "cliente": "CAIXA ESCOLAR SÃO MIGUEL",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD110820586BR",
+    "volume_id": 15964484722,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1617,
+    "cliente": "Caixa escolar Sizenando Amaral",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD106480387BR",
+    "volume_id": 15964452701,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1615,
+    "cliente": "CAIXA ESCOLAR UMBERTO PALMIERI",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD100432114BR",
+    "volume_id": 15964221518,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1614,
+    "cliente": "CAIXA ESCOLAR JOVIANO DE AGUIAR",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD100333624BR",
+    "volume_id": 15964204397,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1613,
+    "cliente": "CAIXA ESCOLAR DR GOMES FREIRE",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD108192397BR",
+    "volume_id": 15965786774,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1611,
+    "cliente": "CAIXA ESCOLAR PRESIDENTE JUSCELINO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD106211867BR",
+    "volume_id": 15963560189,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1609,
+    "cliente": "CAIXA ESCOLAR JOSÉ SOARES DA SILVA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD106187765BR",
+    "volume_id": 15963554228,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1607,
+    "cliente": "CAIXA ESCOLAR ANANIAS ALVES",
+    "email": "escola.82121@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD106128626BR",
+    "volume_id": 15963538196,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1604,
+    "cliente": "CAIXA ESCOLAR IRMÃ RAIMUNDA MARQUES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD097112197BR",
+    "volume_id": 15963449068,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1603,
+    "cliente": "CAIXA ESCOLAR BELMIRO BRAGA",
+    "email": "escola.67890@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD097078990BR",
+    "volume_id": 15963444622,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1601,
+    "cliente": "CAIXA ESCOLAR BOLIVAR PEREIRA LIMA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD106247671BR",
+    "volume_id": 15963267253,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1599,
+    "cliente": "CAIXA ESCOLAR CORONEL PACÍFICO FARIA",
+    "email": "escola.185221@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD107923890BR",
+    "volume_id": 15963231025,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1597,
+    "cliente": "CAIXA ESCOLAR PROFESSOR LINO CÂNDIDO ROSA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD106069548BR",
+    "volume_id": 15963217511,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1594,
+    "cliente": "CAIXA ESCOLAR VIRGINIO PERILO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD106163631BR",
+    "volume_id": 15962442086,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1592,
+    "cliente": "MUNICIPIO DE BOM DESPACHO",
+    "email": "compras.educacao@pmbd.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD092003368BR",
+    "volume_id": 15962255389,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1591,
+    "cliente": "ASSOCIACAO DE EDUCACAO, SAUDE E CULTURA - AESC",
+    "email": "cemecescola@hotmail.com",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD180158440BR",
+    "volume_id": 15962247053,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1589,
+    "cliente": "CAIXA ESCOLAR ALMIRANTE BARROSO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD091898563BR",
+    "volume_id": 15962239871,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1588,
+    "cliente": "CAIXA ESCOLAR FRANCISCO BERNARDINO",
+    "email": "escola.68373@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD091848156BR",
+    "volume_id": 15962233806,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1587,
+    "cliente": "CAIXA ESCOLAR EURIPEDES LOPES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD107852487BR",
+    "volume_id": 15962228613,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1585,
+    "cliente": "CAIXA ESCOLAR DOUTOR NAPOLEÃO SALLES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD107822587BR",
+    "volume_id": 15961996505,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1579,
+    "cliente": "CAIXA ESCOLAR DA ESCOLA ESTADUAL ALINE DIAS NEVES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD105949801BR",
+    "volume_id": 15965464813,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1574,
+    "cliente": "Caixa Escolar Coronel Robertinho",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD107733119BR",
+    "volume_id": 15959251875,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1570,
+    "cliente": "CAIXA ESCOLAR SENADOR BUENO DE PAIVA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD106105801BR",
+    "volume_id": 15959205815,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1568,
+    "cliente": "CAIXA ESCOLAR PADRE PAULO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD083427942BR",
+    "volume_id": 15959090784,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1567,
+    "cliente": "CAIXA ESCOLAR SÃO JOSÉ",
+    "email": "escola.98302@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD083420768BR",
+    "volume_id": 15959088701,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1566,
+    "cliente": "CAIXA ESCOLAR MILTON LAZARO OPUSCOLO",
+    "email": "escola.294705@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD082842654BR",
+    "volume_id": 15958994190,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1565,
+    "cliente": "CAIXA ESCOLAR DR CLEMENTE MARIANI",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD106260240BR",
+    "volume_id": 15958940197,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1563,
+    "cliente": "CAIXA ESCOLAR GENY VIEIRA CAMPOS",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD106015669BR",
+    "volume_id": 15958925783,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1561,
+    "cliente": "CAIXA ESCOLAR DA ESCOLA ESTADUAL FELIZARDA RUSSANO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD107884269BR",
+    "volume_id": 15958829308,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1559,
+    "cliente": "CAIXA ESCOLAR CORONEL ELPIDIO ALVES FERREIRA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD107794395BR",
+    "volume_id": 15958778198,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1556,
+    "cliente": "MUNICIPIO DE JOAIMA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD102813226BR",
+    "volume_id": 15958175801,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1553,
+    "cliente": "CAIXA ESCOLAR DE MATA VERDE",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD108172582BR",
+    "volume_id": 15958137540,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1549,
+    "cliente": "CAIXA ESCOLAR JOÃO XAVIER DA COSTA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD102540425BR",
+    "volume_id": 15957812898,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1547,
+    "cliente": "CAIXA ESCOLAR PADRE JOSÉ DE ANCHIETA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD101345147BR",
+    "volume_id": 15957802807,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1545,
+    "cliente": "CAIXA ESCOLAR SIMEÃO FERES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD101006118BR",
+    "volume_id": 15964311860,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1543,
+    "cliente": "CAIXA ESCOLAR PROFESSORA GENOVEVA KHEDE",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD100006479BR",
+    "volume_id": 15957737036,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1540,
+    "cliente": "CAIXA ESCOLAR DE PEDRA GRANDE",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD100029041BR",
+    "volume_id": 15957721901,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1537,
+    "cliente": "CAIXA ESCOLAR DA ESCOLA ESTADUAL DE NOVA SERRANA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD097401548BR",
+    "volume_id": 15956937959,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1532,
+    "cliente": "CAIXA ESCOLAR DOUTOR JOÃO BATISTA DE ALMEIDA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD097158154BR",
+    "volume_id": 15963455982,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1528,
+    "cliente": "CAIXA ESCOLAR ESCOLA ESTADUAL ENSINO FUNDAMENTAL BARREIRO DO RIO VERDE",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD088795691BR",
+    "volume_id": 15956720065,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  },
+  {
+    "numero": 1526,
+    "cliente": "Caixa Escolar Gonçalo Dos Reis Barbosa",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD084439655BR",
+    "volume_id": 15956681886,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": []
+  }
+]

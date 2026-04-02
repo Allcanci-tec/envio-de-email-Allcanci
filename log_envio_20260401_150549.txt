@@ -1,0 +1,104 @@
+======================================================================
+LOG DE ENVIO DE RASTREAMENTO
+======================================================================
+Data/Hora: 01/04/2026 15:05:49
+Total de escolas: 14
+======================================================================
+
+ESCOLAS COM EMAIL (4):
+----------------------------------------------------------------------
+1. CAIXA ESCOLAR PADRE AFONSO DE LEMOS
+   Pedido: 2363
+   Email: 10@gmail.com
+   Rastreamento: AD287897978BR
+   Status: Enviado
+
+2. CAIXA ESCOLAR PROFESSOR TEODORO COELHO
+   Pedido: 2362
+   Email: escola.68845@educacao.mg.gov.br
+   Rastreamento: AD287866088BR
+   Status: Enviado
+
+3. CAIXA ESCOLAR ANANIAS ALVES
+   Pedido: 2357
+   Email: escola.82121@educacao.mg.gov.br
+   Rastreamento: AD286952845BR
+   Status: Enviado
+
+4. CAIXA ESCOLAR DOM PEDRO II
+   Pedido: 2352
+   Email: escola.23272@educacao.mg.gov.br
+   Rastreamento: AD286855605BR
+   Status: Enviado
+
+
+======================================================================
+ESCOLAS SEM EMAIL (10):
+----------------------------------------------------------------------
+1. CAIXA ESCOLAR IRMÃ HILDA PEREIRA
+   Pedido: 2361
+   Email: (SEM EMAIL CADASTRADO)
+   Rastreamento: AD287473191BR
+   Status: Não enviado - sem email
+
+2. CAIXA ESCOLAR ESCOLA ESTADUAL ENSINO FUNDAMENTAL BARREIRO DO RIO VERDE
+   Pedido: 2360
+   Email: (SEM EMAIL CADASTRADO)
+   Rastreamento: AD287454918BR
+   Status: Não enviado - sem email
+
+3. CAIXA ESCOLAR BOLIVAR PEREIRA LIMA
+   Pedido: 2356
+   Email: (SEM EMAIL CADASTRADO)
+   Rastreamento: AD286944901BR
+   Status: Não enviado - sem email
+
+4. CAIXA ESCOLAR DA ESCOLA ESTADUAL ALINE DIAS NEVES
+   Pedido: 2355
+   Email: (SEM EMAIL CADASTRADO)
+   Rastreamento: AD286934277BR
+   Status: Não enviado - sem email
+
+5. CAIXA ESCOLAR SIMEÃO FERES
+   Pedido: 2354
+   Email: (SEM EMAIL CADASTRADO)
+   Rastreamento: AD286902756BR
+   Status: Não enviado - sem email
+
+6. CAIXA ESCOLAR PROFESSORA GENOVEVA KHEDE
+   Pedido: 2353
+   Email: (SEM EMAIL CADASTRADO)
+   Rastreamento: AD286886792BR
+   Status: Não enviado - sem email
+
+7. CAIXA ESCOLA MIGUEL COUTO
+   Pedido: 2351
+   Email: (SEM EMAIL CADASTRADO)
+   Rastreamento: AD283428546BR
+   Status: Não enviado - sem email
+
+8. CAIXA ESCOLAR PADRE BENEVENUTO
+   Pedido: 2339
+   Email: (SEM EMAIL CADASTRADO)
+   Rastreamento: AD281862255BR
+   Status: Não enviado - sem email
+
+9. CAIXA ESCOLAR MONSENHOR HORTA
+   Pedido: 2338
+   Email: (SEM EMAIL CADASTRADO)
+   Rastreamento: AD283549473BR
+   Status: Não enviado - sem email
+
+10. CAIXA ESCOLAR ANTÔNIO DA COSTA PEREIRA
+   Pedido: 2333
+   Email: (SEM EMAIL CADASTRADO)
+   Rastreamento: AD281700258BR
+   Status: Não enviado - sem email
+
+
+======================================================================
+RESUMO
+======================================================================
+Total de emails enviados: 4
+Total de escolas sem email: 10
+Arquivo criado: log_envio_20260401_150549.txt

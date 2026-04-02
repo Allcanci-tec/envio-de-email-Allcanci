@@ -1,0 +1,107 @@
+[
+  {
+    "timestamp": "2026-04-01T16:07:51.447948",
+    "numero": "5531984163357",
+    "mensagem": "[TESTE RASTREAMENTO]\n\nOla CAIXA ESCOLAR PADRE AFONSO DE LEMOS,\n\nEsta eh uma mensagem de teste do sis...",
+    "sucesso": false,
+    "erro": "Nao conseguiu encontrar botao de envio apos 60 segundos"
+  },
+  {
+    "timestamp": "2026-04-01T16:14:28.696796",
+    "numero": "5531984163357",
+    "mensagem": "[TESTE RASTREAMENTO]\n\nOla CAIXA ESCOLAR PADRE AFONSO DE LEMOS,\n\nEsta eh uma mensagem de teste do sis...",
+    "sucesso": false,
+    "erro": "Nao conseguiu encontrar botao de envio apos 60 segundos"
+  },
+  {
+    "timestamp": "2026-04-01T16:17:51.832223",
+    "numero": "5531984163357",
+    "mensagem": "[TESTE RASTREAMENTO]\n\nOla CAIXA ESCOLAR PADRE AFONSO DE LEMOS,\n\nEsta eh uma mensagem de teste do sis...",
+    "sucesso": false,
+    "erro": "Nao conseguiu encontrar botao de envio apos 60 segundos"
+  },
+  {
+    "timestamp": "2026-04-01T16:20:28.056945",
+    "numero": "5531984163357",
+    "mensagem": "[TESTE SISTEMA] 01/04/2026 16:19\n\nOla CAIXA ESCOLAR PADRE AFONSO DE LEMOS,\n\nEsta eh uma mensagem env...",
+    "sucesso": false,
+    "erro": "Nao conseguiu encontrar botao de envio apos 60 segundos"
+  },
+  {
+    "timestamp": "2026-04-01T16:21:52.556371",
+    "numero": "5531984163357",
+    "mensagem": "[TESTE SISTEMA] 01/04/2026 16:20\n\nOla CAIXA ESCOLAR PADRE AFONSO DE LEMOS,\n\nEsta eh uma mensagem env...",
+    "sucesso": false,
+    "erro": "Nao conseguiu encontrar botao de envio apos 60 segundos"
+  },
+  {
+    "timestamp": "2026-04-01T16:25:08.258662",
+    "numero": "5531984163357",
+    "mensagem": "[TESTE SISTEMA] 01/04/2026 16:24\n\nOla CAIXA ESCOLAR PADRE AFONSO DE LEMOS,\n\nEsta eh uma mensagem env...",
+    "sucesso": false,
+    "erro": "Erro: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-04-01T16:26:33.525573",
+    "numero": "5531984163357",
+    "mensagem": "[TESTE SISTEMA] 01/04/2026 16:26\n\nOla CAIXA ESCOLAR PADRE AFONSO DE LEMOS,\n\nEsta eh uma mensagem env...",
+    "sucesso": false,
+    "erro": "Erro: Page.goto: Target page, context or browser has been closed"
+  },
+  {
+    "timestamp": "2026-04-02T07:27:27.822430",
+    "numero": "5531984163357",
+    "mensagem": "[TESTE RASTREAMENTO]\n\nOla CAIXA ESCOLAR PADRE AFONSO DE LEMOS,\n\nEsta eh uma mensagem de teste do sis...",
+    "sucesso": false,
+    "erro": "Timeout ao buscar botao (timeout=60s)"
+  },
+  {
+    "timestamp": "2026-04-02T07:36:48.241029",
+    "numero": "5531984163357",
+    "mensagem": "Teste de rastreamento Allcanci.\nPedido: 2363\nStatu...",
+    "sucesso": false,
+    "erro": "Erro geral: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-04-02T07:37:25.217666",
+    "numero": "5531984163357",
+    "mensagem": "Teste de rastreamento Allcanci.\nPedido: 2363\nStatu...",
+    "sucesso": false,
+    "erro": "Erro geral: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-04-02T07:42:38.945434",
+    "numero": "5531984163357",
+    "mensagem": "Teste de rastreamento Allcanci.\nPedido: 2363\nStatu...",
+    "sucesso": true,
+    "erro": null
+  },
+  {
+    "timestamp": "2026-04-02T08:05:54.681233",
+    "numero": "5531984163357",
+    "mensagem": "🚚 Rastreamento Allcanci\n\nPedido: #2363\nStatus: Sai...",
+    "sucesso": true,
+    "erro": null
+  },
+  {
+    "timestamp": "2026-04-02T08:19:47.604894",
+    "numero": "5531984163357",
+    "mensagem": "🚚 Rastreamento Allcanci\n\nPedido: #2363\nStatus: Sai...",
+    "sucesso": true,
+    "erro": null
+  },
+  {
+    "timestamp": "2026-04-02T08:29:28.446642",
+    "numero": "5531984163357",
+    "mensagem": "🚚 Rastreamento Allcanci\n\nPedido: #2363\nStatus: Sai...",
+    "sucesso": true,
+    "erro": null
+  },
+  {
+    "timestamp": "2026-04-02T08:31:02.216860",
+    "numero": "5531984163357",
+    "mensagem": "🚚 Rastreamento Allcanci\n\nPedido: #2363\nStatus: Sai...",
+    "sucesso": true,
+    "erro": null
+  }
+]

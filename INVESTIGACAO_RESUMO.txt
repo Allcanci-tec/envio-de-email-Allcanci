@@ -1,0 +1,56 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Relatório do que foi investigado e próximas ações.
+"""
+
+print("""
+╔══════════════════════════════════════════════════════════════════════════════════════╗
+║                        INVESTIGAÇÃO DE ETIQUETAS - RESULTADO                         ║
+╚══════════════════════════════════════════════════════════════════════════════════════╝
+
+1. ROTAS TESTADAS:
+   ❌ /logisticas/objetos          (404 - Não encontrado)
+   ❌ /objetos                       (404 - Não encontrado)
+   ❌ /postagens                     (404 - Não encontrado)
+   ❌ /logisticas/{id}/objetos       (404 - Não encontrado)
+   ✅ /logisticas                    (200 - Funcionando)
+   ✅ /pedidos/vendas                (200 - Funcionando)
+
+2. DADOS ENCONTRADOS EM PEDIDOS:
+   ✅ transporte.etiqueta           → Objeto de ENDEREÇO (vazid)
+   ✅ rastreamento no JSON          → Não encontrado
+   ✅ código de postagem            → Não encontrado
+
+3. CONCLUSÕES:
+   • O endpoint /logisticas/objetos pode estar:
+     - Desabilitado para sua conta
+     - Requer permissões especiais
+     - Requer parâmetros adicionais não testados
+   
+   • Os dados de etiqueta de rastreamento podem estar:
+     - Em um endpoint diferente (talvez v2 da API)
+     - Disponíveis apenas via UI, não via API
+     - Apenas após a postagem ser criada/enviada
+
+SUGESTÕES PARA PRÓXIMAS AÇÕES:
+
+1️⃣  Verificar Documentação Oficial
+    - Acesse https://developer.bling.com.br
+    - Procure por "objetos de postagem" ou "rastreamento"
+    - Verifique versão exata da API e permissões
+
+2️⃣  Verificar Permissões da App
+    - Acesse https://www.bling.com.br/conectar_terceiros
+    - Verifique se "Objetos de Postagem" está habilitado
+
+3️⃣  Sugerir ao Suporte Bling
+    - A rota /logisticas/objetos não retorna dados (404)
+    - Solicitar se há alternativa para acessar etiquetas via API
+
+4️⃣  Alternativa: Usar Scripts de Importação
+    - Extrair dados via UI do Bling (CSV/Excel)
+    - Importar em seu sistema localmente
+
+═══════════════════════════════════════════════════════════════════════════════════════
+""")

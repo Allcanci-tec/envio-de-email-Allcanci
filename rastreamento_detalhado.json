@@ -1,0 +1,30 @@
+{
+  "etiqueta": "AD287897978BR",
+  "previsao_entrega": "02/04/2026",
+  "status_atual": "Saiu para entrega",
+  "data_consulta": "2026-04-01T11:56:17.510997",
+  "eventos": [
+    {
+      "data": "01/04/2026",
+      "hora": "11:07",
+      "status": "Objeto saiu para entrega ao destinatário",
+      "local": "ITABIRITO - MG",
+      "detalhes": "É preciso ter alguém no endereço para receber o carteiro"
+    },
+    {
+      "data": "01/04/2026",
+      "hora": "22:13",
+      "status": "Objeto em transferência - por favor aguarde",
+      "local": "de Unidade de Tratamento, BELO HORIZONTE - MG para Unidade de Distribuição, Itabirito - MG",
+      "detalhes": null
+    },
+    {
+      "data": "31/03/2026",
+      "hora": "14:42",
+      "status": "Etiqueta emitida",
+      "local": "BR",
+      "detalhes": "Aguardando postagem pelo remetente"
+    }
+  ],
+  "url_rastreamento": "https://www.correios.com.br/rastreamento?numero=AD287897978BR"
+}
