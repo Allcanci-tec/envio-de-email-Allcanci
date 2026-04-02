@@ -1,0 +1,78 @@
+# 🔐 SEGURANÇA - NUNCA FAZER COMMIT
+.env
+.env.local
+.env.*.local
+
+# 🔑 CREDENCIAIS E TOKENS
+tokens.json
+whatsapp_session/
+*.pem
+*.key
+secrets/
+
+# 📦 CACHE DO RASTREAMENTO
+rastreamento_cache.json
+rastreio_checkpoint.json
+
+# 📊 DADOS SENSÍVEIS
+contatos_rastreamento.json
+historico_*.json
+whatsapp_*.json
+
+# 📝 LOGS SENSÍVEIS
+*.log
+logs/
+
+# 🐍 PYTHON
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 🛠️ IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 📁 ARQUIVOS TEMPORÁRIOS
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# 🌐 DESENVOLVIMENTO
+.vercel/
+*.local
+
+# 📋 EXCEL/CSV TEMPORÁRIOS
+*.xlsx
+*.csv
+*_test.*
+
+# 🔍 DEBUG
+debug_*.py
+test_*.py
+*.html
+![README](README.md)

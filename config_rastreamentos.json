@@ -1,0 +1,12 @@
+{
+  "rastreamentos": [
+    {
+      "etiqueta": "AA123456789BR",
+      "numero_cliente": "31984163357"
+    },
+    {
+      "etiqueta": "BB987654321BR",
+      "numero_cliente": "11987654321"
+    }
+  ]
+}
