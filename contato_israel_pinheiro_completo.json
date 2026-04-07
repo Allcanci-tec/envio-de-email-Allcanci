@@ -1,0 +1,59 @@
+{
+  "id": 17996162790,
+  "nome": "Caixa Escolar da Escola Municipal Israel Pinheiro",
+  "codigo": "492",
+  "situacao": "A",
+  "numeroDocumento": "21105945000148",
+  "telefone": "",
+  "celular": "",
+  "fantasia": "EM GOV ISRAEL PINHEIRO",
+  "tipo": "J",
+  "indicadorIe": 9,
+  "ie": "",
+  "rg": "",
+  "inscricaoMunicipal": "",
+  "orgaoEmissor": "",
+  "email": "",
+  "emailNotaFiscal": "",
+  "endereco": {
+    "geral": {
+      "endereco": "Av. Luzia Brandão Fraga Souza",
+      "cep": "35931023",
+      "bairro": "Loanda",
+      "municipio": "João Monlevade",
+      "uf": "MG",
+      "numero": "201",
+      "complemento": ""
+    },
+    "cobranca": {
+      "endereco": "",
+      "cep": "",
+      "bairro": "",
+      "municipio": "",
+      "uf": "",
+      "numero": "",
+      "complemento": ""
+    }
+  },
+  "orgaoPublico": "",
+  "vendedor": {
+    "id": 15596468666
+  },
+  "dadosAdicionais": {
+    "dataNascimento": "0000-00-00",
+    "sexo": "",
+    "naturalidade": ""
+  },
+  "financeiro": {
+    "limiteCredito": 0,
+    "condicaoPagamento": "",
+    "categoria": {
+      "id": 0
+    }
+  },
+  "pais": {
+    "nome": ""
+  },
+  "tiposContato": [],
+  "pessoasContato": []
+}

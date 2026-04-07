@@ -1,0 +1,91 @@
+═════════════════════════════════════════════════════════════════════════════
+                    RELATÓRIO DE BUSCA - ISRAEL PINHEIRO
+═════════════════════════════════════════════════════════════════════════════
+
+🔍 BUSCA REALIZADA: Localizei a escola "Escola Municipal Israel Pinheiro"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DADOS ENCONTRADOS:
+
+✅ Cliente: Caixa Escolar da Escola Municipal Israel Pinheiro
+✅ Pedido 1: 1733 (Entregue) - Etiqueta: AD180195853BR
+✅ Pedido 2: 2409 (Ativo)     - Etiqueta: AD297220753BR
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️  PROBLEMA ENCONTRADO:
+
+❌ A escola NÃO TEM VENDEDOR CONFIGURADO NO BLING
+    Vendor ID (pedido 2409): 0 (zero/nulo)
+
+❌ Consequência:
+    - Não é possível enviar email para o vendedor automaticamente
+    - Sistema detecta "sem vendedor" e não notifica
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 SOLUÇÃO NECESSÁRIA:
+
+Para fazer o teste e ativar notificações para o vendedor, preciso saber:
+
+→ QUAL É O VENDEDOR CORRETO DA ESCOLA MUNICIPAL ISRAEL PINHEIRO?
+
+   Opções disponíveis (com email):
+   
+   1. Maurício Ribeiro Júnior (ID: 15596468666)
+      📧 rennifer10@gmail.com
+   
+   2. Patrick Enderson Ramos Silva (ID: 15596468679)
+      📧 patrick.vieira@allcanci.com.br
+   
+   3. Allison Ney Araújo Lima (ID: 15596468785)
+      📧 alisson@allcanci.com.br
+   
+   4. Joyce Alves Bandeira (ID: 15596468786)
+      📧 joyce.bandeira@allcanci.com.br
+   
+   5. Valdemar Alves Garcel (ID: 15596468789)
+      📧 valgarcel@allcanci.com.br
+   
+   6. Osvanio Barbosa Fonseca (ID: 15596492585)
+      📧 osvanio@allcanci.com.br
+   
+   7. Glauber Antunes (ID: 15596511829)
+      📧 glauberantunes@allcanci.com.br
+   
+   8. David de Souza Soares (ID: 15596546832)
+      📧 daviddesouza@allcanci.com.br
+   
+   9. André Venâncio (ID: 15596598489)
+      📧 andrevenancio@allcanci.com.br
+   
+   10. Samuel Rabello Guimarães (ID: 15596638848)
+       📧 samuelrabello@allcanci.com.br
+   
+   11. Nayara Tavares (ID: 15596718349)
+       📧 nayara@allcanci.com.br
+   
+   12. Julio Cesar da Silva (ID: 15596850326)
+       📧 julio@allcanci.com.br
+   
+   13. Gabriel Zamprogno Dominici (ID: 15596855156)
+       📧 gabriel.es@allcanci.com.br
+   
+   14. Sibele Martins Calixto (ID: 15596858650)
+       📧 sibele@allcanci.com.br
+   
+   15. Tassia Della Santina Mohallem (ID: 15596874737)
+       📧 tassia@allcanci.com.br
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❓ QUAL VENDEDOR VENDE PARA ESSA ESCOLA?
+
+Por favor, confirme o nome ou ID do vendedor correto para que eu possa:
+
+1. Verificar se o vendedor tem email cadastrado no Bling
+2. Fazer o teste de envio de notificação
+3. Validar que o sistema está funcionando corretamente
+
+═════════════════════════════════════════════════════════════════════════════

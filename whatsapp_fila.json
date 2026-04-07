@@ -16,6 +16,14 @@
     "status": "pendente"
   },
   {
+    "numero": "(31) 99999-8888",
+    "mensagem": "Teste múltiplo 1",
+    "prioridade": 10,
+    "criado_em": "2026-04-06T10:02:48.657020",
+    "tentativas": 0,
+    "status": "pendente"
+  },
+  {
     "numero": "5531984163357",
     "mensagem": "🧪 Teste automático Allcanci\n✓ Sistema anti-spam ativo",
     "prioridade": 0,
@@ -52,6 +60,14 @@
     "mensagem": "📦 *ATUALIZAÇÃO DE RASTREAMENTO*\n\nOlá *CAIXA ESCOLAR PADRE AFONSO DE LEMOS*,\n\nSeu pedido teve uma atualização importante:\n\n✅ *SAIU PARA ENTREGA AO DESTINATÁRIO*\n\n*Detalhes:*\n🔹 Pedido: 2363\n🔹 Rastreamento: AD287897978BR\n🔹 Atualizado em: 02/04/2026 11:08\n\n🔗 Acompanhe: https://www.correios.com.br\n\n_Allcanci Rastreamento_",
     "prioridade": 0,
     "criado_em": "2026-04-02T11:08:14.245966",
+    "tentativas": 0,
+    "status": "pendente"
+  },
+  {
+    "numero": "(31) 99999-7777",
+    "mensagem": "Teste múltiplo 2",
+    "prioridade": 0,
+    "criado_em": "2026-04-06T10:02:48.657984",
     "tentativas": 0,
     "status": "pendente"
   },

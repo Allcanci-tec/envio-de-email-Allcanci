@@ -1,3 +1,5 @@
-2026/04/02-09:20:15.900 1fa8 Reusing MANIFEST C:\SISTEMAS\envio-de-email-Allcanci\whatsapp_session\Default\Local Storage\leveldb/MANIFEST-000001
-2026/04/02-09:20:15.912 1fa8 Recovering log #7
-2026/04/02-09:20:15.913 1fa8 Reusing old log C:\SISTEMAS\envio-de-email-Allcanci\whatsapp_session\Default\Local Storage\leveldb/000007.log 
+2026/04/06-10:30:48.178 5240 Reusing MANIFEST C:\SISTEMAS\envio-de-email-Allcanci\envio-de-email-Allcanci\whatsapp_session\Default\Local Storage\leveldb/MANIFEST-000001
+2026/04/06-10:30:48.179 5240 Recovering log #7
+2026/04/06-10:30:48.179 5240 Level-0 table #10: started
+2026/04/06-10:30:48.187 5240 Level-0 table #10: 18700 bytes OK
+2026/04/06-10:30:48.189 5240 Delete type=0 #7

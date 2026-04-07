@@ -1,6 +1,7 @@
 import json
 import smtplib
 import os
+import time
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from dotenv import load_dotenv
@@ -11,9 +12,12 @@ load_dotenv()
 def enviar_email_rastreamento(numero, cliente, email, rastreamento_data):
     """
     Envia email formatado com dados de rastreamento do Bling
+    Suporta Hostinger com retry automático
     """
     EMAIL_REMETENTE = os.getenv("EMAIL_REMETENTE")
     EMAIL_SENHA = os.getenv("EMAIL_SENHA")
+    EMAIL_SMTP = os.getenv("EMAIL_SMTP", "smtp.hostinger.com")
+    EMAIL_PORTA = int(os.getenv("EMAIL_PORTA", "465"))
     
     if not EMAIL_REMETENTE or not EMAIL_SENHA:
         return False, "❌ Configure EMAIL_REMETENTE e EMAIL_SENHA no .env"
@@ -178,16 +182,34 @@ Acompanhe em tempo real em: {url}
         msg.attach(MIMEText(texto_plano, 'plain'))
         msg.attach(MIMEText(html, 'html'))
         
-        # Enviar
-        server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
-        server.login(EMAIL_REMETENTE, EMAIL_SENHA)
-        server.send_message(msg)
-        server.quit()
+        # Enviar com retry automático (Hostinger pode ter timeouts temporários)
+        max_tentativas = 3
+        for tentativa in range(1, max_tentativas + 1):
+            try:
+                server = smtplib.SMTP_SSL(EMAIL_SMTP, EMAIL_PORTA, timeout=10)
+                server.login(EMAIL_REMETENTE, EMAIL_SENHA)
+                server.send_message(msg)
+                server.quit()
+                
+                return True, f"✅ Email enviado com sucesso para {email}!"
+            
+            except Exception as e_retry:
+                if tentativa < max_tentativas:
+                    # Aguardar antes de tentar novamente
+                    tempo_espera = tentativa * 5  # 5s, 10s, 15s
+                    print(f"⏳ Tentativa {tentativa} falhou. Aguardando {tempo_espera}s antes de nova tentativa...")
+                    time.sleep(tempo_espera)
+                else:
+                    raise e_retry
         
-        return True, f"✅ Email enviado com sucesso para {email}!"
+        return False, f"❌ Erro ao enviar email após {max_tentativas} tentativas"
     
     except Exception as e:
-        return False, f"❌ Erro ao enviar email: {str(e)}"
+        erro_msg = str(e)
+        # Se for erro de conexão, sugerir alternativa
+        if "Connection" in erro_msg or "timed out" in erro_msg:
+            return False, f"❌ Erro de conexao SMTP: {erro_msg}\n   Verifique: 1) Hostinger status, 2) Firewall, 3) Credenciais"
+        return False, f"❌ Erro ao enviar email: {erro_msg}"
 
 def processar_e_enviar_emails():
     """

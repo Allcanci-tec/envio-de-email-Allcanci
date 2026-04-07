@@ -377,7 +377,8 @@
     "etiqueta": "AD274784924BR",
     "volume_id": 16009668571,
     "ultima_situacao": "Objeto aguardando retirada no endereço indicado",
-    "emails_enviados": []
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
   },
   {
     "numero": 2268,
@@ -386,8 +387,9 @@
     "telefone_celular": "N/A",
     "etiqueta": "AD281469809BR",
     "volume_id": 16009663584,
-    "ultima_situacao": "Objeto encaminhado",
-    "emails_enviados": []
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
   },
   {
     "numero": 2252,
@@ -407,7 +409,8 @@
     "etiqueta": "AD275966512BR",
     "volume_id": 16009549911,
     "ultima_situacao": "Objeto aguardando retirada no endereço indicado",
-    "emails_enviados": []
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
   },
   {
     "numero": 2245,
@@ -427,7 +430,8 @@
     "etiqueta": "AD275880175BR",
     "volume_id": 16009435730,
     "ultima_situacao": "Objeto aguardando retirada no endereço indicado",
-    "emails_enviados": []
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
   },
   {
     "numero": 2235,
@@ -457,7 +461,8 @@
     "etiqueta": "AD271293166BR",
     "volume_id": 16009130398,
     "ultima_situacao": "Objeto entregue ao destinatário",
-    "emails_enviados": []
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
   },
   {
     "numero": 2170,
@@ -467,7 +472,8 @@
     "etiqueta": "AD270038842BR",
     "volume_id": 16009119818,
     "ultima_situacao": "Objeto entregue ao destinatário",
-    "emails_enviados": []
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
   },
   {
     "numero": 2137,
@@ -477,7 +483,8 @@
     "etiqueta": "AD268440933BR",
     "volume_id": 16008569008,
     "ultima_situacao": "Objeto entregue ao destinatário",
-    "emails_enviados": []
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
   },
   {
     "numero": 2130,
@@ -546,8 +553,9 @@
     "telefone_celular": "N/A",
     "etiqueta": "AD268465688BR",
     "volume_id": 16008265745,
-    "ultima_situacao": "Objeto encaminhado",
-    "emails_enviados": []
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
   },
   {
     "numero": 2082,
@@ -576,8 +584,9 @@
     "telefone_celular": "N/A",
     "etiqueta": "AD265551802BR",
     "volume_id": 16007501557,
-    "ultima_situacao": "Objeto aguardando retirada no endereço indicado",
-    "emails_enviados": []
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
   },
   {
     "numero": 2064,
@@ -1782,7 +1791,8 @@
     "etiqueta": "AD149100599BR",
     "volume_id": 15976371575,
     "ultima_situacao": "Objeto entregue ao destinatário",
-    "emails_enviados": []
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
   },
   {
     "numero": 1679,
@@ -2513,5 +2523,327 @@
     "volume_id": 15956681886,
     "ultima_situacao": "Objeto entregue ao destinatário",
     "emails_enviados": []
+  },
+  {
+    "numero": 2410,
+    "cliente": "Caixa Escolar Antônio Augusto Ribeiro",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD297294291BR",
+    "volume_id": 16016548914,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2409,
+    "cliente": "Caixa Escolar da Escola Municipal Israel Pinheiro",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD297220753BR",
+    "volume_id": 16016536172,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2408,
+    "cliente": "CAIXA ESCOLAR CORONEL FONTE BOA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD297205699BR",
+    "volume_id": 16016533288,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2407,
+    "cliente": "Caixa Escolar do Centro Educacional de João Monlevade",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD297196475BR",
+    "volume_id": 16016531560,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2406,
+    "cliente": "CAIXA ESCOLAR DA ESCOLA ESTADUAL FERNANDO OTÁVIO",
+    "email": "escola.35131@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD297186195BR",
+    "volume_id": 16016523595,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2405,
+    "cliente": "CAIXA ESCOLAR NOSSA SENHORA APARECIDA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD297130275BR",
+    "volume_id": 16016518810,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2404,
+    "cliente": "CAIXA ESCOLAR RAUL SOARES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD296966226BR",
+    "volume_id": 16016486875,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2403,
+    "cliente": "CAIXA ESCOLAR FRANCISCO BERNARDINO",
+    "email": "escola.68373@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD296957175BR",
+    "volume_id": 16016485101,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2402,
+    "cliente": "Caixa Escolar Efigênio Mota",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD296583283BR",
+    "volume_id": 16016400517,
+    "ultima_situacao": "Saiu para entrega ao destinatário",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2401,
+    "cliente": "MUNICIPIO DE JOÃO MONLEVADE",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD296573887BR",
+    "volume_id": 16016398769,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2400,
+    "cliente": "CAIXA ESCOLAR CRISTIANO MACHADO",
+    "email": "escola.124460@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD296400351BR",
+    "volume_id": 16016368531,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": [
+      {
+        "situacao": "Objeto encaminhado",
+        "data": "07/04/2026 09:56"
+      }
+    ],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2399,
+    "cliente": "CAIXA ESCOLAR UNIÃO BENEFICENTE OPERÁRIA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD296383361BR",
+    "volume_id": 16016365504,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2398,
+    "cliente": "CAIXA ESCOLAR CASSIANO MENDES",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD296358631BR",
+    "volume_id": 16016360047,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2397,
+    "cliente": "CAIXA ESCOLAR IRMA GISLENE",
+    "email": "escola.199061@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD296329578BR",
+    "volume_id": 16016354669,
+    "ultima_situacao": "A entrega não pode ser efetuada - Empresa sem expediente",
+    "emails_enviados": [
+      {
+        "situacao": "A entrega não pode ser efetuada - Empresa sem expediente",
+        "data": "07/04/2026 09:56"
+      }
+    ],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2396,
+    "cliente": "CAIXA ESCOLAR INIMÁ ANDRADE",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD296272578BR",
+    "volume_id": 16016344467,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2395,
+    "cliente": "Caixa Escolar Francisco Gonçalves Teixeira",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD296256513BR",
+    "volume_id": 16016341063,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2394,
+    "cliente": "CAIXA ESCOLAR INTENDENTE CÂMARA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD296232485BR",
+    "volume_id": 16016337771,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2393,
+    "cliente": "Caixa Escolar Germin Loureiro",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD296215451BR",
+    "volume_id": 16016334803,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2392,
+    "cliente": "MUNICIPIO DE JOÃO MONLEVADE",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD295815984BR",
+    "volume_id": 16016254928,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2387,
+    "cliente": "CAIXA ESCOLAR GENY VIEIRA CAMPOS",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD295082881BR",
+    "volume_id": 16016121015,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2385,
+    "cliente": "CAIXA ESCOLAR CORONEL CRISTIANO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD296540433BR",
+    "volume_id": 16015490239,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2383,
+    "cliente": "Caixa Escolar Milton Vieira Campos",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD296485873BR",
+    "volume_id": 16015450944,
+    "ultima_situacao": "Objeto aguardando retirada no endereço indicado",
+    "emails_enviados": [],
+    "data_inclusao": "2026-04-07"
+  },
+  {
+    "numero": 2427,
+    "cliente": "CAIXA ESCOLAR BENEDITO WALDEMAR DA SILVA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD310426706BR",
+    "volume_id": 16020736526,
+    "ultima_situacao": "",
+    "emails_enviados": [],
+    "vendedor_id": 15596468789,
+    "vendedor_nome": "Valdemar Alves Garcel",
+    "vendedor_email": "valgarcel@allcanci.com.br",
+    "emails_vendedor_enviados": []
+  },
+  {
+    "numero": 2425,
+    "cliente": "CAIXA ESCOLAR MESTRA VIRGÍNIA REIS",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD310458845BR",
+    "volume_id": 16020727822,
+    "ultima_situacao": "",
+    "emails_enviados": [],
+    "vendedor_id": 15596468789,
+    "vendedor_nome": "Valdemar Alves Garcel",
+    "vendedor_email": "valgarcel@allcanci.com.br",
+    "emails_vendedor_enviados": []
+  },
+  {
+    "numero": 2421,
+    "cliente": "Caixa Escolar Professora Rosarinha Pimentinha",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD310485063BR",
+    "volume_id": 16020480733,
+    "ultima_situacao": "",
+    "emails_enviados": [],
+    "vendedor_id": 15596468789,
+    "vendedor_nome": "Valdemar Alves Garcel",
+    "vendedor_email": "valgarcel@allcanci.com.br",
+    "emails_vendedor_enviados": []
+  },
+  {
+    "numero": 2416,
+    "cliente": "CAIXA ESCOLAR NOSSA SENHORA DA PIEDADE",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD310503632BR",
+    "volume_id": 16020414417,
+    "ultima_situacao": "",
+    "emails_enviados": [],
+    "vendedor_id": 15596860077,
+    "vendedor_nome": "Omar Cletis de Moraes Junior",
+    "vendedor_email": "omar@allcanci.com.br",
+    "emails_vendedor_enviados": []
+  },
+  {
+    "numero": 2414,
+    "cliente": "Caixa Escolar Prof. Célio Júlio Passos",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD310551690BR",
+    "volume_id": 16020294702,
+    "ultima_situacao": "",
+    "emails_enviados": [],
+    "vendedor_id": 15596468789,
+    "vendedor_nome": "Valdemar Alves Garcel",
+    "vendedor_email": "valgarcel@allcanci.com.br",
+    "emails_vendedor_enviados": []
   }
 ]

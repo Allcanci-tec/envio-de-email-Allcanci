@@ -1,0 +1,154 @@
+{
+  "id": 25467623180,
+  "numero": 2409,
+  "numeroLoja": "",
+  "data": "2026-04-02",
+  "dataSaida": "2026-04-02",
+  "dataPrevista": "0000-00-00",
+  "totalProdutos": 0.03,
+  "total": 0.03,
+  "contato": {
+    "id": 17996162790,
+    "nome": "Caixa Escolar da Escola Municipal Israel Pinheiro",
+    "tipoPessoa": "J",
+    "numeroDocumento": "21.105.945/0001-48"
+  },
+  "situacao": {
+    "id": 9,
+    "valor": 1
+  },
+  "loja": {
+    "id": 0,
+    "unidadeNegocio": {
+      "id": 0
+    }
+  },
+  "numeroPedidoCompra": "",
+  "outrasDespesas": 0,
+  "observacoes": "EM GOV ISRAEL PINHEIRO",
+  "observacoesInternas": "",
+  "desconto": {
+    "valor": 0,
+    "unidade": "REAL"
+  },
+  "categoria": {
+    "id": 12966630409
+  },
+  "notaFiscal": {
+    "id": 25467628584
+  },
+  "tributacao": {
+    "totalICMS": 0,
+    "totalIPI": 0
+  },
+  "itens": [
+    {
+      "id": 19325418189,
+      "codigo": "PAV0300",
+      "unidade": "UN",
+      "quantidade": 1,
+      "desconto": 0,
+      "valor": 0.01,
+      "aliquotaIPI": 0,
+      "descricao": "TINTA PARA MARCADOR QUADRO BRANCO - 500ML - VERMELHO",
+      "descricaoDetalhada": "",
+      "produto": {
+        "id": 14884571316
+      },
+      "comissao": {
+        "base": 0.01,
+        "aliquota": 0,
+        "valor": 0
+      },
+      "naturezaOperacao": {
+        "id": 0
+      }
+    },
+    {
+      "id": 19325418190,
+      "codigo": "PAV0007",
+      "unidade": "UN",
+      "quantidade": 1,
+      "desconto": 0,
+      "valor": 0.01,
+      "aliquotaIPI": 0,
+      "descricao": "TINTA FILL 500ML - AZUL",
+      "descricaoDetalhada": "",
+      "produto": {
+        "id": 16427313046
+      },
+      "comissao": {
+        "base": 0.01,
+        "aliquota": 0,
+        "valor": 0
+      },
+      "naturezaOperacao": {
+        "id": 0
+      }
+    },
+    {
+      "id": 19325418191,
+      "codigo": "PAV0005",
+      "unidade": "UN",
+      "quantidade": 1,
+      "desconto": 0,
+      "valor": 0.01,
+      "aliquotaIPI": 0,
+      "descricao": "TINTA FILL 500ML - PRETA",
+      "descricaoDetalhada": "",
+      "produto": {
+        "id": 16427311777
+      },
+      "comissao": {
+        "base": 0.01,
+        "aliquota": 0,
+        "valor": 0
+      },
+      "naturezaOperacao": {
+        "id": 0
+      }
+    }
+  ],
+  "parcelas": [],
+  "transporte": {
+    "fretePorConta": 0,
+    "frete": 0,
+    "quantidadeVolumes": 1,
+    "pesoBruto": 0,
+    "prazoEntrega": 0,
+    "contato": {
+      "id": 0,
+      "nome": ""
+    },
+    "etiqueta": {
+      "nome": "",
+      "endereco": "",
+      "numero": "",
+      "complemento": "",
+      "municipio": "",
+      "uf": "",
+      "cep": "",
+      "bairro": "",
+      "nomePais": ""
+    },
+    "volumes": [
+      {
+        "id": 16016536172,
+        "servico": "SEDEX CONTRATO AG",
+        "codigoRastreamento": "AD297220753BR"
+      }
+    ]
+  },
+  "vendedor": {
+    "id": 0
+  },
+  "intermediador": {
+    "cnpj": "",
+    "nomeUsuario": ""
+  },
+  "taxas": {
+    "taxaComissao": 0,
+    "custoFrete": 0,
+    "valorBase": 0
+  }
+}
