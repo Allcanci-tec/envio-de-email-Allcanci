@@ -139,388 +139,321 @@ def processar_dados():
 
 @app.route('/')
 def index():
-    """Serve o HTML do dashboard"""
-    html = r'''
-<!DOCTYPE html>
+    """Serve o HTML do dashboard com novo design"""
+    html = r'''<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Allcanci - Rastreamento</title>
+    <title>Dashboard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" rel="preload" as="script">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     <style>
-        * { box-sizing: border-box; }
+        :root {
+            --bg:#0f1117; --surface:#1a1d27; --surface2:#21253a; --border:#2a2f45;
+            --text:#e2e8f0; --muted:#64748b; --indigo:#6366f1; --blue:#3b82f6;
+            --green:#22c55e; --slate:#94a3b8; --amber:#f59e0b; --red:#ef4444;
+        }
+        [data-theme="light"] {
+            --bg:#f0f2f5; --surface:#ffffff; --surface2:#f1f3f8; --border:#e2e5eb;
+            --text:#1e293b; --muted:#64748b; --indigo:#6366f1; --blue:#3b82f6;
+            --green:#16a34a; --slate:#94a3b8; --amber:#d97706; --red:#dc2626;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            background: #f0f2f5;
-            min-height: 100vh;
+            background: var(--bg);
+            color: var(--text);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
+            min-height: 100vh;
+            transition: background .3s, color .3s;
         }
-        .top-bar {
-            background: linear-gradient(135deg, #0000F3 0%, #0051DB 100%);
-            color: white;
-            padding: 16px 24px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.15);
-            position: sticky;
-            top: 0;
-            z-index: 100;
+        .topbar { 
+            position: sticky; top: 0; z-index: 99;
+            background: rgba(15,17,23,.92); backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            padding: 14px 28px;
+            display: flex; align-items: center; justify-content: space-between;
+            gap: 12px;
+            transition: background .3s, border-color .3s;
         }
-        .top-bar .brand {
-            font-size: 1.25rem;
-            font-weight: 700;
-            display: flex;
-            align-items: center;
-            gap: 10px;
+        [data-theme="light"] .topbar { background: rgba(255,255,255,.92); }
+        .theme-toggle {
+            background: var(--surface2); border: 1px solid var(--border);
+            color: var(--text); width: 38px; height: 38px; border-radius: 10px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.15rem; cursor: pointer; transition: all .2s;
+            flex-shrink: 0;
         }
-        .top-bar .meta {
-            font-size: 0.85rem;
-            opacity: 0.9;
-            display: flex;
-            align-items: center;
-            gap: 15px;
+        .theme-toggle:hover { border-color: var(--blue); background: var(--surface); transform: scale(1.08); }
+        .topbar-brand { display: flex; align-items: center; gap: 10px; }
+        .topbar-logo {
+            width: 34px; height: 34px; border-radius: 8px;
+            background: linear-gradient(135deg, var(--indigo), var(--blue));
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.1rem;
         }
-        .live-dot {
-            width: 8px; height: 8px;
-            border-radius: 50%;
-            background: #4CAF50;
-            display: inline-block;
-            animation: blink 1.5s infinite;
+        .topbar-brand h1 { font-size: 1.05rem; font-weight: 700; letter-spacing: -.3px; }
+        .topbar-brand span { color: var(--muted); font-size: .82rem; margin-left: 4px; }
+        .topbar-meta { display: flex; align-items: center; gap: 12px; font-size: .8rem; color: var(--muted); }
+        .live-dot { width: 7px; height: 7px; border-radius: 50%; background: #4ade80; animation: pulse 1.8s infinite; }
+        @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.4;transform:scale(.8)} }
+        .wrap { max-width: 1280px; margin: 0 auto; padding: 24px 20px; }
+        .section-title { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1.2px; color: var(--muted); margin-bottom: 14px; }
+        
+        .kpi-grid {
+            display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; margin-bottom: 20px;
         }
-        @keyframes blink {
-            0%,100%{opacity:1;} 50%{opacity:0.3;}
+        @media(max-width:1100px){ .kpi-grid{grid-template-columns:repeat(3,1fr);} }
+        @media(max-width:600px){ .kpi-grid{grid-template-columns:repeat(2,1fr);} }
+        .kpi-card {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+            padding: 16px; display: flex; flex-direction: column; gap: 6px;
+            position: relative; overflow: hidden; transition: transform .2s, box-shadow .2s;
+            cursor: pointer;
         }
-        .main-wrap { padding: 20px 24px; max-width: 1400px; margin: 0 auto; }
-
-        /* ---- STATS CARDS ---- */
-        .stats-row { display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; margin-bottom: 20px; }
-        @media(max-width:1100px){ .stats-row{grid-template-columns:repeat(3,1fr);} }
-        @media(max-width:600px){ .stats-row{grid-template-columns:repeat(2,1fr);} }
-        .stat-card {
-            background: white;
-            border-radius: 10px;
-            padding: 18px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-            border-left: 4px solid;
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
+        .kpi-card:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,0,0,.4); }
+        .kpi-card::before {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+            background: var(--accent);
         }
-        .stat-card .num { font-size: 1.8rem; font-weight: 700; line-height: 1; }
-        .stat-card .lbl { font-size: 0.78rem; color: #666; text-transform: uppercase; letter-spacing: 0.5px; }
-        .stat-card.clickable { cursor: pointer; transition: transform 0.15s, box-shadow 0.15s; }
-        .stat-card.clickable:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,0.12); }
-
-        /* ---- FILTERS ---- */
+        .kpi-icon { font-size: 1.2rem; margin-bottom: 4px; }
+        .kpi-num { font-size: 1.8rem; font-weight: 800; color: var(--accent); font-variant-numeric: tabular-nums; }
+        .kpi-label { font-size: .72rem; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; }
+        .kpi-pct { position: absolute; bottom: 14px; right: 14px; font-size: .72rem; font-weight: 700; color: var(--accent); }
+        
+        .card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 20px; }
+        
         .filters-bar {
-            background: white;
-            border-radius: 10px;
-            padding: 14px 18px;
-            margin-bottom: 16px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 8px;
+            background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+            padding: 14px 16px; margin-bottom: 16px; display: flex; flex-wrap: wrap;
+            align-items: center; gap: 8px;
         }
         .filters-bar .label { font-weight: 600; font-size: 0.9rem; margin-right: 6px; }
-        .fbtn {
-            border: 1px solid #ddd;
-            background: white;
-            padding: 5px 14px;
-            border-radius: 20px;
-            font-size: 0.82rem;
-            cursor: pointer;
-            transition: all 0.15s;
-            white-space: nowrap;
-        }
-        .fbtn:hover { border-color: #0051DB; color: #0051DB; }
-        .fbtn.active { background: #0051DB; color: white; border-color: #0051DB; }
-        .fbtn .cnt { font-weight: 700; margin-left: 4px; }
-        .search-box {
-            margin-left: auto;
-            padding: 6px 12px;
-            border: 1px solid #ddd;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            width: 240px;
-            outline: none;
-        }
-        .search-box:focus { border-color: #0051DB; box-shadow: 0 0 0 2px rgba(0,81,219,0.15); }
-
-        /* ---- TABLE ---- */
-        .table-wrap {
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-            overflow: hidden;
-        }
-        table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
-        thead {
-            background: linear-gradient(135deg, #0000F3 0%, #0051DB 100%);
-            color: white;
-            position: sticky;
-            top: 56px;
-            z-index: 10;
-        }
-        thead th {
-            padding: 12px 14px;
-            font-weight: 600;
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 0.3px;
-            white-space: nowrap;
-        }
-        tbody td { padding: 10px 14px; border-bottom: 1px solid #eee; vertical-align: middle; }
-        tbody tr { transition: background 0.15s; cursor: pointer; }
-        tbody tr:hover { background: #f5f7ff; }
-
-        /* ---- BADGES ---- */
-        .sit-badge {
-            display: inline-block;
-            padding: 4px 10px;
-            border-radius: 12px;
-            font-size: 0.78rem;
-            font-weight: 600;
-            white-space: nowrap;
-        }
-        .sit-entregue { background: #c8e6c9; color: #1b5e20; }
-        .sit-em_andamento { background: #bbdefb; color: #0d47a1; }
-        .sit-nao_postado { background: #e0e0e0; color: #616161; }
-        .sit-problema { background: #ffcdd2; color: #b71c1c; }
-
-        .etiqueta-code {
-            font-family: 'Consolas', 'Courier New', monospace;
-            font-size: 0.82rem;
-            background: #f5f5f5;
-            padding: 3px 8px;
-            border-radius: 4px;
-            color: #333;
-            letter-spacing: 0.3px;
-        }
-
-        .email-chip {
-            display: inline-block;
-            background: #e3f2fd;
-            color: #0d47a1;
-            padding: 2px 8px;
-            border-radius: 10px;
-            font-size: 0.78rem;
-            margin: 1px 0;
-        }
-        .email-chip.vendedor { background: #f3e5f5; color: #6a1b9a; }
-        .email-chip.sem { background: #fafafa; color: #999; }
-
-        .email-cnt {
-            display: inline-block;
-            background: #0051DB;
-            color: white;
-            padding: 1px 7px;
-            border-radius: 10px;
-            font-size: 0.72rem;
-            font-weight: 700;
-            margin-left: 3px;
-        }
-
-        .table-footer {
-            padding: 12px 18px;
-            background: #fafafa;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 0.82rem;
-            color: #666;
-        }
-
-        /* ---- MODAL ---- */
-        .modal-overlay {
-            display: none;
-            position: fixed;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: rgba(0,0,0,0.5);
-            z-index: 1000;
-            justify-content: center;
-            align-items: center;
-        }
+        .fbtn { border: 1px solid var(--border); background: transparent; color: var(--text); padding: 6px 14px; border-radius: 20px; font-size: .82rem; cursor: pointer; transition: all .15s; }
+        .fbtn:hover { border-color: var(--blue); color: var(--blue); }
+        .fbtn.active { background: var(--blue); color: white; border-color: var(--blue); }
+        .search-box { margin-left: auto; padding: 6px 12px; border: 1px solid var(--border); background: transparent; color: var(--text); border-radius: 20px; font-size: .85rem; outline: none; }
+        .search-box:focus { border-color: var(--blue); box-shadow: 0 0 0 2px rgba(59,130,246,.15); }
+        .search-box::placeholder { color: var(--muted); }
+        
+        .table-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+        table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+        thead { background: linear-gradient(135deg, var(--indigo) 0%, var(--blue) 100%); color: white; position: sticky; top: 56px; z-index: 10; }
+        [data-theme="light"] .kpi-card:hover { box-shadow: 0 8px 20px rgba(0,0,0,.1); }
+        [data-theme="light"] .sit-entregue { background: rgba(22,163,74,.12); color: #15803d; }
+        [data-theme="light"] .sit-em_andamento { background: rgba(59,130,246,.12); color: #2563eb; }
+        [data-theme="light"] .sit-nao_postado { background: rgba(100,116,139,.12); color: #475569; }
+        [data-theme="light"] .sit-problema { background: rgba(220,38,38,.12); color: #dc2626; }
+        [data-theme="light"] .etiqueta-code { background: #e8ecf2; }
+        [data-theme="light"] .email-chip { background: rgba(59,130,246,.1); color: #2563eb; }
+        [data-theme="light"] .email-chip.vendedor { background: rgba(139,92,246,.1); color: #7c3aed; }
+        [data-theme="light"] .modal-overlay { background: rgba(0,0,0,.4); }
+        [data-theme="light"] tbody tr:hover { background: #f1f5f9; }
+        thead th { padding: 12px 14px; font-weight: 600; font-size: .8rem; text-transform: uppercase; }
+        tbody td { padding: 10px 14px; border-bottom: 1px solid var(--border); }
+        tbody tr { cursor: pointer; transition: background .15s; }
+        tbody tr:hover { background: var(--surface2); }
+        .sit-badge { display: inline-block; padding: 4px 10px; border-radius: 12px; font-size: .78rem; font-weight: 600; }
+        .sit-entregue { background: rgba(34,197,94,.2); color: #4ade80; }
+        .sit-em_andamento { background: rgba(59,130,246,.2); color: #60a5fa; }
+        .sit-nao_postado { background: rgba(148,163,184,.2); color: #cbd5e1; }
+        .sit-problema { background: rgba(239,68,68,.2); color: #fca5a5; }
+        .etiqueta-code { font-family: monospace; font-size: .8rem; background: var(--surface2); padding: 3px 8px; border-radius: 4px; }
+        .email-chip { display: inline-block; background: rgba(59,130,246,.15); color: #60a5fa; padding: 3px 8px; border-radius: 10px; font-size: .78rem; }
+        .email-chip.vendedor { background: rgba(139,92,246,.15); color: #c4b5fd; }
+        .email-cnt { display: inline-block; background: var(--blue); color: white; padding: 1px 7px; border-radius: 10px; font-size: .72rem; font-weight: 700; }
+        .table-footer { padding: 12px 16px; background: var(--surface2); border-top: 1px solid var(--border); font-size: .82rem; color: var(--muted); }
+        
+        .modal-overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.7); z-index: 1000; justify-content: center; align-items: center; }
         .modal-overlay.open { display: flex; }
-        .modal-box {
-            background: white;
-            border-radius: 12px;
-            width: 560px;
-            max-width: 95vw;
-            max-height: 85vh;
-            overflow-y: auto;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-        }
-        .modal-header {
-            background: linear-gradient(135deg, #0000F3 0%, #0051DB 100%);
-            color: white;
-            padding: 18px 24px;
-            border-radius: 12px 12px 0 0;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+        .modal-box { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; width: 560px; max-width: 95vw; max-height: 85vh; overflow-y: auto; }
+        .modal-header { background: linear-gradient(135deg, var(--indigo) 0%, var(--blue) 100%); color: white; padding: 18px 24px; border-radius: 12px 12px 0 0; display: flex; justify-content: space-between; align-items: center; }
         .modal-header h3 { margin: 0; font-size: 1.1rem; }
-        .modal-close { background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; line-height: 1; }
+        .modal-close { background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; }
         .modal-body { padding: 20px 24px; }
         .detail-row { display: flex; margin-bottom: 10px; }
-        .detail-label { width: 120px; font-weight: 600; color: #555; font-size: 0.85rem; flex-shrink: 0; }
-        .detail-value { flex: 1; font-size: 0.88rem; }
+        .detail-label { width: 120px; font-weight: 600; color: var(--muted); font-size: .85rem; flex-shrink: 0; }
+        .detail-value { flex: 1; font-size: .88rem; }
         .history-list { list-style: none; padding: 0; margin: 8px 0 0 0; }
-        .history-list li {
-            padding: 8px 12px;
-            background: #f8f9fa;
-            border-radius: 6px;
-            margin-bottom: 6px;
-            font-size: 0.82rem;
-            display: flex;
-            justify-content: space-between;
-        }
+        .history-list li { padding: 8px 12px; background: var(--surface2); border-radius: 6px; margin-bottom: 6px; font-size: .82rem; display: flex; justify-content: space-between; }
         .history-list li .sit { font-weight: 600; }
-        .history-list li .dt { color: #888; }
-
-        /* ---- PAINEL DE NOTIFICACOES ---- */
-        .notif-panel {
-            display: none;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-            margin-bottom: 20px;
-            overflow: hidden;
-        }
+        .history-list li .dt { color: var(--muted); }
+        
+        .notif-panel { display: none; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; margin-bottom: 20px; overflow: hidden; margin-top: 20px; }
         .notif-panel.open { display: block; }
-        .notif-panel-header {
-            background: linear-gradient(135deg, #ff9800, #f57c00);
-            color: white;
-            padding: 16px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+        .notif-panel-header { background: linear-gradient(135deg, var(--amber), #d97706); color: white; padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; }
         .notif-panel-header h3 { margin: 0; font-size: 1rem; }
         .notif-panel-close { background: none; border: none; color: white; font-size: 1.3rem; cursor: pointer; }
-        .notif-panel-body { padding: 0; max-height: 70vh; overflow-y: auto; }
-        .school-card {
-            border-bottom: 1px solid #eee;
-            padding: 16px 20px;
-        }
+        .notif-tabs { display: flex; gap: 6px; padding: 12px 20px; background: var(--surface2); border-bottom: 1px solid var(--border); }
+        .ntab { padding: 5px 14px; border-radius: 16px; border: 1px solid var(--border); background: transparent; color: var(--text); font-size: .8rem; cursor: pointer; }
+        .ntab:hover { border-color: var(--amber); }
+        .ntab.active { background: var(--amber); color: #000; border-color: var(--amber); }
+        .notif-panel-body { padding: 0; max-height: 60vh; overflow-y: auto; }
+        .school-card { border-bottom: 1px solid var(--border); padding: 14px 16px; }
         .school-card:last-child { border-bottom: none; }
-        .school-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 10px;
-        }
-        .school-name { font-weight: 700; font-size: 0.95rem; color: #333; }
-        .school-pedido { font-size: 0.78rem; color: #888; }
-        .school-info-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 6px 20px;
-            margin-bottom: 10px;
-            font-size: 0.82rem;
-        }
-        .school-info-grid .inf-label { color: #888; font-size: 0.75rem; text-transform: uppercase; }
-        .school-info-grid .inf-value { color: #333; word-break: break-all; }
+        .school-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
+        .school-name { font-weight: 700; font-size: .95rem; }
+        .school-pedido { font-size: .78rem; color: var(--muted); }
+        .school-info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; margin-bottom: 10px; font-size: .82rem; }
+        .inf-label { color: var(--muted); font-size: .75rem; text-transform: uppercase; }
         .notif-section { margin-top: 8px; }
-        .notif-section-title {
-            font-size: 0.75rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 6px;
-            padding: 4px 8px;
-            border-radius: 4px;
-            display: inline-block;
-        }
-        .notif-section-title.escola { background: #e3f2fd; color: #0d47a1; }
-        .notif-section-title.vendedor { background: #f3e5f5; color: #6a1b9a; }
-        .notif-section-title.whatsapp { background: #e8f5e9; color: #1b5e20; }
-        .notif-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 5px 10px;
-            background: #fafafa;
-            border-radius: 4px;
-            margin-bottom: 4px;
-            font-size: 0.8rem;
-        }
-        .notif-item .n-sit { font-weight: 600; color: #333; }
-        .notif-item .n-dt { color: #999; font-size: 0.75rem; }
-        .notif-tabs { display: flex; gap: 6px; padding: 12px 20px; background: #fafafa; border-bottom: 1px solid #eee; }
-        .ntab {
-            padding: 5px 14px;
-            border-radius: 16px;
-            border: 1px solid #ddd;
-            background: white;
-            font-size: 0.8rem;
-            cursor: pointer;
-        }
-        .ntab.active { background: #ff9800; color: white; border-color: #ff9800; }
-        .ntab:hover { border-color: #ff9800; }
+        .notif-section-title { font-size: .75rem; font-weight: 700; text-transform: uppercase; margin-bottom: 6px; padding: 4px 8px; border-radius: 4px; display: inline-block; }
+        .notif-section-title.escola { background: rgba(59,130,246,.2); color: #60a5fa; }
+        .notif-section-title.vendedor { background: rgba(139,92,246,.2); color: #c4b5fd; }
+        .notif-item { display: flex; justify-content: space-between; padding: 5px 10px; background: var(--surface2); border-radius: 4px; margin-bottom: 4px; font-size: .8rem; }
+        .notif-item .n-sit { font-weight: 600; }
+        .notif-item .n-dt { color: var(--muted); font-size: .75rem; }
+        
+        .footer { border-top: 1px solid var(--border); padding: 16px 28px; display: flex; justify-content: space-between; align-items: center; font-size: .75rem; color: var(--muted); }
+
+        /* Page Navigation Tabs */
+        .page-nav { display: flex; gap: 4px; }
+        .ptab { padding: 7px 20px; border-radius: 8px; border: 1px solid transparent; background: transparent; color: var(--muted); font-size: .85rem; font-weight: 600; cursor: pointer; transition: all .15s; }
+        .ptab:hover { color: var(--text); background: var(--surface2); }
+        .ptab.active { background: var(--surface2); color: var(--text); border-color: var(--border); }
+        .page { display: none; }
+        .page.active { display: block; }
+        /* Charts Page */
+        .g-charts-grid { display: grid; grid-template-columns: 340px 1fr; gap: 16px; margin-bottom: 20px; }
+        @media(max-width:900px){ .g-charts-grid { grid-template-columns: 1fr; } }
+        .g-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px 22px; }
+        .g-card-title { font-size: .82rem; font-weight: 700; color: var(--text); margin-bottom: 16px; display: flex; align-items: center; gap: 7px; }
+        .g-card-title .icon { font-size: 1rem; }
+        .donut-wrap { position: relative; display: flex; justify-content: center; align-items: center; width: 200px; height: 200px; margin: 0 auto 16px; }
+        .donut-center { position: absolute; text-align: center; pointer-events: none; }
+        .donut-center .big { font-size: 2.2rem; font-weight: 800; color: var(--text); }
+        .donut-center .small { font-size: .7rem; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; }
+        .g-legend { display: flex; flex-direction: column; gap: 10px; }
+        .g-legend-item { display: flex; align-items: center; justify-content: space-between; }
+        .g-legend-left { display: flex; align-items: center; gap: 8px; font-size: .83rem; }
+        .g-legend-dot { width: 10px; height: 10px; border-radius: 3px; flex-shrink: 0; }
+        .g-legend-pct { font-size: .78rem; font-weight: 700; color: var(--text); }
+        .g-progress-list { display: flex; flex-direction: column; gap: 14px; }
+        .g-progress-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; font-size: .82rem; }
+        .g-progress-name { font-weight: 600; }
+        .g-progress-val { font-size: .78rem; color: var(--muted); }
+        .g-progress-bar { width: 100%; height: 8px; background: var(--surface2); border-radius: 4px; overflow: hidden; }
+        .g-progress-fill { height: 100%; border-radius: 4px; background: var(--fill-color); transform-origin: left; animation: growBar .9s cubic-bezier(.4,0,.2,1) forwards; }
+        @keyframes growBar { from{transform:scaleX(0)} to{transform:scaleX(1)} }
+        .gauge-wrap { display: flex; align-items: center; justify-content: center; gap: 24px; flex-wrap: wrap; }
+        .gauge-ring-wrap { position: relative; width: 140px; height: 140px; }
+        .gauge-ring-wrap svg { transform: rotate(-90deg); }
+        .gauge-text { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+        .gauge-text .big { font-size: 1.6rem; font-weight: 800; }
+        .gauge-text .small { font-size: .65rem; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; }
+        .gauge-stats { display: flex; flex-direction: column; gap: 10px; }
+        .gauge-stat { display: flex; align-items: center; gap: 10px; }
+        .gauge-stat .dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+        .gauge-stat .lbl { font-size: .8rem; color: var(--muted); }
+        .gauge-stat .val { font-size: .88rem; font-weight: 700; margin-left: auto; padding-left: 20px; }
+        .g-feed { display: flex; flex-direction: column; gap: 0; }
+        .g-feed-row { display: flex; align-items: center; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--border); font-size: .82rem; }
+        .g-feed-row:last-child { border-bottom: none; }
+        .g-feed-icon { font-size: 1rem; flex-shrink: 0; }
+        .g-feed-text { flex: 1; color: var(--text); line-height: 1.4; }
+        .g-feed-text b { color: var(--text); }
+        .g-feed-time { color: var(--muted); font-size: .75rem; white-space: nowrap; }
+        .g-bottom-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
+        @media(max-width:800px){ .g-bottom-grid { grid-template-columns: 1fr; } }
     </style>
+    <script>if(localStorage.getItem('allcanci-theme')==='light')document.documentElement.setAttribute('data-theme','light');</script>
 </head>
 <body>
-    <div class="top-bar">
-        <div class="brand">
-            <i class="bi bi-truck"></i> Dashboard Allcanci - Rastreamento
+    <div class="topbar">
+        <div class="topbar-brand">
+            <div class="topbar-logo">📦</div>
+            <h1>Allcanci <span>Dashboard</span></h1>
         </div>
-        <div class="meta">
-            <span><span class="live-dot"></span> Auto-refresh 5min</span>
-            <span id="ultimo-refresh">Carregando...</span>
+        <nav class="page-nav">
+            <button class="ptab active" onclick="irPara('pedidos', this)">📋 Pedidos</button>
+            <button class="ptab" onclick="irPara('graficos', this)">📊 Gráficos</button>
+        </nav>
+        <button class="theme-toggle" onclick="toggleTheme()" title="Alternar tema claro/escuro" id="theme-btn">🌙</button>
+        <div class="topbar-meta">
+            <span><i class="bi bi-circle-fill" style="font-size:.5rem;margin-right:4px"></i> Ao Vivo</span>
+            <span id="ultimo-refresh">—</span>
         </div>
     </div>
 
-    <div class="main-wrap">
-        <!-- Stats -->
-        <div class="stats-row">
-            <div class="stat-card" style="border-color:#0051DB">
-                <div class="num" id="stat-total">-</div>
-                <div class="lbl">Total Pedidos</div>
+    <div class="wrap">
+        <div id="page-pedidos" class="page active">
+        <div class="section-title">Visão Geral — Pedidos</div>
+        <div class="kpi-grid">
+            <div class="kpi-card" style="--accent:var(--indigo)">
+                <div class="kpi-icon">📋</div>
+                <div class="kpi-num" id="stat-total">—</div>
+                <div class="kpi-label">Total Pedidos</div>
             </div>
-            <div class="stat-card" style="border-color:#2196F3">
-                <div class="num" id="stat-andamento">-</div>
-                <div class="lbl">Em Andamento</div>
+            <div class="kpi-card" style="--accent:var(--blue)">
+                <div class="kpi-icon">🚚</div>
+                <div class="kpi-num" id="stat-andamento">—</div>
+                <div class="kpi-label">Em Andamento</div>
+                <div class="kpi-pct" id="pct-andamento">—%</div>
             </div>
-            <div class="stat-card" style="border-color:#4CAF50">
-                <div class="num" id="stat-entregues">-</div>
-                <div class="lbl">Entregues</div>
+            <div class="kpi-card" style="--accent:var(--green)">
+                <div class="kpi-icon">✅</div>
+                <div class="kpi-num" id="stat-entregues">—</div>
+                <div class="kpi-label">Entregues</div>
+                <div class="kpi-pct" id="pct-entregues">—%</div>
             </div>
-            <div class="stat-card" style="border-color:#6c757d">
-                <div class="num" id="stat-nao-postado">-</div>
-                <div class="lbl">N&atilde;o Postado</div>
+            <div class="kpi-card" style="--accent:var(--slate)">
+                <div class="kpi-icon">📬</div>
+                <div class="kpi-num" id="stat-nao-postado">—</div>
+                <div class="kpi-label">Não Postado</div>
+                <div class="kpi-pct" id="pct-npostado">—%</div>
             </div>
-            <div class="stat-card clickable" style="border-color:#ff9800" onclick="abrirPainelNotificacoes()">
-                <div class="num" id="stat-emails">-</div>
-                <div class="lbl">Emails Enviados <i class="bi bi-box-arrow-up-right" style="font-size:0.65rem"></i></div>
+            <div class="kpi-card" style="--accent:var(--amber);cursor:pointer" onclick="abrirPainelNotificacoes()">
+                <div class="kpi-icon">📧</div>
+                <div class="kpi-num" id="stat-emails">—</div>
+                <div class="kpi-label">Emails Enviados</div>
             </div>
-            <div class="stat-card" style="border-color:#f44336">
-                <div class="num" id="stat-problema">-</div>
-                <div class="lbl">Problema</div>
+            <div class="kpi-card" style="--accent:var(--red)">
+                <div class="kpi-icon">⚠️</div>
+                <div class="kpi-num" id="stat-problema">—</div>
+                <div class="kpi-label">Problema</div>
+                <div class="kpi-pct" id="pct-problema">—%</div>
             </div>
         </div>
 
-        <!-- Filters -->
         <div class="filters-bar">
             <span class="label"><i class="bi bi-funnel"></i> Filtros:</span>
-            <button class="fbtn active" onclick="filtrar('all', this)">Todos <span class="cnt" id="cnt-all"></span></button>
-            <button class="fbtn" onclick="filtrar('em_andamento', this)">Em Andamento <span class="cnt" id="cnt-andamento"></span></button>
-            <button class="fbtn" onclick="filtrar('entregue', this)">Entregues <span class="cnt" id="cnt-entregue"></span></button>
-            <button class="fbtn" onclick="filtrar('nao_postado', this)">N&atilde;o Postado <span class="cnt" id="cnt-nao-postado"></span></button>
-            <button class="fbtn" onclick="filtrar('problema', this)">Problema <span class="cnt" id="cnt-problema"></span></button>
-            <button class="fbtn" onclick="filtrar('sem_email', this)">Sem Email <span class="cnt" id="cnt-sem-email"></span></button>
-            <input class="search-box" type="text" placeholder="Buscar pedido, cliente, etiqueta..." oninput="buscar(this.value)" id="search-input">
+            <button class="fbtn active" onclick="filtrar('all', this)">Todos <span id="cnt-all">0</span></button>
+            <button class="fbtn" onclick="filtrar('em_andamento', this)">Em Andamento <span id="cnt-andamento">0</span></button>
+            <button class="fbtn" onclick="filtrar('entregue', this)">Entregues <span id="cnt-entregue">0</span></button>
+            <button class="fbtn" onclick="filtrar('nao_postado', this)">Não Postado <span id="cnt-nao-postado">0</span></button>
+            <button class="fbtn" onclick="filtrar('problema', this)">Problema <span id="cnt-problema">0</span></button>
+            <button class="fbtn" onclick="filtrar('sem_email', this)">Sem Email <span id="cnt-sem-email">0</span></button>
+            <input class="search-box" type="text" placeholder="Buscar pedido, cliente, etiqueta..." oninput="buscar(this.value)">
         </div>
 
-        <!-- Painel de Notificações -->
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Pedido</th>
+                        <th>Cliente</th>
+                        <th>Etiqueta</th>
+                        <th>Situação</th>
+                        <th>Email Escola</th>
+                        <th>Vendedor</th>
+                        <th>Notif.</th>
+                    </tr>
+                </thead>
+                <tbody id="pedidos-tbody">
+                    <tr><td colspan="7" style="text-align:center;color:var(--muted);padding:40px;">Carregando...</td></tr>
+                </tbody>
+            </table>
+            <div class="table-footer">
+                <span id="table-info">—</span>
+                <span id="table-total">—</span>
+            </div>
+        </div>
+
         <div class="notif-panel" id="notif-panel">
             <div class="notif-panel-header">
-                <h3><i class="bi bi-envelope-check"></i> Hist&oacute;rico de Notifica&ccedil;&otilde;es por Escola</h3>
+                <h3><i class="bi bi-envelope-check"></i> Histórico de Notificações</h3>
                 <button class="notif-panel-close" onclick="fecharPainel()">&times;</button>
             </div>
             <div class="notif-tabs">
@@ -531,33 +464,68 @@ def index():
             </div>
             <div class="notif-panel-body" id="notif-panel-body"></div>
         </div>
+        </div><!-- /page-pedidos -->
 
-        <!-- Table -->
-        <div class="table-wrap">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Pedido</th>
-                        <th>Cliente</th>
-                        <th>Etiqueta</th>
-                        <th>Situa&ccedil;&atilde;o</th>
-                        <th>Email Escola</th>
-                        <th>Vendedor</th>
-                        <th>Notific.</th>
-                    </tr>
-                </thead>
-                <tbody id="pedidos-tbody">
-                    <tr><td colspan="7" style="text-align:center;color:#999;padding:40px;">Carregando...</td></tr>
-                </tbody>
-            </table>
-            <div class="table-footer">
-                <span id="table-info">-</span>
-                <span id="table-total">-</span>
+        <div id="page-graficos" class="page">
+            <div class="section-title">Dashboard Avançado — Análise Visual</div>
+
+            <!-- Donut + Progress Bars -->
+            <div class="g-charts-grid">
+                <div class="g-card">
+                    <div class="g-card-title"><span class="icon">🍩</span>Distribuição de Status</div>
+                    <div class="donut-wrap">
+                        <canvas id="donutChart" width="200" height="200"></canvas>
+                        <div class="donut-center">
+                            <div class="big" id="donut-center-num">—</div>
+                            <div class="small">pedidos</div>
+                        </div>
+                    </div>
+                    <div class="g-legend" id="donut-legend"></div>
+                </div>
+                <div class="g-card">
+                    <div class="g-card-title"><span class="icon">📊</span>Proporção por Categoria</div>
+                    <div class="g-progress-list" id="g-progress-list"></div>
+                </div>
             </div>
-        </div>
-    </div>
 
-    <!-- Modal de Detalhes -->
+            <!-- Gauge: Taxa de Entrega -->
+            <div class="g-card" style="margin-bottom:20px">
+                <div class="g-card-title"><span class="icon">🎯</span>Taxa de Entrega</div>
+                <div class="gauge-wrap">
+                    <div class="gauge-ring-wrap">
+                        <svg width="140" height="140" viewBox="0 0 140 140">
+                            <circle cx="70" cy="70" r="56" fill="none" stroke="var(--surface2)" stroke-width="12"/>
+                            <circle id="gauge-circle" cx="70" cy="70" r="56" fill="none" stroke="var(--green)" stroke-width="12" stroke-linecap="round" stroke-dasharray="351.86" stroke-dashoffset="351.86" style="transition:stroke-dashoffset 1.2s cubic-bezier(.4,0,.2,1)"/>
+                        </svg>
+                        <div class="gauge-text">
+                            <div class="big" id="gauge-pct" style="color:var(--green)">—%</div>
+                            <div class="small">entrega</div>
+                        </div>
+                    </div>
+                    <div class="gauge-stats" id="gauge-stats"></div>
+                </div>
+            </div>
+
+            <!-- Bar Chart -->
+            <div class="g-bottom-grid">
+                <div class="g-card">
+                    <div class="g-card-title"><span class="icon">📊</span>Volume por Status</div>
+                    <div style="position:relative;height:260px"><canvas id="barChart"></canvas></div>
+                </div>
+                <div class="g-card">
+                    <div class="g-card-title"><span class="icon">📧</span>Emails por Canal</div>
+                    <div style="position:relative;height:260px"><canvas id="emailBarChart"></canvas></div>
+                </div>
+            </div>
+
+            <!-- Activity Feed -->
+            <div class="g-card" style="margin-bottom:20px">
+                <div class="g-card-title"><span class="icon">⚡</span>Resumo Operacional</div>
+                <div class="g-feed" id="g-feed"></div>
+            </div>
+        </div><!-- /page-graficos -->
+    </div><!-- /wrap -->
+
     <div class="modal-overlay" id="modal" onclick="if(event.target===this)fecharModal()">
         <div class="modal-box">
             <div class="modal-header">
@@ -568,10 +536,39 @@ def index():
         </div>
     </div>
 
+    <div class="footer">
+        <span>Allcanci © 2026 — Dashboard de Rastreamento</span>
+        <span id="footer-ts">—</span>
+    </div>
+
     <script>
+        // Theme toggle
+        function toggleTheme() {
+            const html = document.documentElement;
+            const isLight = html.getAttribute('data-theme') === 'light';
+            if (isLight) {
+                html.removeAttribute('data-theme');
+                localStorage.setItem('allcanci-theme','dark');
+                document.getElementById('theme-btn').textContent = '\ud83c\udf19';
+            } else {
+                html.setAttribute('data-theme','light');
+                localStorage.setItem('allcanci-theme','light');
+                document.getElementById('theme-btn').textContent = '\u2600\ufe0f';
+            }
+            // Rebuild charts with correct border color
+            Object.values(chartInstances).forEach(c => { if(c && c.data) { c.data.datasets.forEach(ds => { if(ds.borderColor === '#1a1d27' || ds.borderColor === '#ffffff') ds.borderColor = getComputedStyle(document.documentElement).getPropertyValue('--surface').trim(); }); c.update(); }});
+        }
+        // Set icon on load
+        document.addEventListener('DOMContentLoaded', () => {
+            if (document.documentElement.getAttribute('data-theme') === 'light') document.getElementById('theme-btn').textContent = '\u2600\ufe0f';
+        });
+
         let filtroAtual = 'all';
         let buscaAtual = '';
         let dadosCache = null;
+        let painelFiltro = 'todos';
+
+        function pct(num, total) { return total ? ((num / total) * 100).toFixed(1) : '0'; }
 
         async function atualizarDados() {
             try {
@@ -580,14 +577,20 @@ def index():
                 dadosCache = data;
 
                 const s = data.stats;
+                const total = s.total;
+                
                 document.getElementById('stat-total').textContent = s.total;
                 document.getElementById('stat-andamento').textContent = s.em_andamento || 0;
                 document.getElementById('stat-entregues').textContent = s.entregue || 0;
                 document.getElementById('stat-nao-postado').textContent = s.nao_postado || 0;
-                document.getElementById('stat-emails').textContent = s.emails_enviados + s.emails_vendedor_enviados;
+                document.getElementById('stat-emails').textContent = (s.emails_enviados || 0) + (s.emails_vendedor_enviados || 0);
                 document.getElementById('stat-problema').textContent = s.problema || 0;
 
-                // Counters nos filtros
+                document.getElementById('pct-andamento').textContent = pct(s.em_andamento || 0, total) + '%';
+                document.getElementById('pct-entregues').textContent = pct(s.entregue || 0, total) + '%';
+                document.getElementById('pct-npostado').textContent = pct(s.nao_postado || 0, total) + '%';
+                document.getElementById('pct-problema').textContent = pct(s.problema || 0, total) + '%';
+
                 const p = data.pedidos;
                 document.getElementById('cnt-all').textContent = p.length;
                 document.getElementById('cnt-andamento').textContent = p.filter(x=>x.sit_categoria==='em_andamento').length;
@@ -600,7 +603,9 @@ def index():
 
                 const agora = new Date();
                 document.getElementById('ultimo-refresh').textContent =
-                    'Atualizado ' + agora.toLocaleTimeString('pt-BR');
+                    'Atualizado: ' + agora.toLocaleTimeString('pt-BR');
+                document.getElementById('footer-ts').textContent =
+                    agora.toLocaleString('pt-BR');
             } catch (e) {
                 console.error('Erro:', e);
                 document.getElementById('ultimo-refresh').textContent = 'Erro: ' + e.message;
@@ -641,21 +646,21 @@ def index():
                 `Emails: ${pedidos.reduce((a,p)=>a+p.emails_escola+p.emails_vendedor,0)} enviados`;
 
             if (!filtrados.length) {
-                tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;color:#999;padding:40px;">Nenhum pedido encontrado</td></tr>';
+                tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;color:var(--muted);padding:40px;">Nenhum pedido encontrado</td></tr>';
                 return;
             }
 
             tbody.innerHTML = filtrados.map(p => {
                 const emailHtml = p.email
                     ? `<span class="email-chip">${p.email}</span>`
-                    : '<span class="email-chip sem">sem email</span>';
+                    : '<span style="color:var(--muted);">sem email</span>';
                 const vendHtml = p.vendedor_nome
                     ? `<span class="email-chip vendedor">${p.vendedor_nome}</span>`
-                    : '<span style="color:#ccc;">-</span>';
+                    : '<span style="color:var(--muted);">-</span>';
                 const totalNotif = p.emails_escola + p.emails_vendedor;
                 const notifHtml = totalNotif > 0
                     ? `<span class="email-cnt">${totalNotif}</span>`
-                    : '<span style="color:#ccc;">0</span>';
+                    : '<span style="color:var(--muted);">0</span>';
 
                 return `
                     <tr onclick="mostrarDetalhes(${p.numero})">
@@ -692,9 +697,9 @@ def index():
             let html = `
                 <div class="detail-row"><div class="detail-label">Cliente</div><div class="detail-value">${p.cliente}</div></div>
                 <div class="detail-row"><div class="detail-label">Etiqueta</div><div class="detail-value"><span class="etiqueta-code">${p.etiqueta || '-'}</span></div></div>
-                <div class="detail-row"><div class="detail-label">Situa&ccedil;&atilde;o</div><div class="detail-value"><span class="sit-badge sit-${p.sit_categoria}">${p.ultima_situacao}</span></div></div>
-                <hr>
-                <div class="detail-row"><div class="detail-label">Email Escola</div><div class="detail-value">${p.email || '<span style="color:#999">sem email</span>'}</div></div>
+                <div class="detail-row"><div class="detail-label">Situação</div><div class="detail-value"><span class="sit-badge sit-${p.sit_categoria}">${p.ultima_situacao}</span></div></div>
+                <hr style="border-color:var(--border)">
+                <div class="detail-row"><div class="detail-label">Email Escola</div><div class="detail-value">${p.email || '<span style="color:var(--muted)">sem email</span>'}</div></div>
                 <div class="detail-row"><div class="detail-label">Notif. Escola</div><div class="detail-value">${p.emails_escola} email(s)</div></div>
             `;
             if (p.emails_enviados.length) {
@@ -705,9 +710,9 @@ def index():
                 html += '</ul>';
             }
             html += `
-                <hr>
-                <div class="detail-row"><div class="detail-label">Vendedor</div><div class="detail-value">${p.vendedor_nome || '<span style="color:#999">sem vendedor</span>'}</div></div>
-                <div class="detail-row"><div class="detail-label">Email Vend.</div><div class="detail-value">${p.vendedor_email || '<span style="color:#999">sem email</span>'}</div></div>
+                <hr style="border-color:var(--border)">
+                <div class="detail-row"><div class="detail-label">Vendedor</div><div class="detail-value">${p.vendedor_nome || '<span style="color:var(--muted)">sem vendedor</span>'}</div></div>
+                <div class="detail-row"><div class="detail-label">Email Vend.</div><div class="detail-value">${p.vendedor_email || '<span style="color:var(--muted)">sem email</span>'}</div></div>
                 <div class="detail-row"><div class="detail-label">Notif. Vend.</div><div class="detail-value">${p.emails_vendedor} email(s)</div></div>
             `;
             if (p.vendedor_emails_enviados.length) {
@@ -725,9 +730,6 @@ def index():
         function fecharModal() {
             document.getElementById('modal').classList.remove('open');
         }
-
-        // ---- PAINEL DE NOTIFICAÇÕES ----
-        let painelFiltro = 'todos';
 
         function abrirPainelNotificacoes() {
             if (!dadosCache) return;
@@ -751,7 +753,6 @@ def index():
             if (!dadosCache) return;
             const body = document.getElementById('notif-panel-body');
 
-            // Filtrar pedidos que tenham alguma notificação
             const notificados = dadosCache.pedidos.filter(p => {
                 if (painelFiltro === 'todos') return p.emails_escola > 0 || p.emails_vendedor > 0 || (p.telefone && p.telefone !== 'N/A');
                 if (painelFiltro === 'escola') return p.emails_escola > 0;
@@ -761,42 +762,35 @@ def index():
             });
 
             if (!notificados.length) {
-                body.innerHTML = '<div style="padding:40px;text-align:center;color:#999">Nenhuma notifica&ccedil;&atilde;o encontrada para este filtro</div>';
+                body.innerHTML = '<div style="padding:40px;text-align:center;color:var(--muted)">Nenhuma notificação encontrada</div>';
                 return;
             }
 
             body.innerHTML = notificados.map(p => {
                 let sections = '';
 
-                // Email Escola
                 if ((painelFiltro === 'todos' || painelFiltro === 'escola') && p.emails_enviados.length) {
                     sections += '<div class="notif-section">';
-                    sections += '<div class="notif-section-title escola"><i class="bi bi-envelope"></i> Email Escola &mdash; ' + (p.email || 'sem email') + '</div>';
+                    sections += '<div class="notif-section-title escola"><i class="bi bi-envelope"></i> Email Escola — ' + (p.email || 'sem email') + '</div>';
                     p.emails_enviados.forEach(e => {
                         sections += `<div class="notif-item"><span class="n-sit">${e.situacao}</span><span class="n-dt">${e.data}</span></div>`;
                     });
                     sections += '</div>';
                 }
 
-                // Email Vendedor
                 if ((painelFiltro === 'todos' || painelFiltro === 'vendedor') && p.vendedor_emails_enviados && p.vendedor_emails_enviados.length) {
                     sections += '<div class="notif-section">';
-                    sections += '<div class="notif-section-title vendedor"><i class="bi bi-person-badge"></i> Email Vendedor &mdash; ' + (p.vendedor_nome || '?') + ' (' + (p.vendedor_email || 'sem email') + ')</div>';
+                    sections += '<div class="notif-section-title vendedor"><i class="bi bi-person-badge"></i> Email Vendedor — ' + (p.vendedor_nome || '?') + '</div>';
                     p.vendedor_emails_enviados.forEach(e => {
                         sections += `<div class="notif-item"><span class="n-sit">${e.situacao}</span><span class="n-dt">${e.data}</span></div>`;
                     });
                     sections += '</div>';
                 }
 
-                // WhatsApp
                 if ((painelFiltro === 'todos' || painelFiltro === 'whatsapp') && p.telefone && p.telefone !== 'N/A') {
                     sections += '<div class="notif-section">';
-                    sections += '<div class="notif-section-title whatsapp"><i class="bi bi-whatsapp"></i> WhatsApp &mdash; ' + p.telefone + '</div>';
-                    if (!p.emails_enviados.length && !p.vendedor_emails_enviados.length) {
-                        sections += '<div class="notif-item"><span class="n-sit" style="color:#999">Dispon&iacute;vel para envio</span><span></span></div>';
-                    } else {
-                        sections += '<div class="notif-item"><span class="n-sit" style="color:#666">N&uacute;mero cadastrado</span><span></span></div>';
-                    }
+                    sections += '<div class="notif-section-title whatsapp"><i class="bi bi-whatsapp"></i> WhatsApp — ' + p.telefone + '</div>';
+                    sections += '<div class="notif-item"><span class="n-sit">Número cadastrado</span></div>';
                     sections += '</div>';
                 }
 
@@ -806,8 +800,8 @@ def index():
                             <div>
                                 <div class="school-name">${p.cliente}</div>
                                 <div class="school-info-grid">
-                                    <div><span class="inf-label">Etiqueta</span><br><span class="etiqueta-code">${p.etiqueta || '-'}</span></div>
-                                    <div><span class="inf-label">Situa&ccedil;&atilde;o</span><br><span class="sit-badge sit-${p.sit_categoria}">${p.ultima_situacao}</span></div>
+                                    <div><div class="inf-label">Etiqueta</div><span class="etiqueta-code">${p.etiqueta || '-'}</span></div>
+                                    <div><div class="inf-label">Situação</div><span class="sit-badge sit-${p.sit_categoria}">${p.ultima_situacao}</span></div>
                                 </div>
                             </div>
                             <div class="school-pedido">#${p.numero}</div>
@@ -815,6 +809,95 @@ def index():
                         ${sections}
                     </div>`;
             }).join('');
+        }
+
+        let chartInstances = {};
+
+        function irPara(pagina, el) {
+            document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+            document.getElementById('page-' + pagina).classList.add('active');
+            document.querySelectorAll('.ptab').forEach(b => b.classList.remove('active'));
+            if (el) el.classList.add('active');
+            if (pagina === 'graficos') requestAnimationFrame(() => renderizarGraficos());
+        }
+
+        function renderizarGraficos() {
+            if (!dadosCache) return;
+            const s = dadosCache.stats;
+            const total = s.total || 1;
+            const items = [
+                { key:'andamento', label:'Em Andamento', val:s.em_andamento||0, color:'#3b82f6' },
+                { key:'entregues', label:'Entregues',    val:s.entregue||0,     color:'#22c55e' },
+                { key:'npostado',  label:'Não Postado',  val:s.nao_postado||0,  color:'#94a3b8' },
+                { key:'problema',  label:'Problema',     val:s.problema||0,     color:'#ef4444' },
+            ];
+
+            // Donut
+            document.getElementById('donut-center-num').textContent = total;
+            if (chartInstances['donut']) chartInstances['donut'].destroy();
+            chartInstances['donut'] = new Chart(document.getElementById('donutChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: items.map(i=>i.label),
+                    datasets: [{ data: items.map(i=>i.val), backgroundColor: items.map(i=>i.color), borderColor:getComputedStyle(document.documentElement).getPropertyValue('--surface').trim(), borderWidth:3, hoverOffset:8 }]
+                },
+                options: {
+                    cutout:'68%', responsive:false, maintainAspectRatio:true,
+                    plugins: { legend:{display:false}, tooltip:{ callbacks:{ label: ctx => ' '+ctx.label+': '+ctx.parsed+' ('+pct(ctx.parsed,total)+'%)' } } },
+                    animation: { animateRotate:true, duration:1000 }
+                }
+            });
+
+            // Donut legend
+            document.getElementById('donut-legend').innerHTML = items.map(it =>
+                '<div class="g-legend-item"><div class="g-legend-left"><div class="g-legend-dot" style="background:'+it.color+'"></div><span>'+it.label+'</span></div><span class="g-legend-pct">'+it.val+' <span style="color:var(--muted);font-weight:400">('+pct(it.val,total)+'%)</span></span></div>'
+            ).join('');
+
+            // Progress bars
+            document.getElementById('g-progress-list').innerHTML = items.map((it,i) => {
+                const p2 = pct(it.val, total);
+                return '<div><div class="g-progress-header"><span class="g-progress-name" style="color:'+it.color+'">'+it.label+'</span><span class="g-progress-val">'+it.val+' pedidos — <b>'+p2+'%</b></span></div><div class="g-progress-bar"><div class="g-progress-fill" style="--fill-color:'+it.color+';width:'+p2+'%;animation-delay:'+(i*0.12)+'s"></div></div></div>';
+            }).join('');
+
+            // Gauge
+            const entregaPct = parseFloat(pct(s.entregue||0, total));
+            const circumference = 2 * Math.PI * 56;
+            document.getElementById('gauge-circle').style.strokeDashoffset = circumference * (1 - entregaPct/100);
+            document.getElementById('gauge-pct').textContent = entregaPct + '%';
+            document.getElementById('gauge-stats').innerHTML = [
+                {label:'Entregues',val:s.entregue||0,color:'#22c55e'},
+                {label:'Em Andamento',val:s.em_andamento||0,color:'#3b82f6'},
+                {label:'Problema',val:s.problema||0,color:'#ef4444'},
+                {label:'Não Postado',val:s.nao_postado||0,color:'#94a3b8'},
+            ].map(it => '<div class="gauge-stat"><div class="dot" style="background:'+it.color+'"></div><span class="lbl">'+it.label+'</span><span class="val">'+it.val+'</span></div>').join('');
+
+            // Bar chart
+            if (chartInstances['bar']) chartInstances['bar'].destroy();
+            chartInstances['bar'] = new Chart(document.getElementById('barChart'), {
+                type:'bar', data:{ labels:items.map(i=>i.label), datasets:[{ label:'Pedidos', data:items.map(i=>i.val), backgroundColor:items.map(i=>i.color+'cc'), borderColor:items.map(i=>i.color), borderWidth:2, borderRadius:6 }] },
+                options:{ responsive:true, maintainAspectRatio:false, scales:{ x:{ticks:{color:'#64748b',font:{size:11}},grid:{color:'#2a2f45'}}, y:{ticks:{color:'#64748b',font:{size:11}},grid:{color:'#2a2f45'},beginAtZero:true} }, plugins:{legend:{display:false}, tooltip:{callbacks:{label:ctx => ' '+ctx.parsed.y+' pedidos ('+pct(ctx.parsed.y,total)+'%)'}}}, animation:{duration:900} }
+            });
+
+            // Email bar chart
+            const emailEscola = s.emails_enviados||0;
+            const emailVend = s.emails_vendedor_enviados||0;
+            if (chartInstances['emailBar']) chartInstances['emailBar'].destroy();
+            chartInstances['emailBar'] = new Chart(document.getElementById('emailBarChart'), {
+                type:'bar', data:{ labels:['Email Escola','Email Vendedor'], datasets:[{ label:'Emails', data:[emailEscola,emailVend], backgroundColor:['#6366f1cc','#8b5cf6cc'], borderColor:['#6366f1','#8b5cf6'], borderWidth:2, borderRadius:6 }] },
+                options:{ responsive:true, maintainAspectRatio:false, scales:{ x:{ticks:{color:'#64748b',font:{size:11}},grid:{color:'#2a2f45'}}, y:{ticks:{color:'#64748b',font:{size:11}},grid:{color:'#2a2f45'},beginAtZero:true} }, plugins:{legend:{display:false}}, animation:{duration:900} }
+            });
+
+            // Activity Feed
+            const taxaSucesso = pct(s.entregue||0, total);
+            const totalEmails = (s.emails_enviados||0) + (s.emails_vendedor_enviados||0);
+            document.getElementById('g-feed').innerHTML = [
+                {icon:'✅',text:'<b>'+(s.entregue||0)+'</b> pedidos entregues com sucesso — taxa de '+taxaSucesso+'%',time:'agora'},
+                {icon:'🚚',text:'<b>'+(s.em_andamento||0)+'</b> pedidos em trânsito aguardando atualização dos Correios',time:'agora'},
+                {icon:'📧',text:'<b>'+totalEmails+'</b> notificações de email disparadas para clientes e vendedores',time:'hoje'},
+                {icon:'⚠️',text:'<b>'+(s.problema||0)+'</b> pedidos com ocorrência — verificação manual recomendada',time:'pendente'},
+                {icon:'📬',text:'<b>'+(s.nao_postado||0)+'</b> pedidos ainda sem código de rastreamento postado',time:'pendente'},
+                {icon:'📦',text:'Base total de <b>'+total+'</b> pedidos monitorados no sistema Allcanci',time:'base'},
+            ].map(r => '<div class="g-feed-row"><span class="g-feed-icon">'+r.icon+'</span><span class="g-feed-text">'+r.text+'</span><span class="g-feed-time">'+r.time+'</span></div>').join('');
         }
 
         document.addEventListener('keydown', e => { if (e.key === 'Escape') { fecharModal(); fecharPainel(); } });

@@ -509,6 +509,83 @@ class WhatsAppSession:
 
 
 # ======================================================================
+# 📞 FORMATAÇÃO DE TELEFONE
+# ======================================================================
+
+def formatar_numero_telefone(numero: str) -> str:
+    """
+    Formata número telefônico para padrão internacional WhatsApp.
+    
+    Aceita AMBOS telefone fixo (10 dígitos) e celular (11 dígitos):
+    - "(32) 3213-4086" (fixo MG) → "553232134086"
+    - "(31) 98416-3357" (celular MG) → "5531984163357"  
+    - "+55 31 98416-3357" → "5531984163357"
+    - "555531984163357" → "5531984163357" (remove DDI duplicado)
+    
+    Args:
+        numero: String com número em qualquer formato
+        
+    Returns:
+        String formatada: "55" + DDD (2 dígitos) + número (8-9 dígitos)
+        Retorna string vazia se inválido
+    """
+    
+    if not numero or not isinstance(numero, str):
+        return ""
+    
+    # 1. Remove espaços, parênteses, hífens, pontos, sinais de +
+    numero_limpo = ''.join(c for c in numero if c.isdigit())
+    
+    if not numero_limpo:
+        return ""
+    
+    # 2. Remove DDI duplicado (55555...)
+    while numero_limpo.startswith('5555'):
+        numero_limpo = numero_limpo[2:]
+    
+    # 3. Se já tem country code (55), valida
+    if numero_limpo.startswith('55'):
+        # Deve ter 12, 13 ou 14 dígitos no total (55 + 10, 11 ou 12 dígitos)
+        if 12 <= len(numero_limpo) <= 14:
+            return numero_limpo
+        # Se tiver mais, pega os 14 primeiros (55 + DDD + 9 dígitos)
+        if len(numero_limpo) > 14:
+            return numero_limpo[:14]
+        # Se tiver menos de 12, é inválido
+        return ""
+    
+    # 4. Se não tem country code, valida formato brasileiro
+    # Aceita AMBOS: 10 (DDD + 8 dígitos FIXO) ou 11 (DDD + 9 dígitos CELULAR)
+    if len(numero_limpo) not in [10, 11]:
+        return ""
+    
+    # 5. Valida DDD (11-99)
+    try:
+        ddd = int(numero_limpo[:2])
+        if ddd < 11 or ddd > 99:
+            return ""
+    except ValueError:
+        return ""
+    
+    # Adiciona country code
+    return '55' + numero_limpo
+
+
+def validar_numero_telefone(numero: str) -> bool:
+    """
+    Valida se um número pode ser formatado corretamente.
+    Aceita telefones fixos (10 dígitos) e celulares (11 dígitos).
+    
+    Returns:
+        True se o número é válido e pode ser formatado
+    """
+    resultado = bool(formatar_numero_telefone(numero))
+    if not resultado:
+        logger.debug(f"Validação falhou para: {numero}")
+    return resultado
+
+
+# ======================================================================
 # 🎯 API PÚBLICA
 # ======================================================================
 
@@ -523,7 +600,7 @@ def enviar_mensagem(numero: str, mensagem: str, prioridade: int = 0) -> Tuple[bo
     Automaticamente verifica anti-spam e pode fila ser usado com processamento.
     
     Args:
-        numero: Telefone (ex: "31984163357" ou "(31) 98416-3357")
+        numero: Telefone em qualquer formato (ex: "31984163357", "(31) 98416-3357", "+55 31 98416-3357")
         mensagem: Texto da mensagem
         prioridade: 10=alta, 0=normal, -10=baixa
     
@@ -536,27 +613,30 @@ def enviar_mensagem(numero: str, mensagem: str, prioridade: int = 0) -> Tuple[bo
             print("✅ Enviado")
     """
 
-    # Validar
-    numero_limpo = ''.join(filter(str.isdigit, numero))
-    if not numero_limpo.startswith('55'):
-        numero_limpo = '55' + numero_limpo
+    # Formatar número para padrão internacional
+    numero_formatado = formatar_numero_telefone(numero)
+    
+    if not numero_formatado:
+        logger.error(f"❌ Número inválido: {numero}")
+        logger.error(f"   Formatos aceitos: '31984163357', '(31) 98416-3357', '+55 31 98416-3357', '5531984163357'")
+        return False, f"Número inválido: {numero}"
 
     logger.info("")
     logger.info("=" * 70)
-    logger.info(f"📤 ENVIANDO PARA: {numero_limpo}")
+    logger.info(f"📤 ENVIANDO PARA: {numero_formatado} (origem: {numero})")
     logger.info("=" * 70)
 
     # Verificar anti-spam
     pode, motivo = _fila.anti_spam.pode_enviar()
     if not pode:
         logger.warning(f"⛔ {motivo}")
-        _fila.adicionar(numero_limpo, mensagem, prioridade)
+        _fila.adicionar(numero_formatado, mensagem, prioridade)
         return False, f"Adicionada à fila. {motivo}"
 
-    pode, motivo = _fila.anti_spam.pode_enviar_para_numero(numero_limpo)
+    pode, motivo = _fila.anti_spam.pode_enviar_para_numero(numero_formatado)
     if not pode:
         logger.warning(f"⛔ {motivo}")
-        _fila.adicionar(numero_limpo, mensagem, prioridade)
+        _fila.adicionar(numero_formatado, mensagem, prioridade)
         return False, f"Adicionada à fila. {motivo}"
 
     # Iniciar sessão se necessário
@@ -569,10 +649,10 @@ def enviar_mensagem(numero: str, mensagem: str, prioridade: int = 0) -> Tuple[bo
         try:
             logger.info(f"🔄 Tentativa {tentativa}/{MAX_RETRIES}...")
 
-            sucesso = _session.enviar_para_numero(numero_limpo, mensagem)
+            sucesso = _session.enviar_para_numero(numero_formatado, mensagem)
 
             if sucesso:
-                _fila.anti_spam.registrar_envio_sucesso(numero_limpo)
+                _fila.anti_spam.registrar_envio_sucesso(numero_formatado)
                 logger.info("✅ Sucesso!")
                 logger.info("=" * 70)
 
@@ -595,8 +675,18 @@ def enviar_mensagem(numero: str, mensagem: str, prioridade: int = 0) -> Tuple[bo
 
 
 def adicionar_fila(numero: str, mensagem: str, prioridade: int = 0):
-    """Adiciona mensagem à fila para envio controlado."""
-    _fila.adicionar(numero, mensagem, prioridade)
+    """
+    Adiciona mensagem à fila para envio controlado.
+    
+    O número será automaticamente formatado para padrão internacional.
+    """
+    numero_formatado = formatar_numero_telefone(numero)
+    
+    if not numero_formatado:
+        logger.error(f"❌ Número inválido para fila: {numero}")
+        return
+    
+    _fila.adicionar(numero_formatado, mensagem, prioridade)
 
 
 def processar_fila(max_envios: Optional[int] = None):

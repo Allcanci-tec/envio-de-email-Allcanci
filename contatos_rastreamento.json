@@ -1,24 +1,9 @@
 [
   {
-    "numero": 2363,
-    "cliente": "CAIXA ESCOLAR PADRE AFONSO DE LEMOS",
-    "email": "professorrennifer10@gmail.com",
-    "telefone_celular": "(31) 98416-3357",
-    "etiqueta": "AD287897978BR",
-    "volume_id": 16014294940,
-    "ultima_situacao": "Saiu para entrega ao destinatário",
-    "emails_enviados": [
-      {
-        "situacao": "Saiu para entrega ao destinatário",
-        "data": "01/04/2026 16:02"
-      }
-    ]
-  },
-  {
     "numero": 2362,
     "cliente": "CAIXA ESCOLAR PROFESSOR TEODORO COELHO",
     "email": "escola.68845@educacao.mg.gov.br",
-    "telefone_celular": "(32) 3213-4086",
+    "telefone_celular": "N/A",
     "etiqueta": "AD287866088BR",
     "volume_id": 16014275700,
     "ultima_situacao": "Objeto encaminhado",
@@ -53,7 +38,7 @@
     "numero": 2357,
     "cliente": "CAIXA ESCOLAR ANANIAS ALVES",
     "email": "escola.82121@educacao.mg.gov.br",
-    "telefone_celular": "(38) 3831-7195",
+    "telefone_celular": "N/A",
     "etiqueta": "AD286952845BR",
     "volume_id": 16014115193,
     "ultima_situacao": "Objeto encaminhado",
@@ -106,9 +91,9 @@
   },
   {
     "numero": 2352,
-    "cliente": "CAIXA ESCOLAR DOM PEDRO II",
+    "cliente": "CAIXA ESCOLAR DOM P EDRO II",
     "email": "escola.23272@educacao.mg.gov.br",
-    "telefone_celular": "3335161106",
+    "telefone_celular": "N/A",
     "etiqueta": "AD286855605BR",
     "volume_id": 16013199790,
     "ultima_situacao": "Objeto encaminhado",
@@ -276,7 +261,7 @@
     "telefone_celular": "N/A",
     "etiqueta": "AD292129695BR",
     "volume_id": 16014339889,
-    "ultima_situacao": "",
+    "ultima_situacao": "Objeto entregue ao destinatário",
     "emails_enviados": []
   },
   {
@@ -376,7 +361,7 @@
     "telefone_celular": "N/A",
     "etiqueta": "AD274784924BR",
     "volume_id": 16009668571,
-    "ultima_situacao": "Objeto aguardando retirada no endereço indicado",
+    "ultima_situacao": "Objeto entregue ao destinatário",
     "emails_enviados": [],
     "data_inclusao": "2026-04-07"
   },
@@ -765,7 +750,7 @@
     "telefone_celular": "N/A",
     "etiqueta": "AD254018257BR",
     "volume_id": 16006318269,
-    "ultima_situacao": "Objeto aguardando retirada no endereço indicado",
+    "ultima_situacao": "Objeto entregue ao destinatário",
     "emails_enviados": [
       {
         "situacao": "Objeto aguardando retirada no endereço indicado",
@@ -2783,7 +2768,7 @@
     "telefone_celular": "N/A",
     "etiqueta": "AD310426706BR",
     "volume_id": 16020736526,
-    "ultima_situacao": "",
+    "ultima_situacao": "Objeto entregue ao destinatário",
     "emails_enviados": [],
     "vendedor_id": 15596468789,
     "vendedor_nome": "Valdemar Alves Garcel",
@@ -2794,10 +2779,10 @@
     "numero": 2425,
     "cliente": "CAIXA ESCOLAR MESTRA VIRGÍNIA REIS",
     "email": "",
-    "telefone_celular": "N/A",
+    "telefone_celular": "(31) 98416-3357",
     "etiqueta": "AD310458845BR",
     "volume_id": 16020727822,
-    "ultima_situacao": "",
+    "ultima_situacao": "Objeto aguardando retirada no endereço indicado",
     "emails_enviados": [],
     "vendedor_id": 15596468789,
     "vendedor_nome": "Valdemar Alves Garcel",
@@ -2811,7 +2796,7 @@
     "telefone_celular": "N/A",
     "etiqueta": "AD310485063BR",
     "volume_id": 16020480733,
-    "ultima_situacao": "",
+    "ultima_situacao": "Objeto entregue ao destinatário",
     "emails_enviados": [],
     "vendedor_id": 15596468789,
     "vendedor_nome": "Valdemar Alves Garcel",
@@ -2825,7 +2810,7 @@
     "telefone_celular": "N/A",
     "etiqueta": "AD310503632BR",
     "volume_id": 16020414417,
-    "ultima_situacao": "",
+    "ultima_situacao": "Objeto entregue ao destinatário",
     "emails_enviados": [],
     "vendedor_id": 15596860077,
     "vendedor_nome": "Omar Cletis de Moraes Junior",
@@ -2839,11 +2824,385 @@
     "telefone_celular": "N/A",
     "etiqueta": "AD310551690BR",
     "volume_id": 16020294702,
-    "ultima_situacao": "",
+    "ultima_situacao": "Objeto entregue ao destinatário",
     "emails_enviados": [],
     "vendedor_id": 15596468789,
     "vendedor_nome": "Valdemar Alves Garcel",
     "vendedor_email": "valgarcel@allcanci.com.br",
     "emails_vendedor_enviados": []
+  },
+  {
+    "numero": 2442,
+    "cliente": "CAIXA ESCOLAR CONDE AFONSO CELSO",
+    "email": "",
+    "telefone_celular": "(33) 99982-7972",
+    "etiqueta": "AD311507905BR",
+    "volume_id": 16022068949,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [],
+    "vendedor_id": 0,
+    "vendedor_nome": "",
+    "vendedor_email": "",
+    "emails_vendedor_enviados": []
+  },
+  {
+    "numero": 2441,
+    "cliente": "CAIXA ESCOLAR SÃO DOMINGOS DE GUSMÃO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD311471281BR",
+    "volume_id": 16022063602,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": [],
+    "vendedor_id": 0,
+    "vendedor_nome": "",
+    "vendedor_email": "",
+    "emails_vendedor_enviados": []
+  },
+  {
+    "numero": 2437,
+    "cliente": "CAIXA ESCOLAR CORONEL ARTUR TIBÚRCIO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD311527096BR",
+    "volume_id": 16021738247,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": [],
+    "vendedor_id": 15596468789,
+    "vendedor_nome": "Valdemar Alves Garcel",
+    "vendedor_email": "valgarcel@allcanci.com.br",
+    "emails_vendedor_enviados": []
+  },
+  {
+    "numero": 2435,
+    "cliente": "CAIXA ESCOLAR MANOEL FERREIRA LIMA",
+    "email": "escola.96784.financeiro@educacao.mg.gov.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD311418856BR",
+    "volume_id": 16021712163,
+    "ultima_situacao": "Objeto aguardando retirada no endereço indicado",
+    "emails_enviados": [
+      {
+        "situacao": "Objeto encaminhado",
+        "data": "09/04/2026 10:15"
+      },
+      {
+        "situacao": "Objeto aguardando retirada no endereço indicado",
+        "data": "10/04/2026 07:53"
+      }
+    ],
+    "vendedor_id": 15596468788,
+    "vendedor_nome": "Bianchini Hoffuman Bragança",
+    "vendedor_email": "bianchini@allcanci.com.br",
+    "emails_vendedor_enviados": [
+      {
+        "situacao": "Objeto encaminhado",
+        "data": "09/04/2026 10:15",
+        "vendedor": "Bianchini Hoffuman Bragança"
+      },
+      {
+        "situacao": "Objeto aguardando retirada no endereço indicado",
+        "data": "10/04/2026 07:53",
+        "vendedor": "Bianchini Hoffuman Bragança"
+      }
+    ]
+  },
+  {
+    "numero": 2429,
+    "cliente": "CAIXA ESCOLAR SANTOS REIS",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD311433751BR",
+    "volume_id": 16020811296,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [],
+    "vendedor_id": 15596877577,
+    "vendedor_nome": "Giovanni Antunes Parreiras",
+    "vendedor_email": "giovanni@allcanci.com.br",
+    "emails_vendedor_enviados": []
+  },
+  {
+    "numero": 2453,
+    "cliente": "CAIXA ESCOLAR INDUSTRIAL SÃO JOSÉ",
+    "email": "rennifer@allcanci.com.br",
+    "telefone_celular": "(31) 98416-3357",
+    "etiqueta": "AD316384394BR",
+    "volume_id": 16023374761,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [
+      {
+        "situacao": "Objeto encaminhado",
+        "data": "09/04/2026 10:15"
+      },
+      {
+        "situacao": "Saiu para entrega ao destinatário",
+        "data": "09/04/2026 11:52"
+      }
+    ],
+    "vendedor_id": 15596468666,
+    "vendedor_nome": "Maurício Ribeiro Júnior",
+    "vendedor_email": "rennifer10@gmail.com",
+    "emails_vendedor_enviados": [
+      {
+        "situacao": "Objeto encaminhado",
+        "data": "09/04/2026 10:15",
+        "vendedor": "Maurício Ribeiro Júnior"
+      },
+      {
+        "situacao": "Saiu para entrega ao destinatário",
+        "data": "09/04/2026 11:52",
+        "vendedor": "Maurício Ribeiro Júnior"
+      }
+    ],
+    "cidade_destino": "Araçuaí",
+    "estado_destino": "MG"
+  },
+  {
+    "numero": 2452,
+    "cliente": "CAIXA ESCOLAR CONDE AFONSO CELSO",
+    "email": "",
+    "telefone_celular": "(33) 99982-7972",
+    "etiqueta": "AD316351484BR",
+    "volume_id": 16023369620,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": [],
+    "vendedor_id": 0,
+    "vendedor_nome": "",
+    "vendedor_email": "",
+    "emails_vendedor_enviados": [],
+    "cidade_destino": "Almenara",
+    "estado_destino": "MG"
+  },
+  {
+    "numero": 2451,
+    "cliente": "CAIXA ESCOLAR TENENTE SEBASTIÃO XAVIER",
+    "email": "rennifer@allcanci.com.br",
+    "telefone_celular": "(31) 98416-3357",
+    "etiqueta": "AD316306043BR",
+    "volume_id": 16023362805,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [
+      {
+        "situacao": "teste",
+        "data": "09/04/2026 10:16"
+      },
+      {
+        "situacao": "TESTE",
+        "data": "09/04/2026 11:52"
+      },
+      {
+        "situacao": "Saiu para entrega ao destinatário",
+        "data": "09/04/2026 14:55"
+      }
+    ],
+    "vendedor_id": 15596468666,
+    "vendedor_nome": "Maurício Ribeiro Júnior",
+    "vendedor_email": "rennifer10@gmail.com",
+    "emails_vendedor_enviados": [
+      {
+        "situacao": "Objeto encaminhado",
+        "data": "09/04/2026 10:16",
+        "vendedor": "Maurício Ribeiro Júnior"
+      },
+      {
+        "situacao": "Saiu para entrega ao destinatário",
+        "data": "09/04/2026 11:52",
+        "vendedor": "Maurício Ribeiro Júnior"
+      }
+    ],
+    "cidade_destino": "Guanhães",
+    "estado_destino": "MG"
+  },
+  {
+    "numero": 2450,
+    "cliente": "CAIXA ESCOLAR JOEL MARES",
+    "email": "escola.246336@educacao.mg.gov.br",
+    "telefone_celular": "(33) 3721-2484",
+    "etiqueta": "AD316279325BR",
+    "volume_id": 16023358451,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": [
+      {
+        "situacao": "Objeto encaminhado",
+        "data": "09/04/2026 10:16"
+      }
+    ],
+    "vendedor_id": 0,
+    "vendedor_nome": "",
+    "vendedor_email": "",
+    "emails_vendedor_enviados": [],
+    "cidade_destino": "Almenara",
+    "estado_destino": "MG"
+  },
+  {
+    "numero": 2445,
+    "cliente": "MUNICIPIO DE JOAIMA",
+    "email": "",
+    "telefone_celular": "(31) 98416-3357",
+    "etiqueta": "AD316248853BR",
+    "volume_id": 16022254114,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": [],
+    "vendedor_id": 15596492585,
+    "vendedor_nome": "Osvanio Barbosa Fonseca",
+    "vendedor_email": "osvanio@allcanci.com.br",
+    "emails_vendedor_enviados": [],
+    "cidade_destino": "Joaíma",
+    "estado_destino": "MG"
+  },
+  {
+    "numero": 2444,
+    "cliente": "CAIXA ESCOLAR DA EE MELO VIANA",
+    "email": "",
+    "telefone_celular": "(31) 98416-3357",
+    "etiqueta": "AD315982087BR",
+    "volume_id": 16022151103,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [],
+    "vendedor_id": 15596511829,
+    "vendedor_nome": "Glauber Antunes",
+    "vendedor_email": "glauberantunes@allcanci.com.br",
+    "emails_vendedor_enviados": [],
+    "cidade_destino": "MONTE CARMELO",
+    "estado_destino": "MG"
+  },
+  {
+    "numero": 2439,
+    "cliente": "CAIXA ESCOLAR DR JOSE ESTEVES DE ANDRADE BOTELHO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD314368924BR",
+    "volume_id": 16021841631,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": [],
+    "vendedor_id": 15596877577,
+    "vendedor_nome": "Giovanni Antunes Parreiras",
+    "vendedor_email": "giovanni@allcanci.com.br",
+    "emails_vendedor_enviados": [],
+    "cidade_destino": "CANA VERDE",
+    "estado_destino": "MG"
+  },
+  {
+    "numero": 2433,
+    "cliente": "CAIXA ESCOLAR RUFINO VICENTE FERREIRA PATAXÓ",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD314416046BR",
+    "volume_id": 16021558224,
+    "ultima_situacao": "Objeto aguardando retirada no endereço indicado",
+    "emails_enviados": [],
+    "vendedor_id": 15596468677,
+    "vendedor_nome": "Bruno Ferman Campolina Silva",
+    "vendedor_email": "bruno@allcanci.com.br",
+    "emails_vendedor_enviados": [],
+    "cidade_destino": "Carmésia",
+    "estado_destino": "MG"
+  },
+  {
+    "numero": 2431,
+    "cliente": "CAIXA ESCOLAR OSWALDO CRUZ",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD314440615BR",
+    "volume_id": 16021493865,
+    "ultima_situacao": "Objeto entregue ao destinatário",
+    "emails_enviados": [],
+    "vendedor_id": 15596468666,
+    "vendedor_nome": "Maurício Ribeiro Júnior",
+    "vendedor_email": "rennifer10@gmail.com",
+    "emails_vendedor_enviados": [],
+    "cidade_destino": "São João Nepomuceno",
+    "estado_destino": "MG"
+  },
+  {
+    "numero": 2447,
+    "cliente": "CAIXA ESCOLAR DOUTOR ERNANE VILELA LIMA",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD320903189BR",
+    "volume_id": 16023025442,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": [],
+    "vendedor_id": 15596468789,
+    "vendedor_nome": "Valdemar Alves Garcel",
+    "vendedor_email": "valgarcel@allcanci.com.br",
+    "emails_vendedor_enviados": [],
+    "cidade_destino": "Nepomuceno",
+    "estado_destino": "MG"
+  },
+  {
+    "numero": 2423,
+    "cliente": "CAIXA ESCOLAR EPAMINONDAS RAMOS",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD320923869BR",
+    "volume_id": 16020658272,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": [],
+    "vendedor_id": 15596492585,
+    "vendedor_nome": "Osvanio Barbosa Fonseca",
+    "vendedor_email": "osvanio@allcanci.com.br",
+    "emails_vendedor_enviados": [],
+    "cidade_destino": "Jequitinhonha",
+    "estado_destino": "MG"
+  },
+  {
+    "numero": 2419,
+    "cliente": "CAIXA ESCOLAR ANA RIBEIRO",
+    "email": "",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD320806981BR",
+    "volume_id": 16020461078,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": [],
+    "vendedor_id": 15596468789,
+    "vendedor_nome": "Valdemar Alves Garcel",
+    "vendedor_email": "valgarcel@allcanci.com.br",
+    "emails_vendedor_enviados": [],
+    "cidade_destino": "Seritinga",
+    "estado_destino": "MG"
+  },
+  {
+    "numero": 2457,
+    "cliente": "CAIXA ESCOLAR DOM JOSÉ",
+    "email": "",
+    "telefone_celular": "(31) 98416-3357",
+    "etiqueta": "AD321266571BR",
+    "volume_id": 16024357720,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": [],
+    "vendedor_id": 15596492585,
+    "vendedor_nome": "Osvanio Barbosa Fonseca",
+    "vendedor_email": "osvanio@allcanci.com.br",
+    "emails_vendedor_enviados": [
+      {
+        "situacao": "Objeto encaminhado",
+        "data": "10/04/2026 07:53",
+        "vendedor": "Osvanio Barbosa Fonseca"
+      }
+    ],
+    "cidade_destino": "Jordânia",
+    "estado_destino": "MG"
+  },
+  {
+    "numero": 2455,
+    "cliente": "Felisberto Pereira de Sousa Sobrinho",
+    "email": "felisbertopereira@allcanci.com.br",
+    "telefone_celular": "N/A",
+    "etiqueta": "AD321461730BR",
+    "volume_id": 16023539060,
+    "ultima_situacao": "Objeto encaminhado",
+    "emails_enviados": [
+      {
+        "situacao": "Objeto encaminhado",
+        "data": "10/04/2026 07:54"
+      }
+    ],
+    "vendedor_id": 0,
+    "vendedor_nome": "",
+    "vendedor_email": "",
+    "emails_vendedor_enviados": [],
+    "cidade_destino": "Uberlândia",
+    "estado_destino": "MG"
   }
 ]
